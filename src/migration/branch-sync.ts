@@ -71,10 +71,23 @@ export async function syncBranches(
 
     const repoGit = simpleGit(localPath);
 
-    // Get list of branches
-    const branchResult = await repoGit.branch(["-a"]);
-    const branchCount = branchResult.all.length;
-    console.log(`Found ${branchCount} branches/refs`);
+    // Get list of all refs
+    const refsOutput = await repoGit.raw(["for-each-ref", "--format=%(refname)"]);
+    const allRefs = refsOutput.trim().split("\n").filter(Boolean);
+
+    // Filter out pull request refs (refs/pull/*)
+    const prRefPattern = /^refs\/pull\//;
+    const refsToSync = allRefs.filter((ref) => !prRefPattern.test(ref));
+    const excludedPrRefs = allRefs.filter((ref) => prRefPattern.test(ref));
+
+    console.log(`Found ${allRefs.length} total refs`);
+    console.log(`Excluding ${excludedPrRefs.length} pull request refs`);
+    console.log(`Syncing ${refsToSync.length} refs`);
+
+    // Delete PR refs locally so they won't be pushed
+    for (const prRef of excludedPrRefs) {
+      await repoGit.raw(["update-ref", "-d", prRef]);
+    }
 
     // Set target remote
     console.log("Setting target remote...");
@@ -85,7 +98,7 @@ export async function syncBranches(
     }
     await repoGit.remote(["add", "origin", targetWithToken]);
 
-    // Force push mirror to target
+    // Force push mirror to target (now without PR refs)
     console.log("Force pushing to target (mirror)...");
     await pRetry(
       async () => {
@@ -99,11 +112,11 @@ export async function syncBranches(
       }
     );
 
-    console.log(`Successfully synced ${branchCount} refs to target`);
+    console.log(`Successfully synced ${refsToSync.length} refs to target (excluded ${excludedPrRefs.length} PR refs)`);
 
     return {
       success: true,
-      branchesProcessed: branchCount,
+      branchesProcessed: refsToSync.length,
     };
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : String(error);
