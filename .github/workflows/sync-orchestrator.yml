@@ -1,0 +1,192 @@
+name: Sync Orchestrator
+
+on:
+  schedule:
+    # Run weekly on Sunday at 2 AM UTC
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
+    inputs:
+      max_batches:
+        description: "Maximum number of batches to run (default: 5)"
+        required: false
+        default: "5"
+        type: string
+      dry_run:
+        description: "Dry run - discover repos but don't migrate"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  GH_SOURCE_TOKEN: ${{ secrets.GH_SOURCE_TOKEN }}
+  CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+  GITHUB_SOURCE_ORG: ${{ vars.GITHUB_SOURCE_ORG }}
+  CODEBERG_TARGET_ORG: ${{ vars.CODEBERG_TARGET_ORG }}
+
+jobs:
+  discover:
+    name: Discover repos and create batches
+    runs-on: ubuntu-latest
+    outputs:
+      batch_count: ${{ steps.discover.outputs.batch_count }}
+      batch_matrix: ${{ steps.discover.outputs.batch_matrix }}
+      total_repos: ${{ steps.discover.outputs.total_repos }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Discover repos and create batches
+        id: discover
+        env:
+          MAX_BATCHES: ${{ inputs.max_batches || '5' }}
+        run: node dist/orchestration/discover-and-batch.js
+
+      - name: Upload state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-state
+          path: state/
+          retention-days: 7
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/migration-state.json || true
+          git diff --staged --quiet || git commit -m "chore: update migration state after discovery"
+          git push || echo "Nothing to push"
+
+  migrate:
+    name: Migrate batch ${{ matrix.batch.batch_number }}
+    needs: discover
+    if: needs.discover.outputs.batch_count != '0' && !inputs.dry_run
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        batch: ${{ fromJson(needs.discover.outputs.batch_matrix) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Download state artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: discovery-state
+          path: state/
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Migrate batch
+        id: migrate
+        env:
+          REPO_LIST: ${{ matrix.batch.repos }}
+          BATCH_NUMBER: ${{ matrix.batch.batch_number }}
+        run: |
+          echo "Migrating batch $BATCH_NUMBER: $REPO_LIST"
+          mkdir -p state/batch-states
+          export STATE_PATH="state/batch-states/batch-$BATCH_NUMBER.json"
+
+          # Copy main state as starting point
+          cp state/migration-state.json "$STATE_PATH" || true
+
+          # Run migration
+          node dist/index.js || echo "Some migrations may have failed"
+
+      - name: Upload batch state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-state-${{ matrix.batch.batch_number }}
+          path: state/batch-states/
+          retention-days: 7
+
+  merge-states:
+    name: Merge batch states
+    needs: [discover, migrate]
+    if: always() && needs.discover.outputs.batch_count != '0' && !inputs.dry_run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref_name }} || true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Download all batch states
+        uses: actions/download-artifact@v4
+        with:
+          pattern: batch-state-*
+          path: state/batch-states/
+          merge-multiple: true
+
+      - name: Merge states
+        run: |
+          export BATCH_STATES_DIR="state/batch-states"
+          node dist/orchestration/merge-states.js
+
+      - name: Commit merged state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/migration-state.json
+          git diff --staged --quiet || git commit -m "chore: update migration state after batch processing"
+          git push
+
+      - name: Print summary
+        run: |
+          echo "## Migration Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat state/migration-state.json | jq -r '
+            "- **Total repos**: \(.totalRepos // (.repos | length))",
+            "- **Completed**: \([.repos[] | select(.status == "completed")] | length)",
+            "- **Failed**: \([.repos[] | select(.status == "failed")] | length)",
+            "- **Pending**: \([.repos[] | select(.status == "pending")] | length)"
+          ' >> $GITHUB_STEP_SUMMARY

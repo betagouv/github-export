@@ -1,0 +1,153 @@
+name: Migrate Batch
+
+on:
+  workflow_call:
+    inputs:
+      repos:
+        description: "Comma-separated list of repos to migrate"
+        required: true
+        type: string
+      batch_number:
+        description: "Batch number for identification"
+        required: true
+        type: number
+    secrets:
+      GH_SOURCE_TOKEN:
+        required: true
+      CODEBERG_TOKEN:
+        required: true
+
+  workflow_dispatch:
+    inputs:
+      repos:
+        description: "Comma-separated list of repos to migrate"
+        required: true
+        type: string
+      batch_number:
+        description: "Batch number for identification"
+        required: false
+        default: "1"
+        type: string
+
+env:
+  GH_SOURCE_TOKEN: ${{ secrets.GH_SOURCE_TOKEN }}
+  CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+  GITHUB_SOURCE_ORG: ${{ vars.GITHUB_SOURCE_ORG }}
+  CODEBERG_TARGET_ORG: ${{ vars.CODEBERG_TARGET_ORG }}
+
+jobs:
+  migrate-repos:
+    name: "Migrate: ${{ matrix.repo }}"
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        repo: ${{ fromJson(format('["{0}"]', join(fromJson(format('["{0}"]', replace(inputs.repos, ',', '","'))), '","'))) }}
+    steps:
+      - name: Parse repo list
+        id: parse
+        run: |
+          # Simple parsing of comma-separated repos
+          REPOS="${{ inputs.repos }}"
+          echo "repos<<EOF" >> $GITHUB_OUTPUT
+          echo "$REPOS" | tr ',' '\n' | while read repo; do
+            echo "$repo"
+          done >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure git for cloning
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Migrate repo
+        id: migrate
+        env:
+          REPO_NAME: ${{ matrix.repo }}
+          STATE_PATH: "./state/repo-state-${{ matrix.repo }}.json"
+        run: |
+          echo "Migrating repo: $REPO_NAME"
+
+          # Create work directory
+          mkdir -p /tmp/migration
+          export WORK_DIR="/tmp/migration"
+
+          # Run migration for single repo
+          node dist/migration/repo-migrator.js
+        continue-on-error: true
+
+      - name: Report result
+        if: always()
+        run: |
+          if [ "${{ steps.migrate.outcome }}" == "success" ]; then
+            echo "✅ Successfully migrated: ${{ matrix.repo }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Failed to migrate: ${{ matrix.repo }}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload repo state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: repo-state-${{ matrix.repo }}
+          path: state/repo-state-*.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+  # Alternative: Sequential migration (comment out matrix job above if using this)
+  migrate-sequential:
+    name: Migrate all repos in batch
+    if: false  # Disabled by default, enable for sequential processing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Migrate all repos
+        env:
+          REPO_LIST: ${{ inputs.repos }}
+          STATE_PATH: "./state/batch-state-${{ inputs.batch_number }}.json"
+        run: |
+          echo "Migrating batch ${{ inputs.batch_number }}: $REPO_LIST"
+          node dist/index.js
+
+      - name: Upload batch state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-state-${{ inputs.batch_number }}
+          path: state/batch-state-*.json
+          retention-days: 7

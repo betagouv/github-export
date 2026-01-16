@@ -1,0 +1,19 @@
+{
+  "batchSize": 10,
+  "maxParallelRepos": 5,
+  "maxBatchesPerRun": 5,
+  "maxParallelBatches": 3,
+  "retryAttempts": 3,
+  "retryDelayMs": 5000,
+  "rateLimitDelayMs": 60000,
+  "migrateOptions": {
+    "issues": true,
+    "pullRequests": true,
+    "labels": true,
+    "milestones": true,
+    "releases": true,
+    "wiki": true
+  },
+  "excludeRepos": [],
+  "includeOnlyRepos": []
+}
