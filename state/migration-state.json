@@ -2,6 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
+  "lastDiscovery": "2026-01-16T22:04:37.676Z",
   "totalRepos": 564,
   "repos": {
     "aides-jeunes": {
@@ -5080,6 +5081,5 @@
         "branchSync": false
       }
     }
-  },
-  "lastDiscovery": "2026-01-16T22:02:11.038Z"
+  }
 }
