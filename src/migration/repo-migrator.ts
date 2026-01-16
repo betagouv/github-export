@@ -203,13 +203,13 @@ async function main() {
   const repoName = process.env.REPO_NAME;
   const githubToken = process.env.GH_SOURCE_TOKEN;
   const codebergToken = process.env.CODEBERG_TOKEN;
-  const sourceOrg = process.env.GITHUB_SOURCE_ORG;
+  const sourceOrg = process.env.GH_SOURCE_ORG;
   const targetOrg = process.env.CODEBERG_TARGET_ORG;
   const statePath = process.env.STATE_PATH ?? "./state/migration-state.json";
 
   if (!repoName || !githubToken || !codebergToken || !sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
-    console.error("  REPO_NAME, GH_SOURCE_TOKEN, CODEBERG_TOKEN, GITHUB_SOURCE_ORG, CODEBERG_TARGET_ORG");
+    console.error("  REPO_NAME, GH_SOURCE_TOKEN, CODEBERG_TOKEN, GH_SOURCE_ORG, CODEBERG_TARGET_ORG");
     process.exit(1);
   }
 

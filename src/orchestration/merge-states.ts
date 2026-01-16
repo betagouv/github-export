@@ -4,14 +4,14 @@ import { join } from "path";
 import { StateManager, MigrationStateSchema } from "../state/state-manager.js";
 
 async function main() {
-  const sourceOrg = process.env.GITHUB_SOURCE_ORG;
+  const sourceOrg = process.env.GH_SOURCE_ORG;
   const targetOrg = process.env.CODEBERG_TARGET_ORG;
   const statePath = process.env.STATE_PATH ?? "./state/migration-state.json";
   const batchStatesDir = process.env.BATCH_STATES_DIR ?? "./state/batch-states";
 
   if (!sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
-    console.error("  GITHUB_SOURCE_ORG, CODEBERG_TARGET_ORG");
+    console.error("  GH_SOURCE_ORG, CODEBERG_TARGET_ORG");
     process.exit(1);
   }
 

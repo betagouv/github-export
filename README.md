@@ -51,7 +51,7 @@ Set environment variables:
 ```bash
 export GH_SOURCE_TOKEN="github_token"
 export CODEBERG_TOKEN="codeberg_token"
-export GITHUB_SOURCE_ORG="source-org"
+export GH_SOURCE_ORG="source-org"
 export CODEBERG_TARGET_ORG="target-org"
 ```
 

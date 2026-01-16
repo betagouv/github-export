@@ -32,7 +32,7 @@ on:
 env:
   GH_SOURCE_TOKEN: ${{ secrets.GH_SOURCE_TOKEN }}
   CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
-  GITHUB_SOURCE_ORG: ${{ vars.GITHUB_SOURCE_ORG }}
+  GH_SOURCE_ORG: ${{ vars.GH_SOURCE_ORG }}
   CODEBERG_TARGET_ORG: ${{ vars.CODEBERG_TARGET_ORG }}
 
 jobs:

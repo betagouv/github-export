@@ -32,7 +32,7 @@ interface Config {
 async function main() {
   const githubToken = process.env.GH_SOURCE_TOKEN;
   const codebergToken = process.env.CODEBERG_TOKEN;
-  const sourceOrg = process.env.GITHUB_SOURCE_ORG;
+  const sourceOrg = process.env.GH_SOURCE_ORG;
   const targetOrg = process.env.CODEBERG_TARGET_ORG;
   const configPath = process.env.CONFIG_PATH ?? "./config/migration-config.json";
   const statePath = process.env.STATE_PATH ?? "./state/migration-state.json";
@@ -40,7 +40,7 @@ async function main() {
 
   if (!githubToken || !codebergToken || !sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
-    console.error("  GH_SOURCE_TOKEN, CODEBERG_TOKEN, GITHUB_SOURCE_ORG, CODEBERG_TARGET_ORG");
+    console.error("  GH_SOURCE_TOKEN, CODEBERG_TOKEN, GH_SOURCE_ORG, CODEBERG_TARGET_ORG");
     process.exit(1);
   }
 
