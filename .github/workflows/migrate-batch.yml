@@ -36,26 +36,29 @@ env:
   CODEBERG_TARGET_ORG: ${{ vars.CODEBERG_TARGET_ORG }}
 
 jobs:
+  prepare:
+    name: Prepare matrix
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Create repo matrix
+        id: set-matrix
+        run: |
+          REPOS="${{ inputs.repos }}"
+          JSON=$(echo "$REPOS" | jq -R -c 'split(",")')
+          echo "matrix=$JSON" >> $GITHUB_OUTPUT
+
   migrate-repos:
     name: "Migrate: ${{ matrix.repo }}"
+    needs: prepare
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       max-parallel: 3
       matrix:
-        repo: ${{ fromJson(format('["{0}"]', join(fromJson(format('["{0}"]', replace(inputs.repos, ',', '","'))), '","'))) }}
+        repo: ${{ fromJson(needs.prepare.outputs.matrix) }}
     steps:
-      - name: Parse repo list
-        id: parse
-        run: |
-          # Simple parsing of comma-separated repos
-          REPOS="${{ inputs.repos }}"
-          echo "repos<<EOF" >> $GITHUB_OUTPUT
-          echo "$REPOS" | tr ',' '\n' | while read repo; do
-            echo "$repo"
-          done >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
       - name: Checkout
         uses: actions/checkout@v4
 
