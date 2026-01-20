@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "fs/promises";
-import { GitHubClient } from "../api/github-client.js";
+import { GitHubClient, GitHubRepo } from "../api/github-client.js";
 import { StateManager } from "../state/state-manager.js";
 
 interface MigrationConfig {
@@ -23,35 +23,51 @@ async function loadConfig(configPath: string): Promise<MigrationConfig> {
 async function discoverRepos(
   githubClient: GitHubClient,
   stateManager: StateManager,
-  config: MigrationConfig
+  config: MigrationConfig,
+  excludeInactiveDays: number
 ): Promise<string[]> {
   console.log("Discovering repos from GitHub...");
 
   const repos = await githubClient.listPublicRepos();
-  const repoNames = repos.map((r) => r.name);
 
   // Apply filters
-  let filteredRepos = repoNames;
+  let filteredRepos: GitHubRepo[] = repos;
 
   if (config.includeOnlyRepos && config.includeOnlyRepos.length > 0) {
-    filteredRepos = filteredRepos.filter((name) =>
-      config.includeOnlyRepos.includes(name)
+    filteredRepos = filteredRepos.filter((repo) =>
+      config.includeOnlyRepos.includes(repo.name)
     );
     console.log(`Filtered to ${filteredRepos.length} repos (include list)`);
   }
 
   if (config.excludeRepos && config.excludeRepos.length > 0) {
     filteredRepos = filteredRepos.filter(
-      (name) => !config.excludeRepos.includes(name)
+      (repo) => !config.excludeRepos.includes(repo.name)
     );
     console.log(`Filtered to ${filteredRepos.length} repos (exclude list)`);
   }
 
+  // Filter by activity (exclude repos with no commits in the last X days)
+  if (excludeInactiveDays > 0) {
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - excludeInactiveDays);
+
+    const beforeCount = filteredRepos.length;
+    filteredRepos = filteredRepos.filter((repo) => {
+      if (!repo.pushedAt) return false;
+      const pushedDate = new Date(repo.pushedAt);
+      return pushedDate >= cutoffDate;
+    });
+    console.log(`Filtered to ${filteredRepos.length} repos (excluded ${beforeCount - filteredRepos.length} inactive repos with no commits in last ${excludeInactiveDays} days)`);
+  }
+
+  const repoNames = filteredRepos.map((r) => r.name);
+
   // Add to state
-  stateManager.addRepos(filteredRepos);
+  stateManager.addRepos(repoNames);
   await stateManager.save();
 
-  return filteredRepos;
+  return repoNames;
 }
 
 function createBatches(repos: string[], batchSize: number): Batch[] {
@@ -75,6 +91,7 @@ async function main() {
   const statePath = process.env.STATE_PATH ?? "./state/migration-state.json";
   const outputPath = process.env.OUTPUT_PATH ?? "./state/batches.json";
   const maxBatches = parseInt(process.env.MAX_BATCHES ?? "5", 10);
+  const excludeInactiveDays = parseInt(process.env.EXCLUDE_INACTIVE_DAYS ?? "0", 10);
 
   if (!githubToken || !sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
@@ -89,7 +106,7 @@ async function main() {
   await stateManager.load();
 
   // Discover and update state
-  await discoverRepos(githubClient, stateManager, config);
+  await discoverRepos(githubClient, stateManager, config, excludeInactiveDays);
 
   // Get repos to process (failed retryable + pending)
   const reposToProcess = stateManager.getReposToProcess(

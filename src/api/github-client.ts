@@ -9,6 +9,7 @@ export interface GitHubRepo {
   defaultBranch: string;
   hasWiki: boolean;
   hasIssues: boolean;
+  pushedAt: string | null;
 }
 
 export interface GitHubClientOptions {
@@ -65,6 +66,7 @@ export class GitHubClient {
             defaultBranch: repo.default_branch ?? "main",
             hasWiki: repo.has_wiki ?? false,
             hasIssues: repo.has_issues ?? true,
+            pushedAt: repo.pushed_at ?? null,
           });
         }
       }
@@ -91,6 +93,7 @@ export class GitHubClient {
         defaultBranch: repo.default_branch ?? "main",
         hasWiki: repo.has_wiki ?? false,
         hasIssues: repo.has_issues ?? true,
+        pushedAt: repo.pushed_at ?? null,
       };
     } catch (error) {
       console.error(`Failed to get repo ${repoName}:`, error);

@@ -77,6 +77,31 @@ REPO_NAME="my-repo" npm run migrate
 | `npm run discover` | Discover and batch repos from GitHub org |
 | `npm run merge-states` | Merge state files from parallel runs |
 
+## GitHub Actions Workflow
+
+The `sync-orchestrator` workflow automates batch migrations.
+
+### Workflow Inputs
+
+| Input | Description | Default |
+|-------|-------------|---------|
+| `max_batches` | Maximum number of batches to run | `5` |
+| `dry_run` | Discover repos but don't migrate | `false` |
+| `exclude_inactive_days` | Exclude repos with no commits in the last X days (0 = no filter) | `0` |
+
+### Examples
+
+```yaml
+# Run with default settings
+gh workflow run sync-orchestrator
+
+# Exclude repos inactive for more than 1 year
+gh workflow run sync-orchestrator -f exclude_inactive_days=365
+
+# Dry run to see which repos would be migrated
+gh workflow run sync-orchestrator -f dry_run=true -f exclude_inactive_days=180
+```
+
 ## License
 
 MIT

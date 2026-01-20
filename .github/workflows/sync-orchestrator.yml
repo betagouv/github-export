@@ -16,6 +16,11 @@ on:
         required: false
         default: false
         type: boolean
+      exclude_inactive_days:
+        description: "Exclude repos with no commits in the last X days (0 = no filter)"
+        required: false
+        default: "365"
+        type: string
 
 permissions:
   contents: write
@@ -55,6 +60,7 @@ jobs:
         id: discover
         env:
           MAX_BATCHES: ${{ inputs.max_batches || '5' }}
+          EXCLUDE_INACTIVE_DAYS: ${{ inputs.exclude_inactive_days || '0' }}
         run: node dist/orchestration/discover-and-batch.js
 
       - name: Upload state artifact
