@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-01-21T19:58:14.126Z",
+  "lastDiscovery": "2026-01-21T22:21:19.533Z",
   "totalRepos": 565,
   "repos": {
     "aides-jeunes": {
@@ -3678,13 +3678,13 @@
     "msj-public-back": {
       "name": "msj-public-back",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:58:30.330Z",
+      "completedAt": "2026-01-21T20:04:04.927Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:58:30.330Z",
-      "completedAt": "2026-01-21T20:04:04.927Z"
+      }
     },
     "aides-jeunes-explorations-caf": {
       "name": "aides-jeunes-explorations-caf",
@@ -3709,24 +3709,24 @@
     "signalement-entreprise": {
       "name": "signalement-entreprise",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:04:05.201Z",
+      "completedAt": "2026-01-21T20:05:44.691Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:04:05.201Z",
-      "completedAt": "2026-01-21T20:05:44.691Z"
+      }
     },
     "recoco-portails": {
       "name": "recoco-portails",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:05:44.991Z",
+      "completedAt": "2026-01-21T20:06:47.366Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:05:44.991Z",
-      "completedAt": "2026-01-21T20:06:47.366Z"
+      }
     },
     "commaute-xp-stats": {
       "name": "commaute-xp-stats",
@@ -3741,24 +3741,24 @@
     "signalconso-statsrefill": {
       "name": "signalconso-statsrefill",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:06:47.742Z",
+      "completedAt": "2026-01-21T20:06:58.829Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:06:47.742Z",
-      "completedAt": "2026-01-21T20:06:58.829Z"
+      }
     },
     "portail-rse": {
       "name": "portail-rse",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:06:59.109Z",
+      "completedAt": "2026-01-21T20:12:34.025Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:06:59.109Z",
-      "completedAt": "2026-01-21T20:12:34.025Z"
+      }
     },
     "signalconso-published": {
       "name": "signalconso-published",
@@ -3833,13 +3833,13 @@
     "dsfr-view-components": {
       "name": "dsfr-view-components",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:12:34.324Z",
+      "completedAt": "2026-01-21T20:13:19.706Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:12:34.324Z",
-      "completedAt": "2026-01-21T20:13:19.706Z"
+      }
     },
     "python-buildpack": {
       "name": "python-buildpack",
@@ -3874,13 +3874,13 @@
     "mon-service-securise-journal": {
       "name": "mon-service-securise-journal",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:13:20.012Z",
+      "completedAt": "2026-01-21T20:15:23.962Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:13:20.012Z",
-      "completedAt": "2026-01-21T20:15:23.962Z"
+      }
     },
     "matrix-js-sdk-fork": {
       "name": "matrix-js-sdk-fork",
@@ -3915,13 +3915,13 @@
     "tous-a-bord": {
       "name": "tous-a-bord",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:15:24.353Z",
+      "completedAt": "2026-01-21T20:16:06.145Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:15:24.353Z",
-      "completedAt": "2026-01-21T20:16:06.145Z"
+      }
     },
     "hat": {
       "name": "hat",
@@ -4104,13 +4104,13 @@
     "dashlord-operateur": {
       "name": "dashlord-operateur",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:58:32.920Z",
+      "completedAt": "2026-01-21T20:00:19.563Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:58:32.920Z",
-      "completedAt": "2026-01-21T20:00:19.563Z"
+      }
     },
     "cybersecu-guide": {
       "name": "cybersecu-guide",
@@ -4125,46 +4125,46 @@
     "aplypro": {
       "name": "aplypro",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:00:20.136Z",
+      "completedAt": "2026-01-21T20:02:22.337Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:00:20.136Z",
-      "completedAt": "2026-01-21T20:02:22.337Z"
+      }
     },
     "mission-transition-ecologique": {
       "name": "mission-transition-ecologique",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:02:22.745Z",
+      "completedAt": "2026-01-21T20:04:01.797Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:02:22.745Z",
-      "completedAt": "2026-01-21T20:04:01.797Z"
+      }
     },
     "dashlord-dotations-locales": {
       "name": "dashlord-dotations-locales",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:04:02.267Z",
+      "completedAt": "2026-01-21T20:04:13.160Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:04:02.267Z",
-      "completedAt": "2026-01-21T20:04:13.160Z"
+      }
     },
     "aplypro-mock-data": {
       "name": "aplypro-mock-data",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:04:13.513Z",
+      "completedAt": "2026-01-21T20:05:50.938Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:04:13.513Z",
-      "completedAt": "2026-01-21T20:05:50.938Z"
+      }
     },
     "ameliorer-mon-produit": {
       "name": "ameliorer-mon-produit",
@@ -4229,46 +4229,46 @@
     "agir-back": {
       "name": "agir-back",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:05:51.357Z",
+      "completedAt": "2026-01-21T20:06:46.614Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:05:51.357Z",
-      "completedAt": "2026-01-21T20:06:46.614Z"
+      }
     },
     "agir-front": {
       "name": "agir-front",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:06:46.990Z",
+      "completedAt": "2026-01-21T20:13:14.741Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:06:46.990Z",
-      "completedAt": "2026-01-21T20:13:14.741Z"
+      }
     },
     "aplypro-keycloak": {
       "name": "aplypro-keycloak",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:13:15.238Z",
+      "completedAt": "2026-01-21T20:14:39.235Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:13:15.238Z",
-      "completedAt": "2026-01-21T20:14:39.235Z"
+      }
     },
     "sillon": {
       "name": "sillon",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:14:39.599Z",
+      "completedAt": "2026-01-21T20:15:52.866Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:14:39.599Z",
-      "completedAt": "2026-01-21T20:15:52.866Z"
+      }
     },
     "iban-tools": {
       "name": "iban-tools",
@@ -4302,13 +4302,13 @@
     "signalconso-siret-extractor": {
       "name": "signalconso-siret-extractor",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:58:31.532Z",
+      "completedAt": "2026-01-21T19:59:13.241Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:58:31.532Z",
-      "completedAt": "2026-01-21T19:59:13.241Z"
+      }
     },
     "nextcloud-buildpack": {
       "name": "nextcloud-buildpack",
@@ -4363,35 +4363,35 @@
     "anssi-nis2": {
       "name": "anssi-nis2",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:59:13.510Z",
+      "completedAt": "2026-01-21T20:00:07.235Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:59:13.510Z",
-      "completedAt": "2026-01-21T20:00:07.235Z"
+      }
     },
     "campus-numerique-cms": {
       "name": "campus-numerique-cms",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:00:07.552Z",
+      "completedAt": "2026-01-21T20:01:05.987Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:00:07.552Z",
-      "completedAt": "2026-01-21T20:01:05.987Z"
+      }
     },
     "api-particulier-demonstrateur": {
       "name": "api-particulier-demonstrateur",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:01:06.332Z",
+      "completedAt": "2026-01-21T20:01:48.826Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:01:06.332Z",
-      "completedAt": "2026-01-21T20:01:48.826Z"
+      }
     },
     "monsuivijustice-backup-metabase": {
       "name": "monsuivijustice-backup-metabase",
@@ -4416,13 +4416,13 @@
     "jagis-mobile": {
       "name": "jagis-mobile",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:01:49.114Z",
+      "completedAt": "2026-01-21T20:07:26.193Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:01:49.114Z",
-      "completedAt": "2026-01-21T20:07:26.193Z"
+      }
     },
     "resorption-bidonvilles-blog": {
       "name": "resorption-bidonvilles-blog",
@@ -4437,13 +4437,13 @@
     "agir-cms": {
       "name": "agir-cms",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:07:26.522Z",
+      "completedAt": "2026-01-21T20:07:39.176Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:07:26.522Z",
-      "completedAt": "2026-01-21T20:07:39.176Z"
+      }
     },
     "clamav-service": {
       "name": "clamav-service",
@@ -4458,13 +4458,13 @@
     "anssi-demain-specialiste-cyber": {
       "name": "anssi-demain-specialiste-cyber",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:07:39.463Z",
+      "completedAt": "2026-01-21T20:08:46.799Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:07:39.463Z",
-      "completedAt": "2026-01-21T20:08:46.799Z"
+      }
     },
     "heroku-buildpack-flutter": {
       "name": "heroku-buildpack-flutter",
@@ -4479,24 +4479,24 @@
     "mon-aide-cyber-journal": {
       "name": "mon-aide-cyber-journal",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:08:47.093Z",
+      "completedAt": "2026-01-21T20:09:06.024Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:08:47.093Z",
-      "completedAt": "2026-01-21T20:09:06.024Z"
+      }
     },
     "anssi-nis2-journal": {
       "name": "anssi-nis2-journal",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:09:06.275Z",
+      "completedAt": "2026-01-21T20:09:41.909Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:09:06.275Z",
-      "completedAt": "2026-01-21T20:09:41.909Z"
+      }
     },
     "dsfr-feedback": {
       "name": "dsfr-feedback",
@@ -4511,24 +4511,24 @@
     "espace-membre-next": {
       "name": "espace-membre-next",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:09:42.234Z",
+      "completedAt": "2026-01-21T20:11:15.610Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:09:42.234Z",
-      "completedAt": "2026-01-21T20:11:15.610Z"
+      }
     },
     "complements-alimentaires": {
       "name": "complements-alimentaires",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:11:29.218Z",
+      "completedAt": "2026-01-21T20:13:40.013Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:11:29.218Z",
-      "completedAt": "2026-01-21T20:13:40.013Z"
+      }
     },
     "mes-aides-data": {
       "name": "mes-aides-data",
@@ -4543,13 +4543,13 @@
     "anssi-lab-utilitaires": {
       "name": "anssi-lab-utilitaires",
       "status": "completed",
+      "lastAttempt": "2026-01-21T20:13:40.245Z",
+      "completedAt": "2026-01-21T20:15:51.201Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T20:13:40.245Z",
-      "completedAt": "2026-01-21T20:15:51.201Z"
+      }
     },
     "etabli": {
       "name": "etabli",
