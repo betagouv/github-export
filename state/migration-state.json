@@ -3945,12 +3945,14 @@
     },
     "new-aglae-data-converter": {
       "name": "new-aglae-data-converter",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:21:34.536Z",
+      "completedAt": "2026-01-21T22:23:26.627Z"
     },
     "betagouv-express-ops-bot": {
       "name": "betagouv-express-ops-bot",
@@ -4084,12 +4086,14 @@
     },
     "eva-metabase": {
       "name": "eva-metabase",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:23:26.949Z",
+      "completedAt": "2026-01-21T22:23:33.900Z"
     },
     "CNR_orga": {
       "name": "CNR_orga",
@@ -4292,12 +4296,14 @@
     },
     "mon-aide-cyber": {
       "name": "mon-aide-cyber",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:23:34.130Z",
+      "completedAt": "2026-01-21T22:29:53.222Z"
     },
     "signalconso-siret-extractor": {
       "name": "signalconso-siret-extractor",
@@ -4553,21 +4559,25 @@
     },
     "etabli": {
       "name": "etabli",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:29:53.448Z",
+      "completedAt": "2026-01-21T22:30:12.432Z"
     },
     "euphrosyne-digilab": {
       "name": "euphrosyne-digilab",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:30:12.698Z",
+      "completedAt": "2026-01-21T22:33:26.922Z"
     },
     "cal.com-test": {
       "name": "cal.com-test",
@@ -4581,12 +4591,14 @@
     },
     "grist-custom-widgets-fr-admin": {
       "name": "grist-custom-widgets-fr-admin",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:33:27.152Z",
+      "completedAt": "2026-01-21T22:33:53.859Z"
     },
     "cap": {
       "name": "cap",
@@ -4600,12 +4612,14 @@
     },
     "reno": {
       "name": "reno",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:33:54.100Z",
+      "completedAt": "2026-01-21T22:34:47.309Z"
     },
     "marIAnne": {
       "name": "marIAnne",
@@ -4629,12 +4643,14 @@
     },
     "chatwoot": {
       "name": "chatwoot",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:34:47.625Z",
+      "completedAt": "2026-01-21T22:35:11.247Z"
     },
     "site-aic-v2": {
       "name": "site-aic-v2",
@@ -4648,12 +4664,14 @@
     },
     "ansible-pole-api": {
       "name": "ansible-pole-api",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:35:11.479Z",
+      "completedAt": "2026-01-21T22:35:48.830Z"
     },
     "animation-communaute": {
       "name": "animation-communaute",
@@ -4676,12 +4694,14 @@
     },
     "pitchou": {
       "name": "pitchou",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:21:39.724Z",
+      "completedAt": "2026-01-21T22:22:21.978Z"
     },
     "aplypro-nextcloud": {
       "name": "aplypro-nextcloud",
@@ -4705,30 +4725,36 @@
     },
     "monstagedeseconde": {
       "name": "monstagedeseconde",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:22:22.311Z",
+      "completedAt": "2026-01-21T22:26:26.176Z"
     },
     "pass-sport": {
       "name": "pass-sport",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:26:26.490Z",
+      "completedAt": "2026-01-21T22:32:06.896Z"
     },
     "betamap": {
       "name": "betamap",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:32:07.811Z",
+      "completedAt": "2026-01-21T22:32:25.036Z"
     },
     "monstage-swagger-troisieme": {
       "name": "monstage-swagger-troisieme",
@@ -4772,21 +4798,25 @@
     },
     "maestro": {
       "name": "maestro",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:32:25.388Z",
+      "completedAt": "2026-01-21T22:35:02.349Z"
     },
     "monprojetsup": {
       "name": "monprojetsup",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:35:02.700Z",
+      "completedAt": "2026-01-21T22:36:21.793Z"
     },
     "template-nextjs": {
       "name": "template-nextjs",
@@ -4866,30 +4896,36 @@
     },
     "aides-jeunes-files": {
       "name": "aides-jeunes-files",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:21:36.702Z",
+      "completedAt": "2026-01-21T22:21:52.245Z"
     },
     "agir-ref": {
       "name": "agir-ref",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:21:52.465Z",
+      "completedAt": "2026-01-21T22:22:28.316Z"
     },
     "anssi-lab-entretien-technique": {
       "name": "anssi-lab-entretien-technique",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:22:28.518Z",
+      "completedAt": "2026-01-21T22:23:04.704Z"
     },
     "prelevement-deau-airflow": {
       "name": "prelevement-deau-airflow",
@@ -4943,48 +4979,58 @@
     },
     "ComparIA": {
       "name": "ComparIA",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:23:05.417Z",
+      "completedAt": "2026-01-21T22:24:30.535Z"
     },
     "1jeune1arbre": {
       "name": "1jeune1arbre",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:24:30.764Z",
+      "completedAt": "2026-01-21T22:24:55.832Z"
     },
     "figpot": {
       "name": "figpot",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:24:56.037Z",
+      "completedAt": "2026-01-21T22:25:41.899Z"
     },
     "multi-schema-postgres-etl": {
       "name": "multi-schema-postgres-etl",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:25:42.155Z",
+      "completedAt": "2026-01-21T22:26:19.579Z"
     },
     "science-infuse": {
       "name": "science-infuse",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:26:19.811Z",
+      "completedAt": "2026-01-21T22:27:10.444Z"
     },
     "signalconso-antivirus": {
       "name": "signalconso-antivirus",
@@ -4998,21 +5044,25 @@
     },
     "infomedicament": {
       "name": "infomedicament",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:27:10.668Z",
+      "completedAt": "2026-01-21T22:31:04.572Z"
     },
     "docurba-nuxt3": {
       "name": "docurba-nuxt3",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:31:04.812Z",
+      "completedAt": "2026-01-21T22:32:24.976Z"
     },
     "service-national-universel-test-technique": {
       "name": "service-national-universel-test-technique",
@@ -5026,30 +5076,36 @@
     },
     "pr-reviews-reminder-action": {
       "name": "pr-reviews-reminder-action",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:32:45.717Z",
+      "completedAt": "2026-01-21T22:33:00.321Z"
     },
     "audiodescription": {
       "name": "audiodescription",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:33:00.747Z",
+      "completedAt": "2026-01-21T22:33:40.127Z"
     },
     "france-chaleur-urbaine-publicodes": {
       "name": "france-chaleur-urbaine-publicodes",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:33:40.543Z",
+      "completedAt": "2026-01-21T22:34:22.062Z"
     },
     "rdv-service-public-screenshots": {
       "name": "rdv-service-public-screenshots",
@@ -5063,12 +5119,14 @@
     },
     "publicodes-voiture": {
       "name": "publicodes-voiture",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T22:34:22.472Z",
+      "completedAt": "2026-01-21T22:35:50.086Z"
     },
     "agir-voiture": {
       "name": "agir-voiture",
