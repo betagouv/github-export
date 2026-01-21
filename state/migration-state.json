@@ -1158,27 +1158,29 @@
     },
     "react-loading-infinite-scroller": {
       "name": "react-loading-infinite-scroller",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:49.381Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:57:54.388Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:59:17.262Z"
     },
     "eva-orchestrateur": {
       "name": "eva-orchestrateur",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:58.573Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:59:17.509Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:00:24.995Z"
     },
     "normalized-data-state": {
       "name": "normalized-data-state",
@@ -1395,39 +1397,42 @@
     },
     "anpy": {
       "name": "anpy",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:38.383Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:00:25.308Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:00:38.647Z"
     },
     "sqlalchemy-api-handler": {
       "name": "sqlalchemy-api-handler",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:48.098Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:00:38.901Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:01:34.396Z"
     },
     "admin-traitdunion": {
       "name": "admin-traitdunion",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:57.199Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:01:34.624Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:03:04.357Z"
     },
     "pia-back": {
       "name": "pia-back",
@@ -1534,347 +1539,375 @@
     },
     "diagoriente-admin": {
       "name": "diagoriente-admin",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:40.833Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:03:04.612Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:03:16.514Z"
     },
     "traitdunion-metabase": {
       "name": "traitdunion-metabase",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:31:49.545Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:03:16.808Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:03:27.686Z"
     },
     "siecle-xml_mapper": {
       "name": "siecle-xml_mapper",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:13.685Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:03:27.975Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:04:09.785Z"
     },
     "siecle-api": {
       "name": "siecle-api",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:23.379Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:04:10.070Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:05:12.967Z"
     },
     "traitdunion-landing-pages": {
       "name": "traitdunion-landing-pages",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:32.538Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:05:13.262Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:06:21.241Z"
     },
     "freescout": {
       "name": "freescout",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:41.729Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:57:51.224Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:59:15.249Z"
     },
     "postgresql-openshift-docker": {
       "name": "postgresql-openshift-docker",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:50.789Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:59:15.603Z",
+      "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient",
+      "attemptCount": 4,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:00:05.513Z"
+    },
+    "andi-matching-ui": {
+      "name": "andi-matching-ui",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:00:05.889Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
-    },
-    "andi-matching-ui": {
-      "name": "andi-matching-ui",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:59.977Z",
-      "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
-      "errorType": "transient",
-      "attemptCount": 2,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:01:48.286Z"
     },
     "geoplus": {
       "name": "geoplus",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:09.137Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:01:48.571Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:02:02.712Z"
     },
     "andi-service": {
       "name": "andi-service",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:18.328Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:02:03.011Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:04:20.156Z"
     },
     "andi-data": {
       "name": "andi-data",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:27.427Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:04:20.455Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:05:07.496Z"
     },
     "signalconso-loadtest": {
       "name": "signalconso-loadtest",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:36.573Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:05:07.765Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:05:20.145Z"
     },
     "qrcode-svg": {
       "name": "qrcode-svg",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:21.674Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:05:20.508Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:05:32.488Z"
     },
     "datapass": {
       "name": "datapass",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:30.588Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:05:32.840Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:08:13.348Z"
     },
     "e-controle-load-test": {
       "name": "e-controle-load-test",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:39.110Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:08:13.686Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:08:24.491Z"
     },
     "fin-de-mps": {
       "name": "fin-de-mps",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:47.711Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:57:55.894Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:58:07.204Z"
     },
     "visam": {
       "name": "visam",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:32:56.363Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:58:07.561Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:58:17.844Z"
     },
     "osticket-docker": {
       "name": "osticket-docker",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:04.958Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:58:18.264Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:58:29.204Z"
     },
     "with-react-formidable": {
       "name": "with-react-formidable",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:13.773Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:58:29.607Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:59:12.719Z"
     },
     "eva-redirection-cohortes": {
       "name": "eva-redirection-cohortes",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:22.404Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:59:13.100Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-20T23:59:24.169Z"
     },
     "DNC": {
       "name": "DNC",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:31.204Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-20T23:59:24.555Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:01:04.748Z"
     },
     "recosante-api": {
       "name": "recosante-api",
-      "status": "failed",
-      "lastAttempt": "2026-01-18T03:33:39.890Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:01:05.148Z",
+      "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient",
+      "attemptCount": 3,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:02:13.154Z"
+    },
+    "aplus-docs": {
+      "name": "aplus-docs",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:02:13.564Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
-    },
-    "aplus-docs": {
-      "name": "aplus-docs",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:43:07.752Z",
-      "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
-      "errorType": "transient",
-      "attemptCount": 1,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:02:28.115Z"
     },
     "redirections": {
       "name": "redirections",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:43:16.270Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:02:28.502Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:06:57.761Z"
     },
     "webconf": {
       "name": "webconf",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:43:24.928Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:06:58.149Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:07:28.396Z"
     },
     "reserve-civique-redirect": {
       "name": "reserve-civique-redirect",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:43:34.196Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:06:37.089Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:06:50.257Z"
     },
     "francaisaletranger-api": {
       "name": "francaisaletranger-api",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:43:42.831Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:06:50.609Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:07:46.973Z"
     },
     "calcul-co2-inverse": {
       "name": "calcul-co2-inverse",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:43:51.601Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T00:07:47.332Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T00:08:45.599Z"
     },
     "indice_pollution": {
       "name": "indice_pollution",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:44:00.467Z",
+      "status": "in_progress",
+      "lastAttempt": "2026-01-21T00:08:45.965Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -1954,13 +1987,13 @@
     },
     "matomo": {
       "name": "matomo",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:44:50.314Z",
+      "status": "in_progress",
+      "lastAttempt": "2026-01-21T00:07:48.500Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
+        "apiMigration": true,
         "branchSync": false
       }
     },
