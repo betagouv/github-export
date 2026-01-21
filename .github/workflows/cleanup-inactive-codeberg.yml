@@ -1,0 +1,53 @@
+name: Cleanup Inactive Codeberg Repos
+
+on:
+  workflow_dispatch:
+    inputs:
+      inactive_days:
+        description: "Delete repos with no commits in the last X days"
+        required: true
+        default: "365"
+        type: string
+      dry_run:
+        description: "Dry run - list repos but don't delete"
+        required: false
+        default: true
+        type: boolean
+
+env:
+  CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+  CODEBERG_TARGET_ORG: ${{ vars.CODEBERG_TARGET_ORG }}
+
+jobs:
+  cleanup:
+    name: Cleanup inactive repos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Cleanup inactive repos
+        id: cleanup
+        env:
+          INACTIVE_DAYS: ${{ inputs.inactive_days }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: node dist/orchestration/cleanup-inactive-codeberg.js
+
+      - name: Print summary
+        run: |
+          echo "## Cleanup Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Inactive threshold**: ${{ inputs.inactive_days }} days" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dry run**: ${{ inputs.dry_run }}" >> $GITHUB_STEP_SUMMARY
