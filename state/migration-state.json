@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-01-21T18:42:28.886Z",
+  "lastDiscovery": "2026-01-21T19:58:14.126Z",
   "totalRepos": 565,
   "repos": {
     "aides-jeunes": {
@@ -2826,14 +2826,14 @@
       "name": "domaines-api",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:42:48.223Z",
+      "completedAt": "2026-01-21T18:42:56.641Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:42:56.641Z"
+      }
     },
     "declic.comobi.fr": {
       "name": "declic.comobi.fr",
@@ -2851,118 +2851,118 @@
       "name": "bbb-analytics",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:42:57.115Z",
+      "completedAt": "2026-01-21T18:46:05.242Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:46:05.242Z"
+      }
     },
     "yakforms": {
       "name": "yakforms",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:46:05.664Z",
+      "completedAt": "2026-01-21T18:46:22.336Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:46:22.336Z"
+      }
     },
     "data_insertion_toolbox": {
       "name": "data_insertion_toolbox",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:46:22.727Z",
+      "completedAt": "2026-01-21T18:46:57.447Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:46:57.447Z"
+      }
     },
     "aides_jeunes_custom_openfisca_france": {
       "name": "aides_jeunes_custom_openfisca_france",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:46:57.817Z",
+      "completedAt": "2026-01-21T18:47:06.521Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:47:06.521Z"
+      }
     },
     "api-diagoriente-v6": {
       "name": "api-diagoriente-v6",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:47:06.900Z",
+      "completedAt": "2026-01-21T18:48:27.679Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:48:27.679Z"
+      }
     },
     "diagoriente-front-v6": {
       "name": "diagoriente-front-v6",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:48:28.007Z",
+      "completedAt": "2026-01-21T18:48:37.878Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:48:37.878Z"
+      }
     },
     "stats-data-insertion": {
       "name": "stats-data-insertion",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:48:38.245Z",
+      "completedAt": "2026-01-21T18:49:02.453Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:49:02.453Z"
+      }
     },
     "a-just": {
       "name": "a-just",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:49:02.788Z",
+      "completedAt": "2026-01-21T18:50:22.690Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:50:22.690Z"
+      }
     },
     "reva": {
       "name": "reva",
       "status": "completed",
       "lastAttempt": "2026-01-21T18:50:23.080Z",
+      "completedAt": "2026-01-21T18:56:24.284Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "completedAt": "2026-01-21T18:56:24.284Z"
+      }
     },
     "euphrosyne": {
       "name": "euphrosyne",
@@ -3260,420 +3260,420 @@
     "calendso-buildpack": {
       "name": "calendso-buildpack",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:42:49.386Z",
+      "completedAt": "2026-01-21T18:44:19.011Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:42:49.386Z",
-      "completedAt": "2026-01-21T18:44:19.011Z"
+      }
     },
     "dashlord-startup-action": {
       "name": "dashlord-startup-action",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:44:19.470Z",
+      "completedAt": "2026-01-21T18:45:41.992Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:44:19.470Z",
-      "completedAt": "2026-01-21T18:45:41.992Z"
+      }
     },
     "chatwoot-buildpack": {
       "name": "chatwoot-buildpack",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:45:42.372Z",
+      "completedAt": "2026-01-21T18:46:58.630Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:45:42.372Z",
-      "completedAt": "2026-01-21T18:46:58.630Z"
+      }
     },
     "chatwoot-app": {
       "name": "chatwoot-app",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:46:59.029Z",
+      "completedAt": "2026-01-21T18:47:07.209Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:46:59.029Z",
-      "completedAt": "2026-01-21T18:47:07.209Z"
+      }
     },
     "beta-to-airtable": {
       "name": "beta-to-airtable",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:47:07.676Z",
+      "completedAt": "2026-01-21T18:48:14.582Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:47:07.676Z",
-      "completedAt": "2026-01-21T18:48:14.582Z"
+      }
     },
     "netlify-cms-github-oauth-provider": {
       "name": "netlify-cms-github-oauth-provider",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:48:15.070Z",
+      "completedAt": "2026-01-21T18:48:25.387Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:48:15.070Z",
-      "completedAt": "2026-01-21T18:48:25.387Z"
+      }
     },
     "intro-au-code": {
       "name": "intro-au-code",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:48:25.802Z",
+      "completedAt": "2026-01-21T18:48:35.596Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:48:25.802Z",
-      "completedAt": "2026-01-21T18:48:35.596Z"
+      }
     },
     "calendso-homepage": {
       "name": "calendso-homepage",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:48:36.005Z",
+      "completedAt": "2026-01-21T18:49:02.605Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:48:36.005Z",
-      "completedAt": "2026-01-21T18:49:02.605Z"
+      }
     },
     "check-url-action": {
       "name": "check-url-action",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:49:02.998Z",
+      "completedAt": "2026-01-21T18:49:48.821Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:49:02.998Z",
-      "completedAt": "2026-01-21T18:49:48.821Z"
+      }
     },
     "SPPNautCarting": {
       "name": "SPPNautCarting",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:49:49.256Z",
+      "completedAt": "2026-01-21T18:51:45.122Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:49:49.256Z",
-      "completedAt": "2026-01-21T18:51:45.122Z"
+      }
     },
     "euphrosyne-tools-infra": {
       "name": "euphrosyne-tools-infra",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:42:49.151Z",
+      "completedAt": "2026-01-21T18:44:27.687Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:42:49.151Z",
-      "completedAt": "2026-01-21T18:44:27.687Z"
+      }
     },
     "hubot-matteruser": {
       "name": "hubot-matteruser",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:44:28.381Z",
+      "completedAt": "2026-01-21T18:44:42.543Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:44:28.381Z",
-      "completedAt": "2026-01-21T18:44:42.543Z"
+      }
     },
     "aggregate-values-action": {
       "name": "aggregate-values-action",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:44:43.056Z",
+      "completedAt": "2026-01-21T18:49:10.898Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:44:43.056Z",
-      "completedAt": "2026-01-21T18:49:10.898Z"
+      }
     },
     "metiers-numeriques-pep": {
       "name": "metiers-numeriques-pep",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:49:11.260Z",
+      "completedAt": "2026-01-21T18:52:46.044Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:49:11.260Z",
-      "completedAt": "2026-01-21T18:52:46.044Z"
+      }
     },
     "euphrosyne-tools-api": {
       "name": "euphrosyne-tools-api",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:52:46.411Z",
+      "completedAt": "2026-01-21T18:55:48.143Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:52:46.411Z",
-      "completedAt": "2026-01-21T18:55:48.143Z"
+      }
     },
     "sync-beta-api-postgre": {
       "name": "sync-beta-api-postgre",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:55:48.613Z",
+      "completedAt": "2026-01-21T18:56:03.337Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:55:48.613Z",
-      "completedAt": "2026-01-21T18:56:03.337Z"
+      }
     },
     "ngx-dsfr": {
       "name": "ngx-dsfr",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:56:03.764Z",
+      "completedAt": "2026-01-21T19:01:20.209Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:56:03.764Z",
-      "completedAt": "2026-01-21T19:01:20.209Z"
+      }
     },
     "tchap-identite-client": {
       "name": "tchap-identite-client",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:01:20.664Z",
+      "completedAt": "2026-01-21T19:01:28.906Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:01:20.664Z",
-      "completedAt": "2026-01-21T19:01:28.906Z"
+      }
     },
     "dsfr": {
       "name": "dsfr",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:01:29.402Z",
+      "completedAt": "2026-01-21T19:01:39.537Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:01:29.402Z",
-      "completedAt": "2026-01-21T19:01:39.537Z"
+      }
     },
     "pop-scraper": {
       "name": "pop-scraper",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:01:39.930Z",
+      "completedAt": "2026-01-21T19:02:15.536Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:01:39.930Z",
-      "completedAt": "2026-01-21T19:02:15.536Z"
+      }
     },
     "pentesting-simulator": {
       "name": "pentesting-simulator",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:52:06.790Z",
+      "completedAt": "2026-01-21T18:52:29.189Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:52:06.790Z",
-      "completedAt": "2026-01-21T18:52:29.189Z"
+      }
     },
     "collectif-objets-datasette": {
       "name": "collectif-objets-datasette",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:52:29.491Z",
+      "completedAt": "2026-01-21T18:52:36.908Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:52:29.491Z",
-      "completedAt": "2026-01-21T18:52:36.908Z"
+      }
     },
     "help-mattermost-bot": {
       "name": "help-mattermost-bot",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:52:37.210Z",
+      "completedAt": "2026-01-21T18:53:24.749Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:52:37.210Z",
-      "completedAt": "2026-01-21T18:53:24.749Z"
+      }
     },
     "aides-jeunes-experimentations": {
       "name": "aides-jeunes-experimentations",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:53:25.098Z",
+      "completedAt": "2026-01-21T18:54:06.963Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:53:25.098Z",
-      "completedAt": "2026-01-21T18:54:06.963Z"
+      }
     },
     "node-plantuml": {
       "name": "node-plantuml",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:54:07.326Z",
+      "completedAt": "2026-01-21T18:54:16.107Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:54:07.326Z",
-      "completedAt": "2026-01-21T18:54:16.107Z"
+      }
     },
     "doc.demarches-simplifiees.fr": {
       "name": "doc.demarches-simplifiees.fr",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:54:16.369Z",
+      "completedAt": "2026-01-21T18:55:06.869Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:54:16.369Z",
-      "completedAt": "2026-01-21T18:55:06.869Z"
+      }
     },
     "chaskiq": {
       "name": "chaskiq",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:55:07.212Z",
+      "completedAt": "2026-01-21T18:55:18.710Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:55:07.212Z",
-      "completedAt": "2026-01-21T18:55:18.710Z"
+      }
     },
     "sealed-secrets": {
       "name": "sealed-secrets",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:55:19.133Z",
+      "completedAt": "2026-01-21T18:55:30.524Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:55:19.133Z",
-      "completedAt": "2026-01-21T18:55:30.524Z"
+      }
     },
     "jeveuxaider-front": {
       "name": "jeveuxaider-front",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:55:30.818Z",
+      "completedAt": "2026-01-21T19:00:57.244Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:55:30.818Z",
-      "completedAt": "2026-01-21T19:00:57.244Z"
+      }
     },
     "jeveuxaider-back": {
       "name": "jeveuxaider-back",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:00:57.553Z",
+      "completedAt": "2026-01-21T19:02:41.536Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:00:57.553Z",
-      "completedAt": "2026-01-21T19:02:41.536Z"
+      }
     },
     "budget-show": {
       "name": "budget-show",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:56:42.106Z",
+      "completedAt": "2026-01-21T18:56:51.094Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:56:42.106Z",
-      "completedAt": "2026-01-21T18:56:51.094Z"
+      }
     },
     "betagouv-espace-membre-api": {
       "name": "betagouv-espace-membre-api",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:56:51.483Z",
+      "completedAt": "2026-01-21T18:57:25.086Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:56:51.483Z",
-      "completedAt": "2026-01-21T18:57:25.086Z"
+      }
     },
     "notification-admin": {
       "name": "notification-admin",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:57:25.403Z",
+      "completedAt": "2026-01-21T18:58:53.986Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:57:25.403Z",
-      "completedAt": "2026-01-21T18:58:53.986Z"
+      }
     },
     "notification-api": {
       "name": "notification-api",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:58:54.279Z",
+      "completedAt": "2026-01-21T18:59:26.067Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:58:54.279Z",
-      "completedAt": "2026-01-21T18:59:26.067Z"
+      }
     },
     "notifications": {
       "name": "notifications",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:59:26.329Z",
+      "completedAt": "2026-01-21T18:59:52.817Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:59:26.329Z",
-      "completedAt": "2026-01-21T18:59:52.817Z"
+      }
     },
     "cryptpad-buildpack": {
       "name": "cryptpad-buildpack",
       "status": "completed",
+      "lastAttempt": "2026-01-21T18:59:53.084Z",
+      "completedAt": "2026-01-21T19:00:00.342Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T18:59:53.084Z",
-      "completedAt": "2026-01-21T19:00:00.342Z"
+      }
     },
     "notification-utils": {
       "name": "notification-utils",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:00:00.707Z",
+      "completedAt": "2026-01-21T19:00:41.866Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:00:00.707Z",
-      "completedAt": "2026-01-21T19:00:41.866Z"
+      }
     },
     "msj-public-front": {
       "name": "msj-public-front",
       "status": "completed",
+      "lastAttempt": "2026-01-21T19:00:42.167Z",
+      "completedAt": "2026-01-21T19:03:10.434Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-21T19:00:42.167Z",
-      "completedAt": "2026-01-21T19:03:10.434Z"
+      }
     },
     "msj-public-back": {
       "name": "msj-public-back",
@@ -3686,21 +3686,23 @@
     },
     "aides-jeunes-explorations-caf": {
       "name": "aides-jeunes-explorations-caf",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "notifications-secrets": {
       "name": "notifications-secrets",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "signalement-entreprise": {
       "name": "signalement-entreprise",
@@ -3722,12 +3724,13 @@
     },
     "commaute-xp-stats": {
       "name": "commaute-xp-stats",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "signalconso-statsrefill": {
       "name": "signalconso-statsrefill",
@@ -3749,66 +3752,73 @@
     },
     "signalconso-published": {
       "name": "signalconso-published",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "CNR": {
       "name": "CNR",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "notifications-admin": {
       "name": "notifications-admin",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "matomo-scalingo-deploy-test": {
       "name": "matomo-scalingo-deploy-test",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "matomo-buildpack": {
       "name": "matomo-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "tmp-repo": {
       "name": "tmp-repo",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "ma-cantine-demo-integration": {
       "name": "ma-cantine-demo-integration",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "dsfr-view-components": {
       "name": "dsfr-view-components",
@@ -3821,30 +3831,33 @@
     },
     "python-buildpack": {
       "name": "python-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "django-template": {
       "name": "django-template",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "authentification-landing": {
       "name": "authentification-landing",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mon-service-securise-journal": {
       "name": "mon-service-securise-journal",
@@ -3857,30 +3870,33 @@
     },
     "matrix-js-sdk-fork": {
       "name": "matrix-js-sdk-fork",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "tsst-api": {
       "name": "tsst-api",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "collectifobjets.org": {
       "name": "collectifobjets.org",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "tous-a-bord": {
       "name": "tous-a-bord",
@@ -3893,21 +3909,23 @@
     },
     "hat": {
       "name": "hat",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "nanoc": {
       "name": "nanoc",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "new-aglae-data-converter": {
       "name": "new-aglae-data-converter",
@@ -3920,120 +3938,133 @@
     },
     "betagouv-express-ops-bot": {
       "name": "betagouv-express-ops-bot",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "fermeture-eclair": {
       "name": "fermeture-eclair",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "betagouv-datasette": {
       "name": "betagouv-datasette",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "SPPNautSPO": {
       "name": "SPPNautSPO",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "inca-survey": {
       "name": "inca-survey",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "srv-email-proxy": {
       "name": "srv-email-proxy",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "form-buildpack": {
       "name": "form-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "elm-dsfr": {
       "name": "elm-dsfr",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "shlink-buildpack": {
       "name": "shlink-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "shlink-app": {
       "name": "shlink-app",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "shlink": {
       "name": "shlink",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "golink-buildpack": {
       "name": "golink-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "GoGovSG": {
       "name": "GoGovSG",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "eva-metabase": {
       "name": "eva-metabase",
@@ -4046,12 +4077,13 @@
     },
     "CNR_orga": {
       "name": "CNR_orga",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "dashlord-operateur": {
       "name": "dashlord-operateur",
@@ -4064,12 +4096,13 @@
     },
     "cybersecu-guide": {
       "name": "cybersecu-guide",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "aplypro": {
       "name": "aplypro",
@@ -4109,57 +4142,63 @@
     },
     "ameliorer-mon-produit": {
       "name": "ameliorer-mon-produit",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mon-espace-collectivite": {
       "name": "mon-espace-collectivite",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "outline-to-delete": {
       "name": "outline-to-delete",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "outline": {
       "name": "outline",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "calendso": {
       "name": "calendso",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "dispo": {
       "name": "dispo",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "agir-back": {
       "name": "agir-back",
@@ -4199,21 +4238,23 @@
     },
     "iban-tools": {
       "name": "iban-tools",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "deliverable": {
       "name": "deliverable",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mon-aide-cyber": {
       "name": "mon-aide-cyber",
@@ -4235,48 +4276,53 @@
     },
     "nextcloud-buildpack": {
       "name": "nextcloud-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "domibus": {
       "name": "domibus",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "django": {
       "name": "django",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "metabase-buildpack": {
       "name": "metabase-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "domibus-buildpack": {
       "name": "domibus-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "anssi-nis2": {
       "name": "anssi-nis2",
@@ -4307,21 +4353,23 @@
     },
     "monsuivijustice-backup-metabase": {
       "name": "monsuivijustice-backup-metabase",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "nodejs-buildpack": {
       "name": "nodejs-buildpack",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "jagis-mobile": {
       "name": "jagis-mobile",
@@ -4334,12 +4382,13 @@
     },
     "resorption-bidonvilles-blog": {
       "name": "resorption-bidonvilles-blog",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "agir-cms": {
       "name": "agir-cms",
@@ -4352,12 +4401,13 @@
     },
     "clamav-service": {
       "name": "clamav-service",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "anssi-demain-specialiste-cyber": {
       "name": "anssi-demain-specialiste-cyber",
@@ -4370,12 +4420,13 @@
     },
     "heroku-buildpack-flutter": {
       "name": "heroku-buildpack-flutter",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mon-aide-cyber-journal": {
       "name": "mon-aide-cyber-journal",
@@ -4397,12 +4448,13 @@
     },
     "dsfr-feedback": {
       "name": "dsfr-feedback",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "espace-membre-next": {
       "name": "espace-membre-next",
@@ -4424,12 +4476,13 @@
     },
     "mes-aides-data": {
       "name": "mes-aides-data",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "anssi-lab-utilitaires": {
       "name": "anssi-lab-utilitaires",
@@ -4460,12 +4513,13 @@
     },
     "cal.com-test": {
       "name": "cal.com-test",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "grist-custom-widgets-fr-admin": {
       "name": "grist-custom-widgets-fr-admin",
@@ -4478,12 +4532,13 @@
     },
     "cap": {
       "name": "cap",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "reno": {
       "name": "reno",
@@ -4496,21 +4551,23 @@
     },
     "marIAnne": {
       "name": "marIAnne",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "cal.com": {
       "name": "cal.com",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "chatwoot": {
       "name": "chatwoot",
@@ -4523,12 +4580,13 @@
     },
     "site-aic-v2": {
       "name": "site-aic-v2",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "ansible-pole-api": {
       "name": "ansible-pole-api",
@@ -4541,12 +4599,13 @@
     },
     "animation-communaute": {
       "name": "animation-communaute",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "sentry-mattermost": {
       "name": "sentry-mattermost",
@@ -4568,21 +4627,23 @@
     },
     "aplypro-nextcloud": {
       "name": "aplypro-nextcloud",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mediation-logement": {
       "name": "mediation-logement",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "monstagedeseconde": {
       "name": "monstagedeseconde",
@@ -4613,39 +4674,43 @@
     },
     "monstage-swagger-troisieme": {
       "name": "monstage-swagger-troisieme",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "ragga": {
       "name": "ragga",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "tous-a-bord-demo-cnaf": {
       "name": "tous-a-bord-demo-cnaf",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "monstage-swagger-seconde": {
       "name": "monstage-swagger-seconde",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "maestro": {
       "name": "maestro",
@@ -4685,12 +4750,13 @@
     },
     "demo-scalingo-python-node-nginx": {
       "name": "demo-scalingo-python-node-nginx",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "compte-rendu-vif": {
       "name": "compte-rendu-vif",
@@ -4703,21 +4769,23 @@
     },
     "vaultwarden": {
       "name": "vaultwarden",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "cards": {
       "name": "cards",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "navigateur-trop-ancien": {
       "name": "navigateur-trop-ancien",
@@ -4730,12 +4798,13 @@
     },
     "decap-cms": {
       "name": "decap-cms",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "aides-jeunes-files": {
       "name": "aides-jeunes-files",
@@ -4766,48 +4835,53 @@
     },
     "prelevement-deau-airflow": {
       "name": "prelevement-deau-airflow",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "hackathon-dsn": {
       "name": "hackathon-dsn",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "Ressources-techniques": {
       "name": "Ressources-techniques",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "totp": {
       "name": "totp",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mec-connect": {
       "name": "mec-connect",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "ComparIA": {
       "name": "ComparIA",
@@ -4856,12 +4930,13 @@
     },
     "signalconso-antivirus": {
       "name": "signalconso-antivirus",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "infomedicament": {
       "name": "infomedicament",
@@ -4883,12 +4958,13 @@
     },
     "service-national-universel-test-technique": {
       "name": "service-national-universel-test-technique",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "pr-reviews-reminder-action": {
       "name": "pr-reviews-reminder-action",
@@ -4919,12 +4995,13 @@
     },
     "rdv-service-public-screenshots": {
       "name": "rdv-service-public-screenshots",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "publicodes-voiture": {
       "name": "publicodes-voiture",
@@ -4991,12 +5068,13 @@
     },
     "maestro-metabase": {
       "name": "maestro-metabase",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "hackaton-ds-exploration": {
       "name": "hackaton-ds-exploration",
@@ -5090,12 +5168,13 @@
     },
     "logstash-rdv-service-public": {
       "name": "logstash-rdv-service-public",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "communs-de-la-transition-ecologique-des-collectivites": {
       "name": "communs-de-la-transition-ecologique-des-collectivites",
@@ -5117,12 +5196,13 @@
     },
     "atelier-tests-auto-a11y": {
       "name": "atelier-tests-auto-a11y",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "anssi-portail": {
       "name": "anssi-portail",
@@ -5144,12 +5224,13 @@
     },
     "jamstack-loader": {
       "name": "jamstack-loader",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mle-front": {
       "name": "mle-front",
@@ -5171,12 +5252,13 @@
     },
     "eval-menu": {
       "name": "eval-menu",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "assistant-declaration": {
       "name": "assistant-declaration",
@@ -5198,12 +5280,13 @@
     },
     "dsfr-doc": {
       "name": "dsfr-doc",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "mon-indemnisation-justice": {
       "name": "mon-indemnisation-justice",
@@ -5234,12 +5317,13 @@
     },
     "seves-schemas": {
       "name": "seves-schemas",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "decoupage-administratif-gem": {
       "name": "decoupage-administratif-gem",
@@ -5261,12 +5345,13 @@
     },
     "schema-aide": {
       "name": "schema-aide",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "aides-agri": {
       "name": "aides-agri",
@@ -5297,12 +5382,13 @@
     },
     "mon-devis-sans-oublis": {
       "name": "mon-devis-sans-oublis",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "dsfr-assets": {
       "name": "dsfr-assets",
@@ -5477,12 +5563,13 @@
     },
     "sentry-on-heroku": {
       "name": "sentry-on-heroku",
-      "status": "pending",
+      "status": "skipped",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "error": "Inactive: no commits in last 365 days"
     },
     "sentry": {
       "name": "sentry",
