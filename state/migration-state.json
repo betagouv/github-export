@@ -2824,15 +2824,16 @@
     },
     "domaines-api": {
       "name": "domaines-api",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:44.379Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:42:48.223Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:42:56.641Z"
     },
     "declic.comobi.fr": {
       "name": "declic.comobi.fr",
@@ -2848,111 +2849,120 @@
     },
     "bbb-analytics": {
       "name": "bbb-analytics",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:47:41.889Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:42:57.115Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:46:05.242Z"
     },
     "yakforms": {
       "name": "yakforms",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:47:50.663Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:46:05.664Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:46:22.336Z"
     },
     "data_insertion_toolbox": {
       "name": "data_insertion_toolbox",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:47:59.301Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:46:22.727Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:46:57.447Z"
     },
     "aides_jeunes_custom_openfisca_france": {
       "name": "aides_jeunes_custom_openfisca_france",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:08.066Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:46:57.817Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:47:06.521Z"
     },
     "api-diagoriente-v6": {
       "name": "api-diagoriente-v6",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:16.724Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:47:06.900Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:48:27.679Z"
     },
     "diagoriente-front-v6": {
       "name": "diagoriente-front-v6",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:25.716Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:48:28.007Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:48:37.878Z"
     },
     "stats-data-insertion": {
       "name": "stats-data-insertion",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:35.320Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:48:38.245Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:49:02.453Z"
     },
     "a-just": {
       "name": "a-just",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:44.518Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:49:02.788Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:50:22.690Z"
     },
     "reva": {
       "name": "reva",
-      "status": "failed",
-      "lastAttempt": "2026-01-17T00:48:53.291Z",
+      "status": "completed",
+      "lastAttempt": "2026-01-21T18:50:23.080Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-01-21T18:56:24.284Z"
     },
     "euphrosyne": {
       "name": "euphrosyne",
@@ -3249,345 +3259,421 @@
     },
     "calendso-buildpack": {
       "name": "calendso-buildpack",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:42:49.386Z",
+      "completedAt": "2026-01-21T18:44:19.011Z"
     },
     "dashlord-startup-action": {
       "name": "dashlord-startup-action",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:44:19.470Z",
+      "completedAt": "2026-01-21T18:45:41.992Z"
     },
     "chatwoot-buildpack": {
       "name": "chatwoot-buildpack",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:45:42.372Z",
+      "completedAt": "2026-01-21T18:46:58.630Z"
     },
     "chatwoot-app": {
       "name": "chatwoot-app",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:46:59.029Z",
+      "completedAt": "2026-01-21T18:47:07.209Z"
     },
     "beta-to-airtable": {
       "name": "beta-to-airtable",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:47:07.676Z",
+      "completedAt": "2026-01-21T18:48:14.582Z"
     },
     "netlify-cms-github-oauth-provider": {
       "name": "netlify-cms-github-oauth-provider",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:48:15.070Z",
+      "completedAt": "2026-01-21T18:48:25.387Z"
     },
     "intro-au-code": {
       "name": "intro-au-code",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:48:25.802Z",
+      "completedAt": "2026-01-21T18:48:35.596Z"
     },
     "calendso-homepage": {
       "name": "calendso-homepage",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:48:36.005Z",
+      "completedAt": "2026-01-21T18:49:02.605Z"
     },
     "check-url-action": {
       "name": "check-url-action",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:49:02.998Z",
+      "completedAt": "2026-01-21T18:49:48.821Z"
     },
     "SPPNautCarting": {
       "name": "SPPNautCarting",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:49:49.256Z",
+      "completedAt": "2026-01-21T18:51:45.122Z"
     },
     "euphrosyne-tools-infra": {
       "name": "euphrosyne-tools-infra",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:42:49.151Z",
+      "completedAt": "2026-01-21T18:44:27.687Z"
     },
     "hubot-matteruser": {
       "name": "hubot-matteruser",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:44:28.381Z",
+      "completedAt": "2026-01-21T18:44:42.543Z"
     },
     "aggregate-values-action": {
       "name": "aggregate-values-action",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:44:43.056Z",
+      "completedAt": "2026-01-21T18:49:10.898Z"
     },
     "metiers-numeriques-pep": {
       "name": "metiers-numeriques-pep",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:49:11.260Z",
+      "completedAt": "2026-01-21T18:52:46.044Z"
     },
     "euphrosyne-tools-api": {
       "name": "euphrosyne-tools-api",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:52:46.411Z",
+      "completedAt": "2026-01-21T18:55:48.143Z"
     },
     "sync-beta-api-postgre": {
       "name": "sync-beta-api-postgre",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:55:48.613Z",
+      "completedAt": "2026-01-21T18:56:03.337Z"
     },
     "ngx-dsfr": {
       "name": "ngx-dsfr",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:56:03.764Z",
+      "completedAt": "2026-01-21T19:01:20.209Z"
     },
     "tchap-identite-client": {
       "name": "tchap-identite-client",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:01:20.664Z",
+      "completedAt": "2026-01-21T19:01:28.906Z"
     },
     "dsfr": {
       "name": "dsfr",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:01:29.402Z",
+      "completedAt": "2026-01-21T19:01:39.537Z"
     },
     "pop-scraper": {
       "name": "pop-scraper",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:01:39.930Z",
+      "completedAt": "2026-01-21T19:02:15.536Z"
     },
     "pentesting-simulator": {
       "name": "pentesting-simulator",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:52:06.790Z",
+      "completedAt": "2026-01-21T18:52:29.189Z"
     },
     "collectif-objets-datasette": {
       "name": "collectif-objets-datasette",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:52:29.491Z",
+      "completedAt": "2026-01-21T18:52:36.908Z"
     },
     "help-mattermost-bot": {
       "name": "help-mattermost-bot",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:52:37.210Z",
+      "completedAt": "2026-01-21T18:53:24.749Z"
     },
     "aides-jeunes-experimentations": {
       "name": "aides-jeunes-experimentations",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:53:25.098Z",
+      "completedAt": "2026-01-21T18:54:06.963Z"
     },
     "node-plantuml": {
       "name": "node-plantuml",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:54:07.326Z",
+      "completedAt": "2026-01-21T18:54:16.107Z"
     },
     "doc.demarches-simplifiees.fr": {
       "name": "doc.demarches-simplifiees.fr",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:54:16.369Z",
+      "completedAt": "2026-01-21T18:55:06.869Z"
     },
     "chaskiq": {
       "name": "chaskiq",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:55:07.212Z",
+      "completedAt": "2026-01-21T18:55:18.710Z"
     },
     "sealed-secrets": {
       "name": "sealed-secrets",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:55:19.133Z",
+      "completedAt": "2026-01-21T18:55:30.524Z"
     },
     "jeveuxaider-front": {
       "name": "jeveuxaider-front",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:55:30.818Z",
+      "completedAt": "2026-01-21T19:00:57.244Z"
     },
     "jeveuxaider-back": {
       "name": "jeveuxaider-back",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:00:57.553Z",
+      "completedAt": "2026-01-21T19:02:41.536Z"
     },
     "budget-show": {
       "name": "budget-show",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:56:42.106Z",
+      "completedAt": "2026-01-21T18:56:51.094Z"
     },
     "betagouv-espace-membre-api": {
       "name": "betagouv-espace-membre-api",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:56:51.483Z",
+      "completedAt": "2026-01-21T18:57:25.086Z"
     },
     "notification-admin": {
       "name": "notification-admin",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:57:25.403Z",
+      "completedAt": "2026-01-21T18:58:53.986Z"
     },
     "notification-api": {
       "name": "notification-api",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:58:54.279Z",
+      "completedAt": "2026-01-21T18:59:26.067Z"
     },
     "notifications": {
       "name": "notifications",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:59:26.329Z",
+      "completedAt": "2026-01-21T18:59:52.817Z"
     },
     "cryptpad-buildpack": {
       "name": "cryptpad-buildpack",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T18:59:53.084Z",
+      "completedAt": "2026-01-21T19:00:00.342Z"
     },
     "notification-utils": {
       "name": "notification-utils",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:00:00.707Z",
+      "completedAt": "2026-01-21T19:00:41.866Z"
     },
     "msj-public-front": {
       "name": "msj-public-front",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:00:42.167Z",
+      "completedAt": "2026-01-21T19:03:10.434Z"
     },
     "msj-public-back": {
       "name": "msj-public-back",
