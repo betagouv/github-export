@@ -8,6 +8,7 @@ export const RepoStatusSchema = z.enum([
   "in_progress",
   "completed",
   "failed",
+  "skipped",
 ]);
 
 export const ErrorTypeSchema = z.enum([
@@ -127,6 +128,14 @@ export class StateManager {
     });
   }
 
+  markSkipped(repoName: string, reason: string): void {
+    this.setRepoState(repoName, {
+      status: "skipped",
+      error: reason,
+      errorType: undefined,
+    });
+  }
+
   markPhaseComplete(repoName: string, phase: "apiMigration" | "branchSync"): void {
     const current = this.getRepoState(repoName);
     if (current) {
@@ -188,6 +197,7 @@ export class StateManager {
     inProgress: number;
     completed: number;
     failed: number;
+    skipped: number;
   } {
     const repos = Object.values(this.state.repos);
     return {
@@ -196,6 +206,7 @@ export class StateManager {
       inProgress: repos.filter((r) => r.status === "in_progress").length,
       completed: repos.filter((r) => r.status === "completed").length,
       failed: repos.filter((r) => r.status === "failed").length,
+      skipped: repos.filter((r) => r.status === "skipped").length,
     };
   }
 }

@@ -48,17 +48,41 @@ async function discoverRepos(
   }
 
   // Filter by activity (exclude repos with no commits in the last X days)
+  // Also mark existing pending repos as skipped if they are now inactive
   if (excludeInactiveDays > 0) {
     const cutoffDate = new Date();
     cutoffDate.setDate(cutoffDate.getDate() - excludeInactiveDays);
 
     const beforeCount = filteredRepos.length;
+
+    // Build a map of repo name -> pushedAt for inactive check
+    const repoActivityMap = new Map<string, Date | null>();
+    for (const repo of filteredRepos) {
+      repoActivityMap.set(repo.name, repo.pushedAt ? new Date(repo.pushedAt) : null);
+    }
+
     filteredRepos = filteredRepos.filter((repo) => {
       if (!repo.pushedAt) return false;
       const pushedDate = new Date(repo.pushedAt);
       return pushedDate >= cutoffDate;
     });
     console.log(`Filtered to ${filteredRepos.length} repos (excluded ${beforeCount - filteredRepos.length} inactive repos with no commits in last ${excludeInactiveDays} days)`);
+
+    // Mark existing pending repos as skipped if they are inactive
+    const activeRepoNames = new Set(filteredRepos.map((r) => r.name));
+    const pendingRepos = stateManager.getPendingRepos();
+    let skippedCount = 0;
+
+    for (const repoName of pendingRepos) {
+      if (!activeRepoNames.has(repoName)) {
+        stateManager.markSkipped(repoName, `Inactive: no commits in last ${excludeInactiveDays} days`);
+        skippedCount++;
+      }
+    }
+
+    if (skippedCount > 0) {
+      console.log(`Marked ${skippedCount} existing pending repos as skipped (inactive)`);
+    }
   }
 
   const repoNames = filteredRepos.map((r) => r.name);
@@ -158,6 +182,7 @@ async function main() {
   console.log(`In Progress: ${stats.inProgress}`);
   console.log(`Completed: ${stats.completed}`);
   console.log(`Failed: ${stats.failed}`);
+  console.log(`Skipped: ${stats.skipped}`);
 }
 
 main().catch((error) => {
