@@ -4685,12 +4685,14 @@
     },
     "sentry-mattermost": {
       "name": "sentry-mattermost",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:12:39.777Z",
+      "completedAt": "2026-01-21T23:12:50.565Z"
     },
     "pitchou": {
       "name": "pitchou",
@@ -4820,21 +4822,25 @@
     },
     "template-nextjs": {
       "name": "template-nextjs",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:12:50.984Z",
+      "completedAt": "2026-01-21T23:13:45.095Z"
     },
     "seves": {
       "name": "seves",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:13:45.438Z",
+      "completedAt": "2026-01-21T23:16:01.005Z"
     },
     "demo-scalingo-python-node-nginx": {
       "name": "demo-scalingo-python-node-nginx",
@@ -4848,12 +4854,14 @@
     },
     "compte-rendu-vif": {
       "name": "compte-rendu-vif",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:16:01.546Z",
+      "completedAt": "2026-01-21T23:16:27.251Z"
     },
     "vaultwarden": {
       "name": "vaultwarden",
@@ -4877,12 +4885,14 @@
     },
     "navigateur-trop-ancien": {
       "name": "navigateur-trop-ancien",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:16:27.609Z",
+      "completedAt": "2026-01-21T23:16:48.500Z"
     },
     "decap-cms": {
       "name": "decap-cms",
@@ -5130,57 +5140,69 @@
     },
     "agir-voiture": {
       "name": "agir-voiture",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:16:48.836Z",
+      "completedAt": "2026-01-21T23:17:35.837Z"
     },
     "penpot-dsfr": {
       "name": "penpot-dsfr",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:17:36.193Z",
+      "completedAt": "2026-01-21T23:17:54.112Z"
     },
     "matomo-to-pg": {
       "name": "matomo-to-pg",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:17:54.469Z",
+      "completedAt": "2026-01-21T23:18:28.654Z"
     },
     "zacharie": {
       "name": "zacharie",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:18:29.049Z",
+      "completedAt": "2026-01-21T23:23:53.783Z"
     },
     "agir.github.io": {
       "name": "agir.github.io",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:23:54.118Z",
+      "completedAt": "2026-01-21T23:24:02.612Z"
     },
     "api_gouv_swaggers": {
       "name": "api_gouv_swaggers",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:12:41.574Z",
+      "completedAt": "2026-01-21T23:13:30.729Z"
     },
     "maestro-metabase": {
       "name": "maestro-metabase",
@@ -5194,93 +5216,113 @@
     },
     "hackaton-ds-exploration": {
       "name": "hackaton-ds-exploration",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:13:31.082Z",
+      "completedAt": "2026-01-21T23:13:55.491Z"
     },
     "SCDL-subventions-DataSubvention": {
       "name": "SCDL-subventions-DataSubvention",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:13:55.903Z",
+      "completedAt": "2026-01-21T23:14:29.092Z"
     },
     "fondation": {
       "name": "fondation",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:14:29.400Z",
+      "completedAt": "2026-01-21T23:19:49.794Z"
     },
     "sites-faciles": {
       "name": "sites-faciles",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:19:50.187Z",
+      "completedAt": "2026-01-21T23:20:01.023Z"
     },
     "gestion-des-subventions-locales": {
       "name": "gestion-des-subventions-locales",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:20:01.339Z",
+      "completedAt": "2026-01-21T23:21:19.259Z"
     },
     "VApp": {
       "name": "VApp",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:21:19.659Z",
+      "completedAt": "2026-01-21T23:22:05.207Z"
     },
     "grist-utils": {
       "name": "grist-utils",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:22:05.553Z",
+      "completedAt": "2026-01-21T23:22:30.037Z"
     },
     "agir-mesaidesvelo": {
       "name": "agir-mesaidesvelo",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:22:30.490Z",
+      "completedAt": "2026-01-21T23:22:39.445Z"
     },
     "kube-dev": {
       "name": "kube-dev",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:22:39.727Z",
+      "completedAt": "2026-01-21T23:23:06.606Z"
     },
     "publicodes-aides-velo": {
       "name": "publicodes-aides-velo",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:12:45.304Z",
+      "completedAt": "2026-01-21T23:13:35.300Z"
     },
     "logstash-rdv-service-public": {
       "name": "logstash-rdv-service-public",
@@ -5294,21 +5336,25 @@
     },
     "communs-de-la-transition-ecologique-des-collectivites": {
       "name": "communs-de-la-transition-ecologique-des-collectivites",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:13:35.526Z",
+      "completedAt": "2026-01-21T23:18:59.233Z"
     },
     "anssi-recommandations-cyber": {
       "name": "anssi-recommandations-cyber",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:18:59.467Z",
+      "completedAt": "2026-01-21T23:24:15.246Z"
     },
     "atelier-tests-auto-a11y": {
       "name": "atelier-tests-auto-a11y",
@@ -5322,12 +5368,14 @@
     },
     "anssi-portail": {
       "name": "anssi-portail",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:24:15.508Z",
+      "completedAt": "2026-01-21T23:28:27.349Z"
     },
     "poc-communs-projets-levier": {
       "name": "poc-communs-projets-levier",
@@ -5415,21 +5463,25 @@
     },
     "ota-produits-declarations": {
       "name": "ota-produits-declarations",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:23:20.742Z",
+      "completedAt": "2026-01-21T23:24:39.853Z"
     },
     "dashlord": {
       "name": "dashlord",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:24:40.123Z",
+      "completedAt": "2026-01-21T23:30:23.760Z"
     },
     "seves-schemas": {
       "name": "seves-schemas",
@@ -5535,57 +5587,69 @@
     },
     "publicodes-decoupage-administratif": {
       "name": "publicodes-decoupage-administratif",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:24:23.995Z",
+      "completedAt": "2026-01-21T23:24:32.455Z"
     },
     "tous-a-bord-data": {
       "name": "tous-a-bord-data",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:24:32.766Z",
+      "completedAt": "2026-01-21T23:25:47.282Z"
     },
     "aides-simulateur-front": {
       "name": "aides-simulateur-front",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:25:47.632Z",
+      "completedAt": "2026-01-21T23:26:37.611Z"
     },
     "maestro-wordpress": {
       "name": "maestro-wordpress",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:26:38.100Z",
+      "completedAt": "2026-01-21T23:26:50.748Z"
     },
     "aides-calculatrice-back": {
       "name": "aides-calculatrice-back",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:26:51.062Z",
+      "completedAt": "2026-01-21T23:27:28.862Z"
     },
     "braveau-grist-widget": {
       "name": "braveau-grist-widget",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T23:27:29.381Z",
+      "completedAt": "2026-01-21T23:27:38.078Z"
     },
     "place-asile": {
       "name": "place-asile",
