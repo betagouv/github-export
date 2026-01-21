@@ -3677,255 +3677,271 @@
     },
     "msj-public-back": {
       "name": "msj-public-back",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:58:30.330Z",
+      "completedAt": "2026-01-21T20:04:04.927Z"
     },
     "aides-jeunes-explorations-caf": {
       "name": "aides-jeunes-explorations-caf",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "notifications-secrets": {
       "name": "notifications-secrets",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "signalement-entreprise": {
       "name": "signalement-entreprise",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:04:05.201Z",
+      "completedAt": "2026-01-21T20:05:44.691Z"
     },
     "recoco-portails": {
       "name": "recoco-portails",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:05:44.991Z",
+      "completedAt": "2026-01-21T20:06:47.366Z"
     },
     "commaute-xp-stats": {
       "name": "commaute-xp-stats",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "signalconso-statsrefill": {
       "name": "signalconso-statsrefill",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:06:47.742Z",
+      "completedAt": "2026-01-21T20:06:58.829Z"
     },
     "portail-rse": {
       "name": "portail-rse",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:06:59.109Z",
+      "completedAt": "2026-01-21T20:12:34.025Z"
     },
     "signalconso-published": {
       "name": "signalconso-published",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "CNR": {
       "name": "CNR",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "notifications-admin": {
       "name": "notifications-admin",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "matomo-scalingo-deploy-test": {
       "name": "matomo-scalingo-deploy-test",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "matomo-buildpack": {
       "name": "matomo-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "tmp-repo": {
       "name": "tmp-repo",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "ma-cantine-demo-integration": {
       "name": "ma-cantine-demo-integration",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "dsfr-view-components": {
-      "name": "dsfr-view-components",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "dsfr-view-components": {
+      "name": "dsfr-view-components",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:12:34.324Z",
+      "completedAt": "2026-01-21T20:13:19.706Z"
     },
     "python-buildpack": {
       "name": "python-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "django-template": {
       "name": "django-template",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "authentification-landing": {
       "name": "authentification-landing",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "mon-service-securise-journal": {
-      "name": "mon-service-securise-journal",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "mon-service-securise-journal": {
+      "name": "mon-service-securise-journal",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:13:20.012Z",
+      "completedAt": "2026-01-21T20:15:23.962Z"
     },
     "matrix-js-sdk-fork": {
       "name": "matrix-js-sdk-fork",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "tsst-api": {
-      "name": "tsst-api",
-      "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "collectifobjets.org": {
-      "name": "collectifobjets.org",
-      "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "tous-a-bord": {
-      "name": "tous-a-bord",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
     },
-    "hat": {
-      "name": "hat",
+    "tsst-api": {
+      "name": "tsst-api",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
+      }
+    },
+    "collectifobjets.org": {
+      "name": "collectifobjets.org",
+      "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      }
+    },
+    "tous-a-bord": {
+      "name": "tous-a-bord",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
       },
-      "error": "Inactive: no commits in last 365 days"
+      "lastAttempt": "2026-01-21T20:15:24.353Z",
+      "completedAt": "2026-01-21T20:16:06.145Z"
+    },
+    "hat": {
+      "name": "hat",
+      "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      }
     },
     "nanoc": {
       "name": "nanoc",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "new-aglae-data-converter": {
       "name": "new-aglae-data-converter",
@@ -3939,132 +3955,132 @@
     "betagouv-express-ops-bot": {
       "name": "betagouv-express-ops-bot",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "fermeture-eclair": {
       "name": "fermeture-eclair",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "betagouv-datasette": {
       "name": "betagouv-datasette",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "SPPNautSPO": {
       "name": "SPPNautSPO",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "inca-survey": {
       "name": "inca-survey",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "srv-email-proxy": {
       "name": "srv-email-proxy",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "form-buildpack": {
       "name": "form-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "elm-dsfr": {
       "name": "elm-dsfr",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "shlink-buildpack": {
       "name": "shlink-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "shlink-app": {
       "name": "shlink-app",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "shlink": {
       "name": "shlink",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "golink-buildpack": {
       "name": "golink-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "GoGovSG": {
       "name": "GoGovSG",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "eva-metabase": {
       "name": "eva-metabase",
@@ -4078,183 +4094,201 @@
     "CNR_orga": {
       "name": "CNR_orga",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "dashlord-operateur": {
-      "name": "dashlord-operateur",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "dashlord-operateur": {
+      "name": "dashlord-operateur",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:58:32.920Z",
+      "completedAt": "2026-01-21T20:00:19.563Z"
     },
     "cybersecu-guide": {
       "name": "cybersecu-guide",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "aplypro": {
       "name": "aplypro",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:00:20.136Z",
+      "completedAt": "2026-01-21T20:02:22.337Z"
     },
     "mission-transition-ecologique": {
       "name": "mission-transition-ecologique",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:02:22.745Z",
+      "completedAt": "2026-01-21T20:04:01.797Z"
     },
     "dashlord-dotations-locales": {
       "name": "dashlord-dotations-locales",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:04:02.267Z",
+      "completedAt": "2026-01-21T20:04:13.160Z"
     },
     "aplypro-mock-data": {
       "name": "aplypro-mock-data",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:04:13.513Z",
+      "completedAt": "2026-01-21T20:05:50.938Z"
     },
     "ameliorer-mon-produit": {
       "name": "ameliorer-mon-produit",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mon-espace-collectivite": {
       "name": "mon-espace-collectivite",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "outline-to-delete": {
       "name": "outline-to-delete",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "outline": {
       "name": "outline",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "calendso": {
       "name": "calendso",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "dispo": {
       "name": "dispo",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "agir-back": {
       "name": "agir-back",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:05:51.357Z",
+      "completedAt": "2026-01-21T20:06:46.614Z"
     },
     "agir-front": {
       "name": "agir-front",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:06:46.990Z",
+      "completedAt": "2026-01-21T20:13:14.741Z"
     },
     "aplypro-keycloak": {
       "name": "aplypro-keycloak",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:13:15.238Z",
+      "completedAt": "2026-01-21T20:14:39.235Z"
     },
     "sillon": {
       "name": "sillon",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:14:39.599Z",
+      "completedAt": "2026-01-21T20:15:52.866Z"
     },
     "iban-tools": {
       "name": "iban-tools",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "deliverable": {
       "name": "deliverable",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mon-aide-cyber": {
       "name": "mon-aide-cyber",
@@ -4267,231 +4301,255 @@
     },
     "signalconso-siret-extractor": {
       "name": "signalconso-siret-extractor",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:58:31.532Z",
+      "completedAt": "2026-01-21T19:59:13.241Z"
     },
     "nextcloud-buildpack": {
       "name": "nextcloud-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "domibus": {
       "name": "domibus",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "django": {
       "name": "django",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "metabase-buildpack": {
       "name": "metabase-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "domibus-buildpack": {
       "name": "domibus-buildpack",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "anssi-nis2": {
       "name": "anssi-nis2",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T19:59:13.510Z",
+      "completedAt": "2026-01-21T20:00:07.235Z"
     },
     "campus-numerique-cms": {
       "name": "campus-numerique-cms",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:00:07.552Z",
+      "completedAt": "2026-01-21T20:01:05.987Z"
     },
     "api-particulier-demonstrateur": {
       "name": "api-particulier-demonstrateur",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:01:06.332Z",
+      "completedAt": "2026-01-21T20:01:48.826Z"
     },
     "monsuivijustice-backup-metabase": {
       "name": "monsuivijustice-backup-metabase",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "nodejs-buildpack": {
       "name": "nodejs-buildpack",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "jagis-mobile": {
-      "name": "jagis-mobile",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "jagis-mobile": {
+      "name": "jagis-mobile",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:01:49.114Z",
+      "completedAt": "2026-01-21T20:07:26.193Z"
     },
     "resorption-bidonvilles-blog": {
       "name": "resorption-bidonvilles-blog",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "agir-cms": {
-      "name": "agir-cms",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "agir-cms": {
+      "name": "agir-cms",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:07:26.522Z",
+      "completedAt": "2026-01-21T20:07:39.176Z"
     },
     "clamav-service": {
       "name": "clamav-service",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "anssi-demain-specialiste-cyber": {
-      "name": "anssi-demain-specialiste-cyber",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "anssi-demain-specialiste-cyber": {
+      "name": "anssi-demain-specialiste-cyber",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:07:39.463Z",
+      "completedAt": "2026-01-21T20:08:46.799Z"
     },
     "heroku-buildpack-flutter": {
       "name": "heroku-buildpack-flutter",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mon-aide-cyber-journal": {
       "name": "mon-aide-cyber-journal",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:08:47.093Z",
+      "completedAt": "2026-01-21T20:09:06.024Z"
     },
     "anssi-nis2-journal": {
       "name": "anssi-nis2-journal",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:09:06.275Z",
+      "completedAt": "2026-01-21T20:09:41.909Z"
     },
     "dsfr-feedback": {
       "name": "dsfr-feedback",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "espace-membre-next": {
       "name": "espace-membre-next",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:09:42.234Z",
+      "completedAt": "2026-01-21T20:11:15.610Z"
     },
     "complements-alimentaires": {
       "name": "complements-alimentaires",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:11:29.218Z",
+      "completedAt": "2026-01-21T20:13:40.013Z"
     },
     "mes-aides-data": {
       "name": "mes-aides-data",
       "status": "skipped",
-      "attemptCount": 0,
-      "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
-    },
-    "anssi-lab-utilitaires": {
-      "name": "anssi-lab-utilitaires",
-      "status": "pending",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "anssi-lab-utilitaires": {
+      "name": "anssi-lab-utilitaires",
+      "status": "completed",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "lastAttempt": "2026-01-21T20:13:40.245Z",
+      "completedAt": "2026-01-21T20:15:51.201Z"
     },
     "etabli": {
       "name": "etabli",
@@ -4514,12 +4572,12 @@
     "cal.com-test": {
       "name": "cal.com-test",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "grist-custom-widgets-fr-admin": {
       "name": "grist-custom-widgets-fr-admin",
@@ -4533,12 +4591,12 @@
     "cap": {
       "name": "cap",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "reno": {
       "name": "reno",
@@ -4552,22 +4610,22 @@
     "marIAnne": {
       "name": "marIAnne",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "cal.com": {
       "name": "cal.com",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "chatwoot": {
       "name": "chatwoot",
@@ -4581,12 +4639,12 @@
     "site-aic-v2": {
       "name": "site-aic-v2",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "ansible-pole-api": {
       "name": "ansible-pole-api",
@@ -4600,12 +4658,12 @@
     "animation-communaute": {
       "name": "animation-communaute",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "sentry-mattermost": {
       "name": "sentry-mattermost",
@@ -4628,22 +4686,22 @@
     "aplypro-nextcloud": {
       "name": "aplypro-nextcloud",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mediation-logement": {
       "name": "mediation-logement",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "monstagedeseconde": {
       "name": "monstagedeseconde",
@@ -4675,42 +4733,42 @@
     "monstage-swagger-troisieme": {
       "name": "monstage-swagger-troisieme",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "ragga": {
       "name": "ragga",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "tous-a-bord-demo-cnaf": {
       "name": "tous-a-bord-demo-cnaf",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "monstage-swagger-seconde": {
       "name": "monstage-swagger-seconde",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "maestro": {
       "name": "maestro",
@@ -4751,12 +4809,12 @@
     "demo-scalingo-python-node-nginx": {
       "name": "demo-scalingo-python-node-nginx",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "compte-rendu-vif": {
       "name": "compte-rendu-vif",
@@ -4770,22 +4828,22 @@
     "vaultwarden": {
       "name": "vaultwarden",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "cards": {
       "name": "cards",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "navigateur-trop-ancien": {
       "name": "navigateur-trop-ancien",
@@ -4799,12 +4857,12 @@
     "decap-cms": {
       "name": "decap-cms",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "aides-jeunes-files": {
       "name": "aides-jeunes-files",
@@ -4836,52 +4894,52 @@
     "prelevement-deau-airflow": {
       "name": "prelevement-deau-airflow",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "hackathon-dsn": {
       "name": "hackathon-dsn",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "Ressources-techniques": {
       "name": "Ressources-techniques",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "totp": {
       "name": "totp",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mec-connect": {
       "name": "mec-connect",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "ComparIA": {
       "name": "ComparIA",
@@ -4931,12 +4989,12 @@
     "signalconso-antivirus": {
       "name": "signalconso-antivirus",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "infomedicament": {
       "name": "infomedicament",
@@ -4959,12 +5017,12 @@
     "service-national-universel-test-technique": {
       "name": "service-national-universel-test-technique",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "pr-reviews-reminder-action": {
       "name": "pr-reviews-reminder-action",
@@ -4996,12 +5054,12 @@
     "rdv-service-public-screenshots": {
       "name": "rdv-service-public-screenshots",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "publicodes-voiture": {
       "name": "publicodes-voiture",
@@ -5069,12 +5127,12 @@
     "maestro-metabase": {
       "name": "maestro-metabase",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "hackaton-ds-exploration": {
       "name": "hackaton-ds-exploration",
@@ -5169,12 +5227,12 @@
     "logstash-rdv-service-public": {
       "name": "logstash-rdv-service-public",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "communs-de-la-transition-ecologique-des-collectivites": {
       "name": "communs-de-la-transition-ecologique-des-collectivites",
@@ -5197,12 +5255,12 @@
     "atelier-tests-auto-a11y": {
       "name": "atelier-tests-auto-a11y",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "anssi-portail": {
       "name": "anssi-portail",
@@ -5225,12 +5283,12 @@
     "jamstack-loader": {
       "name": "jamstack-loader",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mle-front": {
       "name": "mle-front",
@@ -5253,12 +5311,12 @@
     "eval-menu": {
       "name": "eval-menu",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "assistant-declaration": {
       "name": "assistant-declaration",
@@ -5281,12 +5339,12 @@
     "dsfr-doc": {
       "name": "dsfr-doc",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "mon-indemnisation-justice": {
       "name": "mon-indemnisation-justice",
@@ -5318,12 +5376,12 @@
     "seves-schemas": {
       "name": "seves-schemas",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "decoupage-administratif-gem": {
       "name": "decoupage-administratif-gem",
@@ -5346,12 +5404,12 @@
     "schema-aide": {
       "name": "schema-aide",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "aides-agri": {
       "name": "aides-agri",
@@ -5383,12 +5441,12 @@
     "mon-devis-sans-oublis": {
       "name": "mon-devis-sans-oublis",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "dsfr-assets": {
       "name": "dsfr-assets",
@@ -5564,12 +5622,12 @@
     "sentry-on-heroku": {
       "name": "sentry-on-heroku",
       "status": "skipped",
+      "error": "Inactive: no commits in last 365 days",
       "attemptCount": 0,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "error": "Inactive: no commits in last 365 days"
+      }
     },
     "sentry": {
       "name": "sentry",
