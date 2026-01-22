@@ -249,7 +249,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-22T10:03:55.867Z"
     },
     "discourse-oauth2-basic": {
       "name": "discourse-oauth2-basic",
@@ -373,7 +374,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-22T09:43:20.057Z"
     },
     "domain-scan": {
       "name": "domain-scan",
@@ -509,7 +511,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-22T09:47:58.191Z"
     },
     "api-drones": {
       "name": "api-drones",
@@ -645,7 +648,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-22T09:48:05.072Z"
     },
     "slack-ovh": {
       "name": "slack-ovh",
@@ -657,7 +661,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-22T09:48:12.016Z"
     },
     "securite-numerique-agile": {
       "name": "securite-numerique-agile",
