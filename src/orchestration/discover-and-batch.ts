@@ -47,6 +47,14 @@ async function discoverRepos(
     console.log(`Filtered to ${filteredRepos.length} repos (exclude list)`);
   }
 
+  // Update githubPushedAt for ALL repos (before activity filtering)
+  // This ensures we always have the latest GitHub state for sync detection
+  const allReposWithPushedAt = filteredRepos.map((r) => ({
+    name: r.name,
+    pushedAt: r.pushedAt ?? undefined,
+  }));
+  stateManager.addReposWithPushedAt(allReposWithPushedAt);
+
   // Filter by activity (exclude repos with no commits in the last X days)
   // Also mark existing pending repos as skipped if they are now inactive
   if (excludeInactiveDays > 0) {
@@ -54,12 +62,6 @@ async function discoverRepos(
     cutoffDate.setDate(cutoffDate.getDate() - excludeInactiveDays);
 
     const beforeCount = filteredRepos.length;
-
-    // Build a map of repo name -> pushedAt for inactive check
-    const repoActivityMap = new Map<string, Date | null>();
-    for (const repo of filteredRepos) {
-      repoActivityMap.set(repo.name, repo.pushedAt ? new Date(repo.pushedAt) : null);
-    }
 
     filteredRepos = filteredRepos.filter((repo) => {
       if (!repo.pushedAt) return false;
@@ -85,12 +87,6 @@ async function discoverRepos(
     }
   }
 
-  // Add repos with pushed_at to state (tracks activity for sync detection)
-  const reposWithPushedAt = filteredRepos.map((r) => ({
-    name: r.name,
-    pushedAt: r.pushedAt ?? undefined,
-  }));
-  stateManager.addReposWithPushedAt(reposWithPushedAt);
   await stateManager.save();
 
   return filteredRepos.map((r) => r.name);
@@ -138,7 +134,8 @@ async function main() {
   // Get repos to process (failed retryable + pending + optionally needing sync)
   const reposToProcess = stateManager.getReposToProcess(
     maxBatches * config.batchSize,
-    enableSync
+    enableSync,
+    excludeInactiveDays
   );
 
   if (enableSync) {
@@ -161,7 +158,7 @@ async function main() {
     totalBatches: batches.length,
     batchesToRun: batchesToRun.length,
     batches: batchesToRun,
-    stats: stateManager.getStats(),
+    stats: stateManager.getStats(excludeInactiveDays),
   };
 
   await writeFile(outputPath, JSON.stringify(output, null, 2));
@@ -183,7 +180,7 @@ async function main() {
   }
 
   // Print summary
-  const stats = stateManager.getStats();
+  const stats = stateManager.getStats(excludeInactiveDays);
   console.log("\n--- Migration State Summary ---");
   console.log(`Total repos tracked: ${stats.total}`);
   console.log(`Pending: ${stats.pending}`);

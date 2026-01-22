@@ -222,12 +222,28 @@ export class StateManager {
       .map((r) => r.name);
   }
 
-  getReposNeedingSync(): string[] {
+  getReposNeedingSync(excludeInactiveDays = 0): string[] {
+    const cutoffDate = excludeInactiveDays > 0
+      ? new Date(Date.now() - excludeInactiveDays * 24 * 60 * 60 * 1000)
+      : null;
+
     return Object.values(this.state.repos)
       .filter((r) => {
         if (r.status !== "completed") return false;
+
+        // Exclude inactive repos if cutoff is set
+        if (cutoffDate && r.githubPushedAt) {
+          const pushedAt = new Date(r.githubPushedAt);
+          if (pushedAt < cutoffDate) return false;
+        }
+
         // If no lastSyncedAt, it's a legacy completed repo that needs tracking
-        if (!r.lastSyncedAt) return true;
+        // But only if it's active (checked above)
+        if (!r.lastSyncedAt) {
+          // For legacy repos, only include if we have githubPushedAt (meaning it was seen in discovery)
+          return !!r.githubPushedAt;
+        }
+
         // If GitHub has newer commits than our last sync
         if (r.githubPushedAt) {
           const pushedAt = new Date(r.githubPushedAt);
@@ -239,17 +255,17 @@ export class StateManager {
       .map((r) => r.name);
   }
 
-  getReposToProcess(maxCount: number, includeNeedingSync = false): string[] {
+  getReposToProcess(maxCount: number, includeNeedingSync = false, excludeInactiveDays = 0): string[] {
     // Priority: retryable failed repos first, then pending, then needing sync
     const retryable = this.getRetryableRepos();
     const pending = this.getPendingRepos();
-    const needingSync = includeNeedingSync ? this.getReposNeedingSync() : [];
+    const needingSync = includeNeedingSync ? this.getReposNeedingSync(excludeInactiveDays) : [];
 
     const combined = [...retryable, ...pending, ...needingSync];
     return combined.slice(0, maxCount);
   }
 
-  getStats(): {
+  getStats(excludeInactiveDays = 0): {
     total: number;
     pending: number;
     inProgress: number;
@@ -266,7 +282,7 @@ export class StateManager {
       completed: repos.filter((r) => r.status === "completed").length,
       failed: repos.filter((r) => r.status === "failed").length,
       skipped: repos.filter((r) => r.status === "skipped").length,
-      needingSync: this.getReposNeedingSync().length,
+      needingSync: this.getReposNeedingSync(excludeInactiveDays).length,
     };
   }
 }
