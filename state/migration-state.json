@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-01-22T09:23:05.757Z",
+  "lastDiscovery": "2026-01-22T09:36:17.929Z",
   "totalRepos": 565,
   "repos": {
     "aides-jeunes": {
@@ -16,7 +16,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T12:06:53Z"
     },
     "openfisca-france": {
       "name": "openfisca-france",
@@ -246,7 +247,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:18:05Z"
     },
     "discourse-oauth2-basic": {
       "name": "discourse-oauth2-basic",
@@ -283,7 +285,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-07T14:26:56Z"
     },
     "retraite": {
       "name": "retraite",
@@ -309,7 +312,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-06T09:19:40Z"
     },
     "mes-aides-analytics": {
       "name": "mes-aides-analytics",
@@ -322,7 +326,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-18T08:07:16Z"
     },
     "mon-entreprise": {
       "name": "mon-entreprise",
@@ -335,7 +340,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T22:46:13Z"
     },
     "boussole": {
       "name": "boussole",
@@ -361,7 +367,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-05T21:21:49Z"
     },
     "domain-scan": {
       "name": "domain-scan",
@@ -496,7 +503,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:32:07Z"
     },
     "api-drones": {
       "name": "api-drones",
@@ -631,7 +639,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T17:57:31Z"
     },
     "slack-ovh": {
       "name": "slack-ovh",
@@ -642,7 +651,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-23T10:33:25Z"
     },
     "securite-numerique-agile": {
       "name": "securite-numerique-agile",
@@ -785,7 +795,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T10:05:39Z"
     },
     "mes-aides-out": {
       "name": "mes-aides-out",
@@ -961,7 +972,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-20T08:53:54Z"
     },
     "ClasseA12": {
       "name": "ClasseA12",
@@ -994,7 +1006,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T16:33:00Z"
     },
     "e-controle": {
       "name": "e-controle",
@@ -1072,7 +1085,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-27T15:10:16Z"
     },
     "redux-react-modals": {
       "name": "redux-react-modals",
@@ -1143,7 +1157,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-27T16:10:26Z"
     },
     "eva-serveur": {
       "name": "eva-serveur",
@@ -1154,7 +1169,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:30:43Z"
     },
     "react-loading-infinite-scroller": {
       "name": "react-loading-infinite-scroller",
@@ -1298,7 +1314,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T14:03:17Z"
     },
     "dossiersco.fr": {
       "name": "dossiersco.fr",
@@ -1393,7 +1410,8 @@
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:20:05Z"
     },
     "anpy": {
       "name": "anpy",
@@ -1717,7 +1735,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-23T11:27:16Z"
     },
     "e-controle-load-test": {
       "name": "e-controle-load-test",
@@ -1847,7 +1866,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T17:13:04Z"
     },
     "webconf": {
       "name": "webconf",
@@ -1989,7 +2009,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T11:17:03Z"
     },
     "matomo": {
       "name": "matomo",
@@ -2040,7 +2061,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-01T10:25:41Z"
     },
     "loomio": {
       "name": "loomio",
@@ -2092,7 +2114,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:28:51Z"
     },
     "relance-transformation": {
       "name": "relance-transformation",
@@ -2170,7 +2193,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-02T12:39:47Z"
     },
     "renforts": {
       "name": "renforts",
@@ -2209,7 +2233,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:16:47Z"
     },
     "glossaire": {
       "name": "glossaire",
@@ -2261,7 +2286,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T03:53:17Z"
     },
     "comobi-core": {
       "name": "comobi-core",
@@ -2313,7 +2339,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T00:48:07Z"
     },
     "tarn.comobi.fr": {
       "name": "tarn.comobi.fr",
@@ -2430,7 +2457,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-08-14T08:57:05Z"
     },
     "matomo-scalingo-deploy": {
       "name": "matomo-scalingo-deploy",
@@ -2443,7 +2471,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-13T14:20:12Z"
     },
     "recosante": {
       "name": "recosante",
@@ -2521,7 +2550,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:55:02Z"
     },
     "n8n-scalingo": {
       "name": "n8n-scalingo",
@@ -2534,7 +2564,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-02T11:20:29Z"
     },
     "comobi": {
       "name": "comobi",
@@ -2729,7 +2760,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T01:16:44Z"
     },
     "nocodb-seed": {
       "name": "nocodb-seed",
@@ -2768,7 +2800,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T01:18:28Z"
     },
     "api-sante-data": {
       "name": "api-sante-data",
@@ -2807,7 +2840,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-29T08:56:13Z"
     },
     "france-chaleur-urbaine": {
       "name": "france-chaleur-urbaine",
@@ -2820,7 +2854,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T14:49:37Z"
     },
     "domaines-api": {
       "name": "domaines-api",
@@ -2949,7 +2984,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T01:48:01Z"
     },
     "reva": {
       "name": "reva",
@@ -2962,7 +2998,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:34:37Z"
     },
     "euphrosyne": {
       "name": "euphrosyne",
@@ -2975,7 +3012,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T06:22:52Z"
     },
     "locadocs": {
       "name": "locadocs",
@@ -3102,7 +3140,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-29T09:26:00Z"
     },
     "Django_oidc_id_provider": {
       "name": "Django_oidc_id_provider",
@@ -3189,7 +3228,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-25T18:15:12Z"
     },
     "nexauth": {
       "name": "nexauth",
@@ -3211,7 +3251,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:34:08Z"
     },
     "collectif-objets": {
       "name": "collectif-objets",
@@ -3222,7 +3263,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T02:46:40Z"
     },
     "delta-v": {
       "name": "delta-v",
@@ -3233,7 +3275,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-16T10:59:31Z"
     },
     "awesome-betagouv": {
       "name": "awesome-betagouv",
@@ -3244,7 +3287,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T18:57:17Z"
     },
     "scalingo-errbot-buildpack": {
       "name": "scalingo-errbot-buildpack",
@@ -3376,7 +3420,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-29T18:01:44Z"
     },
     "hubot-matteruser": {
       "name": "hubot-matteruser",
@@ -3420,7 +3465,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T14:21:13Z"
     },
     "sync-beta-api-postgre": {
       "name": "sync-beta-api-postgre",
@@ -3486,7 +3532,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-02-05T22:12:28Z"
     },
     "collectif-objets-datasette": {
       "name": "collectif-objets-datasette",
@@ -3508,7 +3555,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-09-09T13:06:57Z"
     },
     "aides-jeunes-experimentations": {
       "name": "aides-jeunes-experimentations",
@@ -3519,7 +3567,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-24T11:04:14Z"
     },
     "node-plantuml": {
       "name": "node-plantuml",
@@ -3541,7 +3590,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-14T15:30:22Z"
     },
     "chaskiq": {
       "name": "chaskiq",
@@ -3574,7 +3624,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T18:03:54Z"
     },
     "jeveuxaider-back": {
       "name": "jeveuxaider-back",
@@ -3585,7 +3636,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T11:47:27Z"
     },
     "budget-show": {
       "name": "budget-show",
@@ -3673,7 +3725,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-26T23:26:35Z"
     },
     "msj-public-back": {
       "name": "msj-public-back",
@@ -3684,7 +3737,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-17T18:57:34Z"
     },
     "aides-jeunes-explorations-caf": {
       "name": "aides-jeunes-explorations-caf",
@@ -3715,7 +3769,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-01-31T15:42:27Z"
     },
     "recoco-portails": {
       "name": "recoco-portails",
@@ -3726,7 +3781,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-15T07:34:19Z"
     },
     "commaute-xp-stats": {
       "name": "commaute-xp-stats",
@@ -3747,7 +3803,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-01-27T09:38:17Z"
     },
     "portail-rse": {
       "name": "portail-rse",
@@ -3758,7 +3815,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T16:50:52Z"
     },
     "signalconso-published": {
       "name": "signalconso-published",
@@ -3839,7 +3897,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T16:53:58Z"
     },
     "python-buildpack": {
       "name": "python-buildpack",
@@ -3880,7 +3939,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T05:23:30Z"
     },
     "matrix-js-sdk-fork": {
       "name": "matrix-js-sdk-fork",
@@ -3921,7 +3981,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-01-27T10:58:35Z"
     },
     "hat": {
       "name": "hat",
@@ -3952,7 +4013,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-05T12:46:38Z"
     },
     "betagouv-express-ops-bot": {
       "name": "betagouv-express-ops-bot",
@@ -4093,7 +4155,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-30T19:59:40Z"
     },
     "CNR_orga": {
       "name": "CNR_orga",
@@ -4114,7 +4177,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-02T04:13:58Z"
     },
     "cybersecu-guide": {
       "name": "cybersecu-guide",
@@ -4135,7 +4199,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-16T16:01:09Z"
     },
     "mission-transition-ecologique": {
       "name": "mission-transition-ecologique",
@@ -4146,7 +4211,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T04:31:28Z"
     },
     "dashlord-dotations-locales": {
       "name": "dashlord-dotations-locales",
@@ -4157,7 +4223,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-02T01:55:54Z"
     },
     "aplypro-mock-data": {
       "name": "aplypro-mock-data",
@@ -4168,7 +4235,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-10T20:53:14Z"
     },
     "ameliorer-mon-produit": {
       "name": "ameliorer-mon-produit",
@@ -4239,7 +4307,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T20:04:47Z"
     },
     "agir-front": {
       "name": "agir-front",
@@ -4250,7 +4319,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-24T18:38:38Z"
     },
     "aplypro-keycloak": {
       "name": "aplypro-keycloak",
@@ -4261,7 +4331,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-08T11:30:34Z"
     },
     "sillon": {
       "name": "sillon",
@@ -4272,7 +4343,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-09T08:58:54Z"
     },
     "iban-tools": {
       "name": "iban-tools",
@@ -4303,7 +4375,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:33:08Z"
     },
     "signalconso-siret-extractor": {
       "name": "signalconso-siret-extractor",
@@ -4314,7 +4387,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-07T14:17:22Z"
     },
     "nextcloud-buildpack": {
       "name": "nextcloud-buildpack",
@@ -4375,7 +4449,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-19T08:57:31Z"
     },
     "campus-numerique-cms": {
       "name": "campus-numerique-cms",
@@ -4386,7 +4461,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-07T18:23:50Z"
     },
     "api-particulier-demonstrateur": {
       "name": "api-particulier-demonstrateur",
@@ -4397,7 +4473,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-12T15:01:34Z"
     },
     "monsuivijustice-backup-metabase": {
       "name": "monsuivijustice-backup-metabase",
@@ -4428,7 +4505,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-01T06:42:18Z"
     },
     "resorption-bidonvilles-blog": {
       "name": "resorption-bidonvilles-blog",
@@ -4449,7 +4527,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-09-03T09:30:59Z"
     },
     "clamav-service": {
       "name": "clamav-service",
@@ -4470,7 +4549,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-14T13:00:05Z"
     },
     "heroku-buildpack-flutter": {
       "name": "heroku-buildpack-flutter",
@@ -4491,7 +4571,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-04T14:38:17Z"
     },
     "anssi-nis2-journal": {
       "name": "anssi-nis2-journal",
@@ -4502,7 +4583,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-08T15:10:13Z"
     },
     "dsfr-feedback": {
       "name": "dsfr-feedback",
@@ -4523,7 +4605,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:22:00Z"
     },
     "complements-alimentaires": {
       "name": "complements-alimentaires",
@@ -4534,7 +4617,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T10:37:40Z"
     },
     "mes-aides-data": {
       "name": "mes-aides-data",
@@ -4555,7 +4639,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T10:12:56Z"
     },
     "etabli": {
       "name": "etabli",
@@ -4566,7 +4651,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-18T12:00:29Z"
     },
     "euphrosyne-digilab": {
       "name": "euphrosyne-digilab",
@@ -4577,7 +4663,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T14:38:48Z"
     },
     "cal.com-test": {
       "name": "cal.com-test",
@@ -4598,7 +4685,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T09:07:31Z"
     },
     "cap": {
       "name": "cap",
@@ -4619,7 +4707,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-18T10:46:03Z"
     },
     "marIAnne": {
       "name": "marIAnne",
@@ -4650,7 +4739,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-07-10T13:59:24Z"
     },
     "site-aic-v2": {
       "name": "site-aic-v2",
@@ -4671,7 +4761,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-20T14:05:22Z"
     },
     "animation-communaute": {
       "name": "animation-communaute",
@@ -4692,7 +4783,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-08-25T18:55:36Z"
     },
     "pitchou": {
       "name": "pitchou",
@@ -4703,7 +4795,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:35:01Z"
     },
     "aplypro-nextcloud": {
       "name": "aplypro-nextcloud",
@@ -4734,7 +4827,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:36:03Z"
     },
     "pass-sport": {
       "name": "pass-sport",
@@ -4745,7 +4839,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-13T11:01:21Z"
     },
     "betamap": {
       "name": "betamap",
@@ -4756,7 +4851,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-17T01:00:11Z"
     },
     "monstage-swagger-troisieme": {
       "name": "monstage-swagger-troisieme",
@@ -4807,7 +4903,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T00:15:48Z"
     },
     "monprojetsup": {
       "name": "monprojetsup",
@@ -4818,7 +4915,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T09:04:53Z"
     },
     "template-nextjs": {
       "name": "template-nextjs",
@@ -4829,7 +4927,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-07-07T08:04:54Z"
     },
     "seves": {
       "name": "seves",
@@ -4840,7 +4939,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:28:08Z"
     },
     "demo-scalingo-python-node-nginx": {
       "name": "demo-scalingo-python-node-nginx",
@@ -4861,7 +4961,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T15:06:03Z"
     },
     "vaultwarden": {
       "name": "vaultwarden",
@@ -4892,7 +4993,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-06T13:48:14Z"
     },
     "decap-cms": {
       "name": "decap-cms",
@@ -4913,7 +5015,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-23T12:09:30Z"
     },
     "agir-ref": {
       "name": "agir-ref",
@@ -4924,7 +5027,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-01T14:08:15Z"
     },
     "anssi-lab-entretien-technique": {
       "name": "anssi-lab-entretien-technique",
@@ -4935,7 +5039,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-09-17T10:00:24Z"
     },
     "prelevement-deau-airflow": {
       "name": "prelevement-deau-airflow",
@@ -4996,7 +5101,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T16:23:34Z"
     },
     "1jeune1arbre": {
       "name": "1jeune1arbre",
@@ -5007,7 +5113,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-01-23T10:41:18Z"
     },
     "figpot": {
       "name": "figpot",
@@ -5018,7 +5125,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-23T17:14:45Z"
     },
     "multi-schema-postgres-etl": {
       "name": "multi-schema-postgres-etl",
@@ -5029,7 +5137,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-27T07:32:50Z"
     },
     "science-infuse": {
       "name": "science-infuse",
@@ -5040,7 +5149,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T10:46:49Z"
     },
     "signalconso-antivirus": {
       "name": "signalconso-antivirus",
@@ -5061,7 +5171,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T16:55:33Z"
     },
     "docurba-nuxt3": {
       "name": "docurba-nuxt3",
@@ -5072,7 +5183,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T20:01:18Z"
     },
     "service-national-universel-test-technique": {
       "name": "service-national-universel-test-technique",
@@ -5093,7 +5205,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-02-19T23:57:30Z"
     },
     "audiodescription": {
       "name": "audiodescription",
@@ -5104,7 +5217,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T14:56:57Z"
     },
     "france-chaleur-urbaine-publicodes": {
       "name": "france-chaleur-urbaine-publicodes",
@@ -5115,7 +5229,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T10:49:53Z"
     },
     "rdv-service-public-screenshots": {
       "name": "rdv-service-public-screenshots",
@@ -5136,7 +5251,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T20:24:00Z"
     },
     "agir-voiture": {
       "name": "agir-voiture",
@@ -5147,7 +5263,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-02T03:43:20Z"
     },
     "penpot-dsfr": {
       "name": "penpot-dsfr",
@@ -5158,7 +5275,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-06T22:16:45Z"
     },
     "matomo-to-pg": {
       "name": "matomo-to-pg",
@@ -5169,7 +5287,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-07-01T09:50:16Z"
     },
     "zacharie": {
       "name": "zacharie",
@@ -5180,7 +5299,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T19:21:18Z"
     },
     "agir.github.io": {
       "name": "agir.github.io",
@@ -5191,7 +5311,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-21T15:29:05Z"
     },
     "api_gouv_swaggers": {
       "name": "api_gouv_swaggers",
@@ -5202,7 +5323,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T14:26:32Z"
     },
     "maestro-metabase": {
       "name": "maestro-metabase",
@@ -5223,7 +5345,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-20T11:34:55Z"
     },
     "SCDL-subventions-DataSubvention": {
       "name": "SCDL-subventions-DataSubvention",
@@ -5234,7 +5357,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-23T12:56:16Z"
     },
     "fondation": {
       "name": "fondation",
@@ -5245,7 +5369,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T13:20:57Z"
     },
     "sites-faciles": {
       "name": "sites-faciles",
@@ -5256,7 +5381,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T10:34:12Z"
     },
     "gestion-des-subventions-locales": {
       "name": "gestion-des-subventions-locales",
@@ -5267,7 +5393,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T13:30:04Z"
     },
     "VApp": {
       "name": "VApp",
@@ -5278,7 +5405,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-14T14:09:57Z"
     },
     "grist-utils": {
       "name": "grist-utils",
@@ -5289,7 +5417,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-15T01:02:08Z"
     },
     "agir-mesaidesvelo": {
       "name": "agir-mesaidesvelo",
@@ -5300,7 +5429,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-04T18:03:34Z"
     },
     "kube-dev": {
       "name": "kube-dev",
@@ -5311,7 +5441,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-16T14:18:18Z"
     },
     "publicodes-aides-velo": {
       "name": "publicodes-aides-velo",
@@ -5322,7 +5453,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-16T17:18:10Z"
     },
     "logstash-rdv-service-public": {
       "name": "logstash-rdv-service-public",
@@ -5343,7 +5475,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T17:16:58Z"
     },
     "anssi-recommandations-cyber": {
       "name": "anssi-recommandations-cyber",
@@ -5354,7 +5487,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:02:41Z"
     },
     "atelier-tests-auto-a11y": {
       "name": "atelier-tests-auto-a11y",
@@ -5375,7 +5509,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:32:21Z"
     },
     "poc-communs-projets-levier": {
       "name": "poc-communs-projets-levier",
@@ -5386,7 +5521,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-09T16:01:05Z"
     },
     "jamstack-loader": {
       "name": "jamstack-loader",
@@ -5407,7 +5543,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T16:52:49Z"
     },
     "mle-back": {
       "name": "mle-back",
@@ -5418,7 +5555,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T16:27:22Z"
     },
     "eval-menu": {
       "name": "eval-menu",
@@ -5439,7 +5577,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-15T21:57:43Z"
     },
     "mon-profil-anssi": {
       "name": "mon-profil-anssi",
@@ -5450,7 +5589,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-06T08:39:46Z"
     },
     "dsfr-doc": {
       "name": "dsfr-doc",
@@ -5471,7 +5611,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T10:22:01Z"
     },
     "ota-produits-declarations": {
       "name": "ota-produits-declarations",
@@ -5482,7 +5623,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-11T06:21:18Z"
     },
     "dashlord": {
       "name": "dashlord",
@@ -5493,7 +5635,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T01:18:28Z"
     },
     "seves-schemas": {
       "name": "seves-schemas",
@@ -5514,7 +5657,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-15T12:55:07Z"
     },
     "grist-core": {
       "name": "grist-core",
@@ -5525,7 +5669,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T16:11:27Z"
     },
     "schema-aide": {
       "name": "schema-aide",
@@ -5546,7 +5691,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:00:00Z"
     },
     "dsfr-form-builder": {
       "name": "dsfr-form-builder",
@@ -5557,7 +5703,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T16:40:08Z"
     },
     "seves-documentation": {
       "name": "seves-documentation",
@@ -5568,7 +5715,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-27T12:05:48Z"
     },
     "mon-devis-sans-oublis": {
       "name": "mon-devis-sans-oublis",
@@ -5589,7 +5737,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-15T09:26:22Z"
     },
     "new-rails-template": {
       "name": "new-rails-template",
@@ -5600,7 +5749,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-08-21T09:00:35Z"
     },
     "publicodes-aides-voiture": {
       "name": "publicodes-aides-voiture",
@@ -5611,7 +5761,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-01-24T11:35:43Z"
     },
     "publicodes-decoupage-administratif": {
       "name": "publicodes-decoupage-administratif",
@@ -5622,7 +5773,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-01-27T16:33:13Z"
     },
     "tous-a-bord-data": {
       "name": "tous-a-bord-data",
@@ -5633,7 +5785,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-27T09:26:54Z"
     },
     "aides-simulateur-front": {
       "name": "aides-simulateur-front",
@@ -5644,7 +5797,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-22T10:03:36Z"
     },
     "maestro-wordpress": {
       "name": "maestro-wordpress",
@@ -5655,7 +5809,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-02T12:49:09Z"
     },
     "aides-calculatrice-back": {
       "name": "aides-calculatrice-back",
@@ -5666,7 +5821,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-10T13:33:14Z"
     },
     "braveau-grist-widget": {
       "name": "braveau-grist-widget",
@@ -5677,7 +5833,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-02-06T18:45:14Z"
     },
     "place-asile": {
       "name": "place-asile",
@@ -5688,7 +5845,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T17:24:45Z"
     },
     "commits": {
       "name": "commits",
@@ -5699,7 +5857,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-02-10T08:34:14Z"
     },
     "acces-cible": {
       "name": "acces-cible",
@@ -5710,7 +5869,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:08:55Z"
     },
     "portail-rse-externe": {
       "name": "portail-rse-externe",
@@ -5721,7 +5881,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-11T17:09:52Z"
     },
     "recoco-sync": {
       "name": "recoco-sync",
@@ -5732,7 +5893,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-26T06:04:01Z"
     },
     "grist-budget-agriculture": {
       "name": "grist-budget-agriculture",
@@ -5743,7 +5905,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-10T08:27:25Z"
     },
     "standards": {
       "name": "standards",
@@ -5754,7 +5917,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-07T11:18:02Z"
     },
     "lab-anssi-ui-kit": {
       "name": "lab-anssi-ui-kit",
@@ -5765,7 +5929,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:31:20Z"
     },
     "mes-services-cyber-journal": {
       "name": "mes-services-cyber-journal",
@@ -5776,7 +5941,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-04T13:21:58Z"
     },
     "sites-faciles-spe": {
       "name": "sites-faciles-spe",
@@ -5787,7 +5953,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-30T10:29:40Z"
     },
     "sentry-on-heroku": {
       "name": "sentry-on-heroku",
@@ -5808,7 +5975,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-17T15:49:05Z"
     },
     "self-hosted": {
       "name": "self-hosted",
@@ -5819,7 +5987,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-17T14:33:47Z"
     },
     "django-grist-loader": {
       "name": "django-grist-loader",
@@ -5830,7 +5999,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-03T12:31:49Z"
     },
     "mozilla-django-oidc": {
       "name": "mozilla-django-oidc",
@@ -5841,7 +6011,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-23T09:38:57Z"
     },
     "lab-anssi-admin": {
       "name": "lab-anssi-admin",
@@ -5852,7 +6023,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-06T16:14:36Z"
     },
     "aides-simplifiees-app": {
       "name": "aides-simplifiees-app",
@@ -5863,7 +6035,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-10T12:13:02Z"
     },
     "chordee-proxy": {
       "name": "chordee-proxy",
@@ -5874,7 +6047,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-07T13:34:23Z"
     },
     "diagbruit.beta.gouv.fr": {
       "name": "diagbruit.beta.gouv.fr",
@@ -5885,7 +6059,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T11:09:31Z"
     },
     "schema-projet-collectivites-transition-ecologique": {
       "name": "schema-projet-collectivites-transition-ecologique",
@@ -5896,7 +6071,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-20T15:05:13Z"
     },
     "espace-membre-storybook": {
       "name": "espace-membre-storybook",
@@ -5907,7 +6083,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-08T13:47:26Z"
     },
     "Mistral-penal": {
       "name": "Mistral-penal",
@@ -5918,7 +6095,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-04-21T06:32:27Z"
     },
     "depots-sauvages": {
       "name": "depots-sauvages",
@@ -5929,7 +6107,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T15:04:55Z"
     },
     "lab-anssi-lib": {
       "name": "lab-anssi-lib",
@@ -5940,7 +6119,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-06T08:32:25Z"
     },
     "standards-front": {
       "name": "standards-front",
@@ -5951,7 +6131,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T19:54:48Z"
     },
     "suivi_dtnum_datapass": {
       "name": "suivi_dtnum_datapass",
@@ -5962,7 +6143,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-03T15:18:14Z"
     },
     "grist-doc-wk-exporter": {
       "name": "grist-doc-wk-exporter",
@@ -5973,7 +6155,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-06T19:24:05Z"
     },
     "omniauth-proconnect": {
       "name": "omniauth-proconnect",
@@ -5984,7 +6167,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-05T13:57:29Z"
     },
     "datas-a-just": {
       "name": "datas-a-just",
@@ -5995,7 +6179,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-14T10:34:23Z"
     },
     "lab-anssi-anti-typosquatting": {
       "name": "lab-anssi-anti-typosquatting",
@@ -6006,7 +6191,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-07T12:54:46Z"
     },
     "lasuite-guest-guesser": {
       "name": "lasuite-guest-guesser",
@@ -6017,7 +6203,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-05-15T15:10:26Z"
     },
     "doc.incubateur.net-alliance": {
       "name": "doc.incubateur.net-alliance",
@@ -6028,7 +6215,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-12T17:00:48Z"
     },
     "activerecord_defer_persist": {
       "name": "activerecord_defer_persist",
@@ -6039,7 +6227,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-02T12:47:52Z"
     },
     "omniauth-proconnect-demo": {
       "name": "omniauth-proconnect-demo",
@@ -6050,7 +6239,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-21T03:17:38Z"
     },
     "grist-grav": {
       "name": "grist-grav",
@@ -6061,7 +6251,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-06T14:01:25Z"
     },
     "anssi-tutelles": {
       "name": "anssi-tutelles",
@@ -6072,7 +6263,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-12T15:24:22Z"
     },
     "OTP-DS-to-Grist": {
       "name": "OTP-DS-to-Grist",
@@ -6083,7 +6275,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T18:47:42Z"
     },
     "grist-help": {
       "name": "grist-help",
@@ -6094,7 +6287,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-06-17T12:50:39Z"
     },
     "grist-cron-grist-to-brevo": {
       "name": "grist-cron-grist-to-brevo",
@@ -6105,7 +6299,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-08T14:31:20Z"
     },
     "betagouv-cucumber-steps": {
       "name": "betagouv-cucumber-steps",
@@ -6116,7 +6311,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-08-20T15:57:31Z"
     },
     "euphrosyne-herma": {
       "name": "euphrosyne-herma",
@@ -6127,7 +6323,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-07-22T13:51:32Z"
     },
     "atelier-formulaires-a11y": {
       "name": "atelier-formulaires-a11y",
@@ -6138,7 +6335,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-07-21T14:18:30Z"
     },
     "grist-static": {
       "name": "grist-static",
@@ -6149,7 +6347,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-07-31T15:06:24Z"
     },
     "document-ia": {
       "name": "document-ia",
@@ -6160,7 +6359,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-20T14:16:39Z"
     },
     "mastra-beta": {
       "name": "mastra-beta",
@@ -6171,7 +6371,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-07T22:24:37Z"
     },
     "csplab": {
       "name": "csplab",
@@ -6182,7 +6383,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:20:15Z"
     },
     "anssi-demain-specialiste-cyber-journal": {
       "name": "anssi-demain-specialiste-cyber-journal",
@@ -6193,7 +6395,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-04T15:05:33Z"
     },
     "france-chaleur-urbaine-scalingo-buildpack": {
       "name": "france-chaleur-urbaine-scalingo-buildpack",
@@ -6204,7 +6407,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-09-16T15:39:08Z"
     },
     "publicodes-entreprise-innovation": {
       "name": "publicodes-entreprise-innovation",
@@ -6215,7 +6419,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-09-17T16:00:50Z"
     },
     "anssi-recommandations-cyber-data": {
       "name": "anssi-recommandations-cyber-data",
@@ -6226,7 +6431,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:14:33Z"
     },
     "agnostic-ai": {
       "name": "agnostic-ai",
@@ -6237,7 +6443,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-27T13:52:30Z"
     },
     "eclauses": {
       "name": "eclauses",
@@ -6248,7 +6455,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-14T13:05:05Z"
     },
     "2ddoc-parser": {
       "name": "2ddoc-parser",
@@ -6259,7 +6467,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-27T09:58:16Z"
     },
     "dsfr-chart": {
       "name": "dsfr-chart",
@@ -6270,7 +6479,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-09T12:18:24Z"
     },
     "aide-a-just": {
       "name": "aide-a-just",
@@ -6281,7 +6491,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:58:38Z"
     },
     "classifia": {
       "name": "classifia",
@@ -6292,7 +6503,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-27T17:45:15Z"
     },
     "dsfr-kit": {
       "name": "dsfr-kit",
@@ -6303,7 +6515,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-27T11:46:44Z"
     },
     "dj-importmap": {
       "name": "dj-importmap",
@@ -6314,7 +6527,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-03T14:19:36Z"
     },
     "Resultats-Elections-FPT": {
       "name": "Resultats-Elections-FPT",
@@ -6325,7 +6539,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T18:21:20Z"
     },
     "anssi-mes-questions-cyber-journal": {
       "name": "anssi-mes-questions-cyber-journal",
@@ -6336,7 +6551,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-04T13:07:53Z"
     },
     "document-ia-grafana-loki": {
       "name": "document-ia-grafana-loki",
@@ -6347,7 +6563,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-12-22T15:01:38Z"
     },
     "assistant-declaration-metabase-scalingo": {
       "name": "assistant-declaration-metabase-scalingo",
@@ -6358,7 +6575,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-03-04T15:33:35Z"
     },
     "datagouv-visualizations": {
       "name": "datagouv-visualizations",
@@ -6369,7 +6587,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-10-27T13:13:19Z"
     },
     "capybara-autodoc": {
       "name": "capybara-autodoc",
@@ -6380,7 +6599,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2025-11-03T18:34:02Z"
     },
     "ranking_methods": {
       "name": "ranking_methods",
@@ -6391,7 +6611,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T07:04:16Z"
     },
     "base-agrement-back": {
       "name": "base-agrement-back",
@@ -6402,7 +6623,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-16T10:58:23Z"
     },
     "aides-simplifiees-docs": {
       "name": "aides-simplifiees-docs",
@@ -6413,7 +6635,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-17T09:16:05Z"
     },
     "oauth2-proxy-buildpack": {
       "name": "oauth2-proxy-buildpack",
@@ -6424,7 +6647,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-02T10:32:43Z"
     },
     "oauth2-deploy-demo": {
       "name": "oauth2-deploy-demo",
@@ -6435,7 +6659,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-21T18:47:13Z"
     },
     "doctorat-gouv": {
       "name": "doctorat-gouv",
@@ -6446,7 +6671,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T08:38:10Z"
     },
     "archeologia-pipeline": {
       "name": "archeologia-pipeline",
@@ -6457,7 +6683,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-19T18:38:06Z"
     },
     "infomedicament_data": {
       "name": "infomedicament_data",
@@ -6468,7 +6695,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-08T16:20:25Z"
     },
     "github-export": {
       "name": "github-export",
@@ -6479,7 +6707,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:35:31Z"
     },
     "pompidou": {
       "name": "pompidou",
@@ -6490,7 +6719,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "githubPushedAt": "2026-01-22T09:09:25Z"
     }
   }
 }
