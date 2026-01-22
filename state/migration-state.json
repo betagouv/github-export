@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-01-22T02:15:08.412Z",
+  "lastDiscovery": "2026-01-22T08:25:32.111Z",
   "totalRepos": 565,
   "repos": {
     "aides-jeunes": {
@@ -5380,13 +5380,13 @@
     "poc-communs-projets-levier": {
       "name": "poc-communs-projets-levier",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:15:32.089Z",
+      "completedAt": "2026-01-22T02:16:15.264Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:15:32.089Z",
-      "completedAt": "2026-01-22T02:16:15.264Z"
+      }
     },
     "jamstack-loader": {
       "name": "jamstack-loader",
@@ -5401,24 +5401,24 @@
     "mle-front": {
       "name": "mle-front",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:16:15.599Z",
+      "completedAt": "2026-01-22T02:19:14.923Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:16:15.599Z",
-      "completedAt": "2026-01-22T02:19:14.923Z"
+      }
     },
     "mle-back": {
       "name": "mle-back",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:19:15.310Z",
+      "completedAt": "2026-01-22T02:23:41.642Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:19:15.310Z",
-      "completedAt": "2026-01-22T02:23:41.642Z"
+      }
     },
     "eval-menu": {
       "name": "eval-menu",
@@ -5433,24 +5433,24 @@
     "assistant-declaration": {
       "name": "assistant-declaration",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:23:41.996Z",
+      "completedAt": "2026-01-22T02:24:00.704Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:23:41.996Z",
-      "completedAt": "2026-01-22T02:24:00.704Z"
+      }
     },
     "mon-profil-anssi": {
       "name": "mon-profil-anssi",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:24:01.049Z",
+      "completedAt": "2026-01-22T02:25:32.504Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:24:01.049Z",
-      "completedAt": "2026-01-22T02:25:32.504Z"
+      }
     },
     "dsfr-doc": {
       "name": "dsfr-doc",
@@ -5465,13 +5465,13 @@
     "mon-indemnisation-justice": {
       "name": "mon-indemnisation-justice",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:25:32.843Z",
+      "completedAt": "2026-01-22T02:27:44.506Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:25:32.843Z",
-      "completedAt": "2026-01-22T02:27:44.506Z"
+      }
     },
     "ota-produits-declarations": {
       "name": "ota-produits-declarations",
@@ -5508,13 +5508,13 @@
     "decoupage-administratif-gem": {
       "name": "decoupage-administratif-gem",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:27:44.842Z",
+      "completedAt": "2026-01-22T02:28:51.041Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:27:44.842Z",
-      "completedAt": "2026-01-22T02:28:51.041Z"
+      }
     },
     "grist-core": {
       "name": "grist-core",
@@ -5556,13 +5556,13 @@
     "seves-documentation": {
       "name": "seves-documentation",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:15:30.497Z",
+      "completedAt": "2026-01-22T02:15:41.018Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:15:30.497Z",
-      "completedAt": "2026-01-22T02:15:41.018Z"
+      }
     },
     "mon-devis-sans-oublis": {
       "name": "mon-devis-sans-oublis",
@@ -5577,35 +5577,35 @@
     "dsfr-assets": {
       "name": "dsfr-assets",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:15:41.367Z",
+      "completedAt": "2026-01-22T02:16:22.501Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:15:41.367Z",
-      "completedAt": "2026-01-22T02:16:22.501Z"
+      }
     },
     "new-rails-template": {
       "name": "new-rails-template",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:16:22.789Z",
+      "completedAt": "2026-01-22T02:17:00.445Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:16:22.789Z",
-      "completedAt": "2026-01-22T02:17:00.445Z"
+      }
     },
     "publicodes-aides-voiture": {
       "name": "publicodes-aides-voiture",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:17:00.832Z",
+      "completedAt": "2026-01-22T02:17:08.677Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:17:00.832Z",
-      "completedAt": "2026-01-22T02:17:08.677Z"
+      }
     },
     "publicodes-decoupage-administratif": {
       "name": "publicodes-decoupage-administratif",
@@ -5676,112 +5676,112 @@
     "place-asile": {
       "name": "place-asile",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:17:09.030Z",
+      "completedAt": "2026-01-22T02:18:40.210Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:17:09.030Z",
-      "completedAt": "2026-01-22T02:18:40.210Z"
+      }
     },
     "commits": {
       "name": "commits",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:18:40.508Z",
+      "completedAt": "2026-01-22T02:18:51.070Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:18:40.508Z",
-      "completedAt": "2026-01-22T02:18:51.070Z"
+      }
     },
     "acces-cible": {
       "name": "acces-cible",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:18:51.395Z",
+      "completedAt": "2026-01-22T02:24:22.418Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:18:51.395Z",
-      "completedAt": "2026-01-22T02:24:22.418Z"
+      }
     },
     "portail-rse-externe": {
       "name": "portail-rse-externe",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:24:22.803Z",
+      "completedAt": "2026-01-22T02:25:00.083Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:24:22.803Z",
-      "completedAt": "2026-01-22T02:25:00.083Z"
+      }
     },
     "recoco-sync": {
       "name": "recoco-sync",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:25:00.398Z",
+      "completedAt": "2026-01-22T02:27:08.952Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:25:00.398Z",
-      "completedAt": "2026-01-22T02:27:08.952Z"
+      }
     },
     "grist-budget-agriculture": {
       "name": "grist-budget-agriculture",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:27:09.290Z",
+      "completedAt": "2026-01-22T02:27:20.983Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:27:09.290Z",
-      "completedAt": "2026-01-22T02:27:20.983Z"
+      }
     },
     "standards": {
       "name": "standards",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:15:31.534Z",
+      "completedAt": "2026-01-22T02:16:28.821Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:15:31.534Z",
-      "completedAt": "2026-01-22T02:16:28.821Z"
+      }
     },
     "lab-anssi-ui-kit": {
       "name": "lab-anssi-ui-kit",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:16:29.266Z",
+      "completedAt": "2026-01-22T02:21:56.143Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:16:29.266Z",
-      "completedAt": "2026-01-22T02:21:56.143Z"
+      }
     },
     "mes-services-cyber-journal": {
       "name": "mes-services-cyber-journal",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:21:56.586Z",
+      "completedAt": "2026-01-22T02:22:09.646Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:21:56.586Z",
-      "completedAt": "2026-01-22T02:22:09.646Z"
+      }
     },
     "sites-faciles-spe": {
       "name": "sites-faciles-spe",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:22:10.184Z",
+      "completedAt": "2026-01-22T02:22:19.908Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:22:10.184Z",
-      "completedAt": "2026-01-22T02:22:19.908Z"
+      }
     },
     "sentry-on-heroku": {
       "name": "sentry-on-heroku",
@@ -5796,90 +5796,90 @@
     "sentry": {
       "name": "sentry",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:22:20.260Z",
+      "completedAt": "2026-01-22T02:23:54.333Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:22:20.260Z",
-      "completedAt": "2026-01-22T02:23:54.333Z"
+      }
     },
     "self-hosted": {
       "name": "self-hosted",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:23:54.731Z",
+      "completedAt": "2026-01-22T02:24:03.979Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:23:54.731Z",
-      "completedAt": "2026-01-22T02:24:03.979Z"
+      }
     },
     "django-grist-loader": {
       "name": "django-grist-loader",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:24:04.273Z",
+      "completedAt": "2026-01-22T02:24:41.304Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:24:04.273Z",
-      "completedAt": "2026-01-22T02:24:41.304Z"
+      }
     },
     "mozilla-django-oidc": {
       "name": "mozilla-django-oidc",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:24:41.690Z",
+      "completedAt": "2026-01-22T02:24:49.788Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:24:41.690Z",
-      "completedAt": "2026-01-22T02:24:49.788Z"
+      }
     },
     "lab-anssi-admin": {
       "name": "lab-anssi-admin",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:24:50.099Z",
+      "completedAt": "2026-01-22T02:26:24.178Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:24:50.099Z",
-      "completedAt": "2026-01-22T02:26:24.178Z"
+      }
     },
     "aides-simplifiees-app": {
       "name": "aides-simplifiees-app",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:26:24.514Z",
+      "completedAt": "2026-01-22T02:27:05.532Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:26:24.514Z",
-      "completedAt": "2026-01-22T02:27:05.532Z"
+      }
     },
     "chordee-proxy": {
       "name": "chordee-proxy",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:27:25.201Z",
+      "completedAt": "2026-01-22T02:27:32.535Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:27:25.201Z",
-      "completedAt": "2026-01-22T02:27:32.535Z"
+      }
     },
     "diagbruit.beta.gouv.fr": {
       "name": "diagbruit.beta.gouv.fr",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:27:32.840Z",
+      "completedAt": "2026-01-22T02:28:54.582Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:27:32.840Z",
-      "completedAt": "2026-01-22T02:28:54.582Z"
+      }
     },
     "schema-projet-collectivites-transition-ecologique": {
       "name": "schema-projet-collectivites-transition-ecologique",
@@ -5956,24 +5956,24 @@
     "omniauth-proconnect": {
       "name": "omniauth-proconnect",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:27:41.629Z",
+      "completedAt": "2026-01-22T02:28:19.536Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:27:41.629Z",
-      "completedAt": "2026-01-22T02:28:19.536Z"
+      }
     },
     "datas-a-just": {
       "name": "datas-a-just",
       "status": "completed",
+      "lastAttempt": "2026-01-22T02:28:19.913Z",
+      "completedAt": "2026-01-22T02:28:32.142Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T02:28:19.913Z",
-      "completedAt": "2026-01-22T02:28:32.142Z"
+      }
     },
     "lab-anssi-anti-typosquatting": {
       "name": "lab-anssi-anti-typosquatting",
