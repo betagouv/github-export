@@ -85,13 +85,15 @@ async function discoverRepos(
     }
   }
 
-  const repoNames = filteredRepos.map((r) => r.name);
-
-  // Add to state
-  stateManager.addRepos(repoNames);
+  // Add repos with pushed_at to state (tracks activity for sync detection)
+  const reposWithPushedAt = filteredRepos.map((r) => ({
+    name: r.name,
+    pushedAt: r.pushedAt ?? undefined,
+  }));
+  stateManager.addReposWithPushedAt(reposWithPushedAt);
   await stateManager.save();
 
-  return repoNames;
+  return filteredRepos.map((r) => r.name);
 }
 
 function createBatches(repos: string[], batchSize: number): Batch[] {
@@ -116,6 +118,7 @@ async function main() {
   const outputPath = process.env.OUTPUT_PATH ?? "./state/batches.json";
   const maxBatches = parseInt(process.env.MAX_BATCHES ?? "5", 10);
   const excludeInactiveDays = parseInt(process.env.EXCLUDE_INACTIVE_DAYS ?? "0", 10);
+  const enableSync = process.env.ENABLE_SYNC === "true";
 
   if (!githubToken || !sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
@@ -129,13 +132,18 @@ async function main() {
 
   await stateManager.load();
 
-  // Discover and update state
+  // Discover and update state (also updates githubPushedAt for existing repos)
   await discoverRepos(githubClient, stateManager, config, excludeInactiveDays);
 
-  // Get repos to process (failed retryable + pending)
+  // Get repos to process (failed retryable + pending + optionally needing sync)
   const reposToProcess = stateManager.getReposToProcess(
-    maxBatches * config.batchSize
+    maxBatches * config.batchSize,
+    enableSync
   );
+
+  if (enableSync) {
+    console.log("\nSync mode enabled: including completed repos that have new GitHub commits");
+  }
 
   console.log(`\nRepos to process this run: ${reposToProcess.length}`);
 
@@ -183,6 +191,7 @@ async function main() {
   console.log(`Completed: ${stats.completed}`);
   console.log(`Failed: ${stats.failed}`);
   console.log(`Skipped: ${stats.skipped}`);
+  console.log(`Needing Sync: ${stats.needingSync}`);
 }
 
 main().catch((error) => {

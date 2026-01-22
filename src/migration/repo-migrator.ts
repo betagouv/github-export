@@ -74,8 +74,11 @@ export async function migrateRepo(
 ): Promise<MigrationResult> {
   const { name: repoName } = githubRepo;
 
+  const currentState = stateManager.getRepoState(repoName);
+  const isSyncOnly = currentState?.status === "completed";
+
   console.log(`\n${"=".repeat(60)}`);
-  console.log(`Starting migration: ${repoName}`);
+  console.log(`Starting ${isSyncOnly ? "sync" : "migration"}: ${repoName}`);
   console.log(`${"=".repeat(60)}`);
 
   const result: MigrationResult = {
@@ -87,8 +90,11 @@ export async function migrateRepo(
     },
   };
 
-  stateManager.markInProgress(repoName);
-  await stateManager.save();
+  // For sync-only mode, don't change status to in_progress (keep completed)
+  if (!isSyncOnly) {
+    stateManager.markInProgress(repoName);
+    await stateManager.save();
+  }
 
   const codebergClient = new CodebergClient({
     token: config.codebergToken,
@@ -96,10 +102,10 @@ export async function migrateRepo(
   });
 
   // Phase 1: API Migration (issues, PRs, etc.)
+  // Skip for sync-only mode (repo already migrated, just syncing new commits)
   console.log(`\n[Phase 1] API Migration for ${repoName}`);
 
-  const currentState = stateManager.getRepoState(repoName);
-  let skipApiMigration = currentState?.phases.apiMigration === true;
+  let skipApiMigration = isSyncOnly || currentState?.phases.apiMigration === true;
 
   if (!skipApiMigration) {
     // Check if repo already exists on Codeberg
@@ -111,7 +117,7 @@ export async function migrateRepo(
       stateManager.markPhaseComplete(repoName, "apiMigration");
     }
   } else {
-    console.log(`API migration already completed, skipping`);
+    console.log(`API migration already completed${isSyncOnly ? " (sync mode)" : ""}, skipping`);
     result.phases.apiMigration = true;
   }
 
@@ -154,12 +160,18 @@ export async function migrateRepo(
   }
 
   // Phase 2: Branch Sync (force push all branches)
+  // Always run for sync-only mode (to update with new commits)
   console.log(`\n[Phase 2] Branch Sync for ${repoName}`);
 
-  if (currentState?.phases.branchSync === true) {
+  const shouldSkipBranchSync = !isSyncOnly && currentState?.phases.branchSync === true;
+
+  if (shouldSkipBranchSync) {
     console.log(`Branch sync already completed, skipping`);
     result.phases.branchSync = true;
   } else {
+    if (isSyncOnly) {
+      console.log(`Sync mode: updating Codeberg with latest GitHub commits`);
+    }
     try {
       const syncResult = await syncBranches({
         sourceUrl: githubRepo.cloneUrl,
@@ -173,6 +185,8 @@ export async function migrateRepo(
         console.log(`Branch sync completed: ${syncResult.branchesProcessed} refs synced`);
         result.phases.branchSync = true;
         stateManager.markPhaseComplete(repoName, "branchSync");
+        // Update lastSyncedAt with current GitHub pushed_at
+        stateManager.updateLastSynced(repoName, githubRepo.pushedAt ?? undefined);
       } else {
         throw new Error(syncResult.error ?? "Branch sync failed");
       }
@@ -183,7 +197,10 @@ export async function migrateRepo(
       console.error(`Branch sync failed: ${errorMessage}`);
       result.error = errorMessage;
       result.errorType = errorType;
-      stateManager.markFailed(repoName, errorMessage, errorType);
+      // For sync-only mode, mark as failed but it can be retried
+      if (!isSyncOnly) {
+        stateManager.markFailed(repoName, errorMessage, errorType);
+      }
       await stateManager.save();
       return result;
     }
@@ -191,10 +208,15 @@ export async function migrateRepo(
 
   // All phases completed
   result.success = true;
-  stateManager.markCompleted(repoName);
+
+  // For sync-only mode, keep status as completed and update lastSyncedAt
+  // For new migrations, mark as completed
+  if (!isSyncOnly) {
+    stateManager.markCompleted(repoName);
+  }
   await stateManager.save();
 
-  console.log(`\n✓ Migration completed successfully: ${repoName}`);
+  console.log(`\n✓ ${isSyncOnly ? "Sync" : "Migration"} completed successfully: ${repoName}`);
   return result;
 }
 

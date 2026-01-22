@@ -21,6 +21,11 @@ on:
         required: false
         default: "365"
         type: string
+      enable_sync:
+        description: "Enable sync mode - re-sync completed repos that have new GitHub commits"
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -61,6 +66,7 @@ jobs:
         env:
           MAX_BATCHES: ${{ inputs.max_batches || '5' }}
           EXCLUDE_INACTIVE_DAYS: ${{ inputs.exclude_inactive_days || '0' }}
+          ENABLE_SYNC: ${{ inputs.enable_sync != false && 'true' || 'false' }}
         run: node dist/orchestration/discover-and-batch.js
 
       - name: Upload state artifact
@@ -194,5 +200,6 @@ jobs:
             "- **Total repos**: \(.totalRepos // (.repos | length))",
             "- **Completed**: \([.repos[] | select(.status == "completed")] | length)",
             "- **Failed**: \([.repos[] | select(.status == "failed")] | length)",
-            "- **Pending**: \([.repos[] | select(.status == "pending")] | length)"
+            "- **Pending**: \([.repos[] | select(.status == "pending")] | length)",
+            "- **Needing sync**: \([.repos[] | select(.status == "completed" and (.lastSyncedAt == null or (.githubPushedAt != null and .githubPushedAt > .lastSyncedAt)))] | length)"
           ' >> $GITHUB_STEP_SUMMARY

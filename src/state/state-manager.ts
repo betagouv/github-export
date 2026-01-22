@@ -22,6 +22,8 @@ export const RepoStateSchema = z.object({
   status: RepoStatusSchema,
   lastAttempt: z.string().optional(),
   completedAt: z.string().optional(),
+  lastSyncedAt: z.string().optional(),
+  githubPushedAt: z.string().optional(),
   error: z.string().optional(),
   errorType: ErrorTypeSchema.optional(),
   attemptCount: z.number().default(0),
@@ -111,12 +113,28 @@ export class StateManager {
   }
 
   markCompleted(repoName: string): void {
+    const now = new Date().toISOString();
     this.setRepoState(repoName, {
       status: "completed",
-      completedAt: new Date().toISOString(),
+      completedAt: now,
+      lastSyncedAt: now,
       error: undefined,
       errorType: undefined,
       phases: { apiMigration: true, branchSync: true },
+    });
+  }
+
+  updateLastSynced(repoName: string, githubPushedAt?: string): void {
+    const now = new Date().toISOString();
+    this.setRepoState(repoName, {
+      lastSyncedAt: now,
+      ...(githubPushedAt && { githubPushedAt }),
+    });
+  }
+
+  updateGithubPushedAt(repoName: string, pushedAt: string): void {
+    this.setRepoState(repoName, {
+      githubPushedAt: pushedAt,
     });
   }
 
@@ -160,6 +178,28 @@ export class StateManager {
     this.state.lastDiscovery = new Date().toISOString();
   }
 
+  addReposWithPushedAt(repos: Array<{ name: string; pushedAt?: string }>): void {
+    for (const { name, pushedAt } of repos) {
+      const existing = this.state.repos[name];
+      if (!existing) {
+        this.state.repos[name] = {
+          name,
+          status: "pending",
+          attemptCount: 0,
+          phases: { apiMigration: false, branchSync: false },
+          githubPushedAt: pushedAt,
+        };
+      } else {
+        // Update githubPushedAt for existing repos to detect changes
+        if (pushedAt) {
+          this.state.repos[name].githubPushedAt = pushedAt;
+        }
+      }
+    }
+    this.state.totalRepos = Object.keys(this.state.repos).length;
+    this.state.lastDiscovery = new Date().toISOString();
+  }
+
   getPendingRepos(): string[] {
     return Object.values(this.state.repos)
       .filter((r) => r.status === "pending")
@@ -182,12 +222,30 @@ export class StateManager {
       .map((r) => r.name);
   }
 
-  getReposToProcess(maxCount: number): string[] {
-    // Priority: retryable failed repos first, then pending
+  getReposNeedingSync(): string[] {
+    return Object.values(this.state.repos)
+      .filter((r) => {
+        if (r.status !== "completed") return false;
+        // If no lastSyncedAt, it's a legacy completed repo that needs tracking
+        if (!r.lastSyncedAt) return true;
+        // If GitHub has newer commits than our last sync
+        if (r.githubPushedAt) {
+          const pushedAt = new Date(r.githubPushedAt);
+          const syncedAt = new Date(r.lastSyncedAt);
+          return pushedAt > syncedAt;
+        }
+        return false;
+      })
+      .map((r) => r.name);
+  }
+
+  getReposToProcess(maxCount: number, includeNeedingSync = false): string[] {
+    // Priority: retryable failed repos first, then pending, then needing sync
     const retryable = this.getRetryableRepos();
     const pending = this.getPendingRepos();
+    const needingSync = includeNeedingSync ? this.getReposNeedingSync() : [];
 
-    const combined = [...retryable, ...pending];
+    const combined = [...retryable, ...pending, ...needingSync];
     return combined.slice(0, maxCount);
   }
 
@@ -198,6 +256,7 @@ export class StateManager {
     completed: number;
     failed: number;
     skipped: number;
+    needingSync: number;
   } {
     const repos = Object.values(this.state.repos);
     return {
@@ -207,6 +266,7 @@ export class StateManager {
       completed: repos.filter((r) => r.status === "completed").length,
       failed: repos.filter((r) => r.status === "failed").length,
       skipped: repos.filter((r) => r.status === "skipped").length,
+      needingSync: this.getReposNeedingSync().length,
     };
   }
 }
