@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-01-22T08:25:32.111Z",
+  "lastDiscovery": "2026-01-22T08:52:08.836Z",
   "totalRepos": 565,
   "repos": {
     "aides-jeunes": {
@@ -5519,13 +5519,13 @@
     "grist-core": {
       "name": "grist-core",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:25:49.556Z",
+      "completedAt": "2026-01-22T08:26:10.689Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:25:49.556Z",
-      "completedAt": "2026-01-22T08:26:10.689Z"
+      }
     },
     "schema-aide": {
       "name": "schema-aide",
@@ -5540,24 +5540,24 @@
     "aides-agri": {
       "name": "aides-agri",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:10.998Z",
+      "completedAt": "2026-01-22T08:31:39.972Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:10.998Z",
-      "completedAt": "2026-01-22T08:31:39.972Z"
+      }
     },
     "dsfr-form-builder": {
       "name": "dsfr-form-builder",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:31:40.306Z",
+      "completedAt": "2026-01-22T08:32:09.303Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:31:40.306Z",
-      "completedAt": "2026-01-22T08:32:09.303Z"
+      }
     },
     "seves-documentation": {
       "name": "seves-documentation",
@@ -5890,90 +5890,90 @@
     "schema-projet-collectivites-transition-ecologique": {
       "name": "schema-projet-collectivites-transition-ecologique",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:32:09.716Z",
+      "completedAt": "2026-01-22T08:32:17.963Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:32:09.716Z",
-      "completedAt": "2026-01-22T08:32:17.963Z"
+      }
     },
     "espace-membre-storybook": {
       "name": "espace-membre-storybook",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:32:18.276Z",
+      "completedAt": "2026-01-22T08:32:48.887Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:32:18.276Z",
-      "completedAt": "2026-01-22T08:32:48.887Z"
+      }
     },
     "Mistral-penal": {
       "name": "Mistral-penal",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:32:49.188Z",
+      "completedAt": "2026-01-22T08:32:56.711Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:32:49.188Z",
-      "completedAt": "2026-01-22T08:32:56.711Z"
+      }
     },
     "depots-sauvages": {
       "name": "depots-sauvages",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:32:57.002Z",
+      "completedAt": "2026-01-22T08:37:34.146Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:32:57.002Z",
-      "completedAt": "2026-01-22T08:37:34.146Z"
+      }
     },
     "lab-anssi-lib": {
       "name": "lab-anssi-lib",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:37:34.449Z",
+      "completedAt": "2026-01-22T08:39:27.231Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:37:34.449Z",
-      "completedAt": "2026-01-22T08:39:27.231Z"
+      }
     },
     "standards-front": {
       "name": "standards-front",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:39:27.507Z",
+      "completedAt": "2026-01-22T08:40:22.300Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:39:27.507Z",
-      "completedAt": "2026-01-22T08:40:22.300Z"
+      }
     },
     "suivi_dtnum_datapass": {
       "name": "suivi_dtnum_datapass",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:40:22.570Z",
+      "completedAt": "2026-01-22T08:41:36.917Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:40:22.570Z",
-      "completedAt": "2026-01-22T08:41:36.917Z"
+      }
     },
     "grist-doc-wk-exporter": {
       "name": "grist-doc-wk-exporter",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:25:52.688Z",
+      "completedAt": "2026-01-22T08:26:03.979Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:25:52.688Z",
-      "completedAt": "2026-01-22T08:26:03.979Z"
+      }
     },
     "omniauth-proconnect": {
       "name": "omniauth-proconnect",
@@ -6000,497 +6000,497 @@
     "lab-anssi-anti-typosquatting": {
       "name": "lab-anssi-anti-typosquatting",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:04.283Z",
+      "completedAt": "2026-01-22T08:26:11.981Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:04.283Z",
-      "completedAt": "2026-01-22T08:26:11.981Z"
+      }
     },
     "lasuite-guest-guesser": {
       "name": "lasuite-guest-guesser",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:12.308Z",
+      "completedAt": "2026-01-22T08:26:19.248Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:12.308Z",
-      "completedAt": "2026-01-22T08:26:19.248Z"
+      }
     },
     "doc.incubateur.net-alliance": {
       "name": "doc.incubateur.net-alliance",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:19.539Z",
+      "completedAt": "2026-01-22T08:26:27.119Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:19.539Z",
-      "completedAt": "2026-01-22T08:26:27.119Z"
+      }
     },
     "activerecord_defer_persist": {
       "name": "activerecord_defer_persist",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:27.401Z",
+      "completedAt": "2026-01-22T08:26:35.091Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:27.401Z",
-      "completedAt": "2026-01-22T08:26:35.091Z"
+      }
     },
     "omniauth-proconnect-demo": {
       "name": "omniauth-proconnect-demo",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:35.363Z",
+      "completedAt": "2026-01-22T08:27:42.478Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:35.363Z",
-      "completedAt": "2026-01-22T08:27:42.478Z"
+      }
     },
     "grist-grav": {
       "name": "grist-grav",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:27:42.805Z",
+      "completedAt": "2026-01-22T08:28:30.619Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:27:42.805Z",
-      "completedAt": "2026-01-22T08:28:30.619Z"
+      }
     },
     "anssi-tutelles": {
       "name": "anssi-tutelles",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:28:30.943Z",
+      "completedAt": "2026-01-22T08:28:39.531Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:28:30.943Z",
-      "completedAt": "2026-01-22T08:28:39.531Z"
+      }
     },
     "OTP-DS-to-Grist": {
       "name": "OTP-DS-to-Grist",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:28:39.850Z",
+      "completedAt": "2026-01-22T08:29:44.609Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:28:39.850Z",
-      "completedAt": "2026-01-22T08:29:44.609Z"
+      }
     },
     "grist-help": {
       "name": "grist-help",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:29:45.078Z",
+      "completedAt": "2026-01-22T08:30:20.202Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:29:45.078Z",
-      "completedAt": "2026-01-22T08:30:20.202Z"
+      }
     },
     "grist-cron-grist-to-brevo": {
       "name": "grist-cron-grist-to-brevo",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:25:51.882Z",
+      "completedAt": "2026-01-22T08:26:17.062Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:25:51.882Z",
-      "completedAt": "2026-01-22T08:26:17.062Z"
+      }
     },
     "betagouv-cucumber-steps": {
       "name": "betagouv-cucumber-steps",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:26:17.369Z",
+      "completedAt": "2026-01-22T08:27:20.843Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:26:17.369Z",
-      "completedAt": "2026-01-22T08:27:20.843Z"
+      }
     },
     "euphrosyne-herma": {
       "name": "euphrosyne-herma",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:27:21.188Z",
+      "completedAt": "2026-01-22T08:28:20.914Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:27:21.188Z",
-      "completedAt": "2026-01-22T08:28:20.914Z"
+      }
     },
     "atelier-formulaires-a11y": {
       "name": "atelier-formulaires-a11y",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:28:21.225Z",
+      "completedAt": "2026-01-22T08:28:28.025Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:28:21.225Z",
-      "completedAt": "2026-01-22T08:28:28.025Z"
+      }
     },
     "grist-static": {
       "name": "grist-static",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:28:28.914Z",
+      "completedAt": "2026-01-22T08:28:37.142Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:28:28.914Z",
-      "completedAt": "2026-01-22T08:28:37.142Z"
+      }
     },
     "document-ia": {
       "name": "document-ia",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:28:37.447Z",
+      "completedAt": "2026-01-22T08:31:32.277Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:28:37.447Z",
-      "completedAt": "2026-01-22T08:31:32.277Z"
+      }
     },
     "mastra-beta": {
       "name": "mastra-beta",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:31:32.626Z",
+      "completedAt": "2026-01-22T08:31:58.033Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:31:32.626Z",
-      "completedAt": "2026-01-22T08:31:58.033Z"
+      }
     },
     "csplab": {
       "name": "csplab",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:31:58.308Z",
+      "completedAt": "2026-01-22T08:32:59.924Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:31:58.308Z",
-      "completedAt": "2026-01-22T08:32:59.924Z"
+      }
     },
     "anssi-demain-specialiste-cyber-journal": {
       "name": "anssi-demain-specialiste-cyber-journal",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:33:00.249Z",
+      "completedAt": "2026-01-22T08:33:33.149Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:33:00.249Z",
-      "completedAt": "2026-01-22T08:33:33.149Z"
+      }
     },
     "france-chaleur-urbaine-scalingo-buildpack": {
       "name": "france-chaleur-urbaine-scalingo-buildpack",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:33:33.438Z",
+      "completedAt": "2026-01-22T08:33:41.053Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:33:33.438Z",
-      "completedAt": "2026-01-22T08:33:41.053Z"
+      }
     },
     "publicodes-entreprise-innovation": {
       "name": "publicodes-entreprise-innovation",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:30:40.563Z",
+      "completedAt": "2026-01-22T08:30:48.049Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:30:40.563Z",
-      "completedAt": "2026-01-22T08:30:48.049Z"
+      }
     },
     "anssi-recommandations-cyber-data": {
       "name": "anssi-recommandations-cyber-data",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:30:48.530Z",
+      "completedAt": "2026-01-22T08:34:23.933Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:30:48.530Z",
-      "completedAt": "2026-01-22T08:34:23.933Z"
+      }
     },
     "agnostic-ai": {
       "name": "agnostic-ai",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:34:24.333Z",
+      "completedAt": "2026-01-22T08:35:10.917Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:34:24.333Z",
-      "completedAt": "2026-01-22T08:35:10.917Z"
+      }
     },
     "eclauses": {
       "name": "eclauses",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:35:11.328Z",
+      "completedAt": "2026-01-22T08:36:27.990Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:35:11.328Z",
-      "completedAt": "2026-01-22T08:36:27.990Z"
+      }
     },
     "2ddoc-parser": {
       "name": "2ddoc-parser",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:36:28.383Z",
+      "completedAt": "2026-01-22T08:36:56.225Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:36:28.383Z",
-      "completedAt": "2026-01-22T08:36:56.225Z"
+      }
     },
     "dsfr-chart": {
       "name": "dsfr-chart",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:36:56.638Z",
+      "completedAt": "2026-01-22T08:37:35.635Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:36:56.638Z",
-      "completedAt": "2026-01-22T08:37:35.635Z"
+      }
     },
     "aide-a-just": {
       "name": "aide-a-just",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:37:36.047Z",
+      "completedAt": "2026-01-22T08:37:44.678Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:37:36.047Z",
-      "completedAt": "2026-01-22T08:37:44.678Z"
+      }
     },
     "classifia": {
       "name": "classifia",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:37:45.020Z",
+      "completedAt": "2026-01-22T08:40:17.461Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:37:45.020Z",
-      "completedAt": "2026-01-22T08:40:17.461Z"
+      }
     },
     "dsfr-kit": {
       "name": "dsfr-kit",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:40:17.881Z",
+      "completedAt": "2026-01-22T08:41:50.393Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:40:17.881Z",
-      "completedAt": "2026-01-22T08:41:50.393Z"
+      }
     },
     "dj-importmap": {
       "name": "dj-importmap",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:41:50.869Z",
+      "completedAt": "2026-01-22T08:42:23.072Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:41:50.869Z",
-      "completedAt": "2026-01-22T08:42:23.072Z"
+      }
     },
     "Resultats-Elections-FPT": {
       "name": "Resultats-Elections-FPT",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:33:57.853Z",
+      "completedAt": "2026-01-22T08:34:41.242Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:33:57.853Z",
-      "completedAt": "2026-01-22T08:34:41.242Z"
+      }
     },
     "anssi-mes-questions-cyber-journal": {
       "name": "anssi-mes-questions-cyber-journal",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:34:41.648Z",
+      "completedAt": "2026-01-22T08:35:12.494Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:34:41.648Z",
-      "completedAt": "2026-01-22T08:35:12.494Z"
+      }
     },
     "document-ia-grafana-loki": {
       "name": "document-ia-grafana-loki",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:35:12.833Z",
+      "completedAt": "2026-01-22T08:35:20.217Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:35:12.833Z",
-      "completedAt": "2026-01-22T08:35:20.217Z"
+      }
     },
     "assistant-declaration-metabase-scalingo": {
       "name": "assistant-declaration-metabase-scalingo",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:35:20.679Z",
+      "completedAt": "2026-01-22T08:35:28.856Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:35:20.679Z",
-      "completedAt": "2026-01-22T08:35:28.856Z"
+      }
     },
     "datagouv-visualizations": {
       "name": "datagouv-visualizations",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:35:29.312Z",
+      "completedAt": "2026-01-22T08:35:37.195Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:35:29.312Z",
-      "completedAt": "2026-01-22T08:35:37.195Z"
+      }
     },
     "capybara-autodoc": {
       "name": "capybara-autodoc",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:35:37.544Z",
+      "completedAt": "2026-01-22T08:35:45.673Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:35:37.544Z",
-      "completedAt": "2026-01-22T08:35:45.673Z"
+      }
     },
     "ranking_methods": {
       "name": "ranking_methods",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:35:46.050Z",
+      "completedAt": "2026-01-22T08:37:23.446Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:35:46.050Z",
-      "completedAt": "2026-01-22T08:37:23.446Z"
+      }
     },
     "base-agrement-back": {
       "name": "base-agrement-back",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:37:23.823Z",
+      "completedAt": "2026-01-22T08:37:32.405Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:37:23.823Z",
-      "completedAt": "2026-01-22T08:37:32.405Z"
+      }
     },
     "aides-simplifiees-docs": {
       "name": "aides-simplifiees-docs",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:37:32.728Z",
+      "completedAt": "2026-01-22T08:37:40.822Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:37:32.728Z",
-      "completedAt": "2026-01-22T08:37:40.822Z"
+      }
     },
     "oauth2-proxy-buildpack": {
       "name": "oauth2-proxy-buildpack",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:37:41.313Z",
+      "completedAt": "2026-01-22T08:37:49.704Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:37:41.313Z",
-      "completedAt": "2026-01-22T08:37:49.704Z"
+      }
     },
     "oauth2-deploy-demo": {
       "name": "oauth2-deploy-demo",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:38:06.586Z",
+      "completedAt": "2026-01-22T08:38:14.953Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:38:06.586Z",
-      "completedAt": "2026-01-22T08:38:14.953Z"
+      }
     },
     "doctorat-gouv": {
       "name": "doctorat-gouv",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:38:15.361Z",
+      "completedAt": "2026-01-22T08:39:08.088Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:38:15.361Z",
-      "completedAt": "2026-01-22T08:39:08.088Z"
+      }
     },
     "archeologia-pipeline": {
       "name": "archeologia-pipeline",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:39:08.553Z",
+      "completedAt": "2026-01-22T08:40:09.570Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:39:08.553Z",
-      "completedAt": "2026-01-22T08:40:09.570Z"
+      }
     },
     "infomedicament_data": {
       "name": "infomedicament_data",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:40:09.995Z",
+      "completedAt": "2026-01-22T08:40:17.558Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:40:09.995Z",
-      "completedAt": "2026-01-22T08:40:17.558Z"
+      }
     },
     "github-export": {
       "name": "github-export",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:40:17.941Z",
+      "completedAt": "2026-01-22T08:40:27.125Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:40:17.941Z",
-      "completedAt": "2026-01-22T08:40:27.125Z"
+      }
     },
     "pompidou": {
       "name": "pompidou",
       "status": "completed",
+      "lastAttempt": "2026-01-22T08:40:27.509Z",
+      "completedAt": "2026-01-22T08:40:34.949Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-01-22T08:40:27.509Z",
-      "completedAt": "2026-01-22T08:40:34.949Z"
+      }
     }
   }
 }
