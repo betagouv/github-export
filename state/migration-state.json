@@ -5187,7 +5187,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:32:45.743Z"
     },
     "aplypro-nextcloud": {
       "name": "aplypro-nextcloud",
@@ -5221,7 +5222,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:33:35.151Z"
     },
     "pass-sport": {
       "name": "pass-sport",
@@ -5233,7 +5235,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:34:07.382Z"
     },
     "betamap": {
       "name": "betamap",
@@ -5245,7 +5248,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:34:11.356Z"
     },
     "monstage-swagger-troisieme": {
       "name": "monstage-swagger-troisieme",
@@ -5301,7 +5305,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:34:45.369Z"
     },
     "monprojetsup": {
       "name": "monprojetsup",
@@ -5313,7 +5318,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:35:26.080Z"
     },
     "template-nextjs": {
       "name": "template-nextjs",
@@ -5325,7 +5331,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:35:46.190Z"
     },
     "seves": {
       "name": "seves",
@@ -5337,7 +5344,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:09.856Z"
     },
     "demo-scalingo-python-node-nginx": {
       "name": "demo-scalingo-python-node-nginx",
@@ -5360,7 +5368,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:17.499Z"
     },
     "vaultwarden": {
       "name": "vaultwarden",
@@ -5394,7 +5403,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:19.463Z"
     },
     "decap-cms": {
       "name": "decap-cms",
@@ -5417,7 +5427,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:22.559Z"
     },
     "agir-ref": {
       "name": "agir-ref",
@@ -5429,7 +5440,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:24.589Z"
     },
     "anssi-lab-entretien-technique": {
       "name": "anssi-lab-entretien-technique",
@@ -5441,7 +5453,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:26.085Z"
     },
     "prelevement-deau-airflow": {
       "name": "prelevement-deau-airflow",
@@ -5508,7 +5521,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:47.726Z"
     },
     "1jeune1arbre": {
       "name": "1jeune1arbre",
@@ -5532,7 +5546,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:49.349Z"
     },
     "multi-schema-postgres-etl": {
       "name": "multi-schema-postgres-etl",
@@ -5544,7 +5559,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:37:51.589Z"
     },
     "science-infuse": {
       "name": "science-infuse",
@@ -5556,7 +5572,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:20.933Z"
     },
     "signalconso-antivirus": {
       "name": "signalconso-antivirus",
@@ -5579,7 +5596,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:35.738Z"
     },
     "docurba-nuxt3": {
       "name": "docurba-nuxt3",
@@ -5591,7 +5609,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:40.459Z"
     },
     "service-national-universel-test-technique": {
       "name": "service-national-universel-test-technique",
@@ -5614,7 +5633,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:42.438Z"
     },
     "audiodescription": {
       "name": "audiodescription",
@@ -5626,7 +5646,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:44.955Z"
     },
     "france-chaleur-urbaine-publicodes": {
       "name": "france-chaleur-urbaine-publicodes",
@@ -5638,7 +5659,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:48.170Z"
     },
     "rdv-service-public-screenshots": {
       "name": "rdv-service-public-screenshots",
@@ -5661,7 +5683,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:51.297Z"
     },
     "agir-voiture": {
       "name": "agir-voiture",
@@ -5673,7 +5696,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:54.161Z"
     },
     "penpot-dsfr": {
       "name": "penpot-dsfr",
@@ -5685,7 +5709,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:55.990Z"
     },
     "matomo-to-pg": {
       "name": "matomo-to-pg",
@@ -5697,7 +5722,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-01-25T21:38:57.775Z"
     },
     "zacharie": {
       "name": "zacharie",
