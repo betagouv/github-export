@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-01-25T03:47:22.333Z",
+  "lastDiscovery": "2026-01-25T21:29:02.693Z",
   "totalRepos": 565,
   "repos": {
     "aides-jeunes": {
@@ -1261,7 +1261,7 @@
       "lastAttempt": "2026-01-16T23:42:42.208Z",
       "completedAt": "2026-01-16T23:45:46.722Z",
       "lastSyncedAt": "2026-01-23T15:07:36.214Z",
-      "githubPushedAt": "2026-01-23T14:15:13Z",
+      "githubPushedAt": "2026-01-25T08:35:36Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -1519,7 +1519,7 @@
       "name": "rdv-service-public",
       "status": "in_progress",
       "lastAttempt": "2026-01-20T23:56:26.156Z",
-      "githubPushedAt": "2026-01-24T19:37:45Z",
+      "githubPushedAt": "2026-01-25T13:50:14Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 4,
@@ -3225,7 +3225,7 @@
       "lastAttempt": "2026-01-21T18:50:23.080Z",
       "completedAt": "2026-01-21T18:56:24.284Z",
       "lastSyncedAt": "2026-01-23T14:40:34.092Z",
-      "githubPushedAt": "2026-01-24T15:56:44Z",
+      "githubPushedAt": "2026-01-25T18:49:49Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 2,
@@ -6046,7 +6046,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:24:40.123Z",
       "completedAt": "2026-01-21T23:30:23.760Z",
-      "githubPushedAt": "2026-01-25T03:41:55Z",
+      "githubPushedAt": "2026-01-25T13:36:21Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -6522,7 +6522,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T08:32:57.002Z",
       "completedAt": "2026-01-22T08:37:34.146Z",
-      "githubPushedAt": "2026-01-23T15:30:31Z",
+      "githubPushedAt": "2026-01-25T16:49:38Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -6798,7 +6798,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T08:31:58.308Z",
       "completedAt": "2026-01-22T08:32:59.924Z",
-      "githubPushedAt": "2026-01-23T10:32:38Z",
+      "githubPushedAt": "2026-01-25T16:48:55Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -7122,7 +7122,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
-      "githubPushedAt": "2026-01-23T16:04:22Z",
+      "githubPushedAt": "2026-01-25T03:47:23Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
