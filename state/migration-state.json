@@ -7169,33 +7169,42 @@
     },
     "mailpit-buildpack": {
       "name": "mailpit-buildpack",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2025-12-09T16:50:39Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2025-12-09T16:50:39Z"
+      "lastAttempt": "2026-02-01T04:23:56.729Z",
+      "completedAt": "2026-02-01T04:24:05.686Z",
+      "lastSyncedAt": "2026-02-01T04:24:05.686Z"
     },
     "turgot-metabase": {
       "name": "turgot-metabase",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-01-29T17:10:58Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-01-29T17:10:58Z"
+      "lastAttempt": "2026-02-01T04:24:05.913Z",
+      "completedAt": "2026-02-01T04:24:14.423Z",
+      "lastSyncedAt": "2026-02-01T04:24:14.423Z"
     },
     "espace_membre-ruby": {
       "name": "espace_membre-ruby",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-01-30T16:16:33Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-01-30T16:16:33Z"
+      "lastAttempt": "2026-02-01T04:24:14.685Z",
+      "completedAt": "2026-02-01T04:24:55.851Z",
+      "lastSyncedAt": "2026-02-01T04:24:55.851Z"
     }
   }
 }
