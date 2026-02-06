@@ -1253,7 +1253,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T22:33:03.820Z"
     },
     "eva-serveur": {
       "name": "eva-serveur",
@@ -2368,7 +2369,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T22:47:06.996Z"
     },
     "renforts": {
       "name": "renforts",
@@ -2651,7 +2653,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T22:25:23.550Z"
     },
     "matomo-scalingo-deploy": {
       "name": "matomo-scalingo-deploy",
@@ -2765,7 +2768,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T22:28:46.095Z"
     },
     "comobi": {
       "name": "comobi",
@@ -3531,7 +3535,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:04:24.915Z"
     },
     "awesome-betagouv": {
       "name": "awesome-betagouv",
@@ -3848,7 +3853,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:06:27.953Z"
     },
     "node-plantuml": {
       "name": "node-plantuml",
@@ -5044,7 +5050,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:11:52.759Z"
     },
     "cal.com-test": {
       "name": "cal.com-test",
@@ -5735,7 +5742,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:20:04.256Z"
     },
     "agir.github.io": {
       "name": "agir.github.io",
@@ -5747,7 +5755,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:20:07.083Z"
     },
     "api_gouv_swaggers": {
       "name": "api_gouv_swaggers",
@@ -5759,7 +5768,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:20:10.109Z"
     },
     "maestro-metabase": {
       "name": "maestro-metabase",
@@ -5782,7 +5792,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:16:21.783Z"
     },
     "SCDL-subventions-DataSubvention": {
       "name": "SCDL-subventions-DataSubvention",
@@ -5794,7 +5805,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:16:24.355Z"
     },
     "fondation": {
       "name": "fondation",
@@ -5806,7 +5818,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:16:44.406Z"
     },
     "sites-faciles": {
       "name": "sites-faciles",
@@ -5818,7 +5831,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:16:49.615Z"
     },
     "gestion-des-subventions-locales": {
       "name": "gestion-des-subventions-locales",
@@ -5830,7 +5844,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:17:47.428Z"
     },
     "VApp": {
       "name": "VApp",
@@ -5842,7 +5857,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:18:32.768Z"
     },
     "grist-utils": {
       "name": "grist-utils",
@@ -5854,7 +5870,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:19:08.740Z"
     },
     "agir-mesaidesvelo": {
       "name": "agir-mesaidesvelo",
@@ -5866,7 +5883,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:19:13.579Z"
     },
     "kube-dev": {
       "name": "kube-dev",
@@ -5878,7 +5896,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:19:21.910Z"
     },
     "publicodes-aides-velo": {
       "name": "publicodes-aides-velo",
@@ -5890,7 +5909,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:20:00.529Z"
     },
     "logstash-rdv-service-public": {
       "name": "logstash-rdv-service-public",
@@ -5913,7 +5933,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:20:46.416Z"
     },
     "anssi-recommandations-cyber": {
       "name": "anssi-recommandations-cyber",
@@ -5925,7 +5946,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:21:09.685Z"
     },
     "atelier-tests-auto-a11y": {
       "name": "atelier-tests-auto-a11y",
@@ -5948,7 +5970,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:22:11.280Z"
     },
     "poc-communs-projets-levier": {
       "name": "poc-communs-projets-levier",
@@ -5960,7 +5983,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:22:13.714Z"
     },
     "jamstack-loader": {
       "name": "jamstack-loader",
@@ -5983,7 +6007,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:23:42.389Z"
     },
     "mle-back": {
       "name": "mle-back",
@@ -5995,7 +6020,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:26:35.758Z"
     },
     "eval-menu": {
       "name": "eval-menu",
@@ -6018,7 +6044,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:26:51.380Z"
     },
     "mon-profil-anssi": {
       "name": "mon-profil-anssi",
@@ -6030,7 +6057,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:26:55.358Z"
     },
     "dsfr-doc": {
       "name": "dsfr-doc",
@@ -6053,7 +6081,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:27:07.180Z"
     },
     "ota-produits-declarations": {
       "name": "ota-produits-declarations",
@@ -6065,7 +6094,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:27:12.751Z"
     },
     "dashlord": {
       "name": "dashlord",
@@ -6077,7 +6107,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:54.937Z"
     },
     "seves-schemas": {
       "name": "seves-schemas",
@@ -6100,7 +6131,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:04.325Z"
     },
     "grist-core": {
       "name": "grist-core",
@@ -6112,7 +6144,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:13.382Z"
     },
     "schema-aide": {
       "name": "schema-aide",
@@ -6135,7 +6168,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:39.894Z"
     },
     "dsfr-form-builder": {
       "name": "dsfr-form-builder",
@@ -6147,7 +6181,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:53.811Z"
     },
     "seves-documentation": {
       "name": "seves-documentation",
@@ -6159,7 +6194,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:55.571Z"
     },
     "mon-devis-sans-oublis": {
       "name": "mon-devis-sans-oublis",
@@ -6182,7 +6218,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:58.723Z"
     },
     "new-rails-template": {
       "name": "new-rails-template",
@@ -6194,7 +6231,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:36:00.280Z"
     },
     "publicodes-aides-voiture": {
       "name": "publicodes-aides-voiture",
@@ -6230,7 +6268,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:36:03.412Z"
     },
     "aides-simulateur-front": {
       "name": "aides-simulateur-front",
@@ -6242,7 +6281,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:36:13.643Z"
     },
     "maestro-wordpress": {
       "name": "maestro-wordpress",
@@ -6254,7 +6294,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:27:36.119Z"
     },
     "aides-calculatrice-back": {
       "name": "aides-calculatrice-back",
@@ -6266,7 +6307,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:27:38.029Z"
     },
     "braveau-grist-widget": {
       "name": "braveau-grist-widget",
@@ -6302,7 +6344,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:28:22.875Z"
     },
     "acces-cible": {
       "name": "acces-cible",
@@ -6314,7 +6357,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:28:52.570Z"
     },
     "portail-rse-externe": {
       "name": "portail-rse-externe",
@@ -6326,7 +6370,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:28:55.431Z"
     },
     "recoco-sync": {
       "name": "recoco-sync",
@@ -6338,7 +6383,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:29:10.427Z"
     },
     "grist-budget-agriculture": {
       "name": "grist-budget-agriculture",
@@ -6350,7 +6396,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:29:13.168Z"
     },
     "standards": {
       "name": "standards",
@@ -6362,7 +6409,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:29:31.420Z"
     },
     "lab-anssi-ui-kit": {
       "name": "lab-anssi-ui-kit",
@@ -6374,7 +6422,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:29:54.065Z"
     },
     "mes-services-cyber-journal": {
       "name": "mes-services-cyber-journal",
@@ -6386,7 +6435,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:30:22.157Z"
     },
     "sites-faciles-spe": {
       "name": "sites-faciles-spe",
@@ -6398,7 +6448,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:30:26.011Z"
     },
     "sentry-on-heroku": {
       "name": "sentry-on-heroku",
@@ -6421,7 +6472,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:30:58.318Z"
     },
     "self-hosted": {
       "name": "self-hosted",
@@ -6433,7 +6485,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:01.478Z"
     },
     "django-grist-loader": {
       "name": "django-grist-loader",
@@ -6445,7 +6498,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:05.754Z"
     },
     "mozilla-django-oidc": {
       "name": "mozilla-django-oidc",
@@ -6457,7 +6511,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:10.457Z"
     },
     "lab-anssi-admin": {
       "name": "lab-anssi-admin",
@@ -6469,7 +6524,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:14.991Z"
     },
     "aides-simplifiees-app": {
       "name": "aides-simplifiees-app",
@@ -6481,7 +6537,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:40.106Z"
     },
     "chordee-proxy": {
       "name": "chordee-proxy",
@@ -6493,7 +6550,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:42.905Z"
     },
     "diagbruit.beta.gouv.fr": {
       "name": "diagbruit.beta.gouv.fr",
@@ -6505,7 +6563,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:20.922Z"
     },
     "schema-projet-collectivites-transition-ecologique": {
       "name": "schema-projet-collectivites-transition-ecologique",
@@ -6517,7 +6576,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:30:45.723Z"
     },
     "espace-membre-storybook": {
       "name": "espace-membre-storybook",
@@ -6529,7 +6589,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:30:49.198Z"
     },
     "Mistral-penal": {
       "name": "Mistral-penal",
@@ -6541,7 +6602,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:30:51.506Z"
     },
     "depots-sauvages": {
       "name": "depots-sauvages",
@@ -6553,7 +6615,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:06.736Z"
     },
     "lab-anssi-lib": {
       "name": "lab-anssi-lib",
@@ -6565,7 +6628,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:12.202Z"
     },
     "standards-front": {
       "name": "standards-front",
@@ -6577,7 +6641,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:32.568Z"
     },
     "suivi_dtnum_datapass": {
       "name": "suivi_dtnum_datapass",
@@ -6589,7 +6654,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:37.952Z"
     },
     "grist-doc-wk-exporter": {
       "name": "grist-doc-wk-exporter",
@@ -6601,7 +6667,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:42.752Z"
     },
     "omniauth-proconnect": {
       "name": "omniauth-proconnect",
@@ -6613,7 +6680,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:45.411Z"
     },
     "datas-a-just": {
       "name": "datas-a-just",
@@ -6625,7 +6693,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:31:49.733Z"
     },
     "lab-anssi-anti-typosquatting": {
       "name": "lab-anssi-anti-typosquatting",
@@ -6637,7 +6706,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:13.328Z"
     },
     "lasuite-guest-guesser": {
       "name": "lasuite-guest-guesser",
@@ -6649,7 +6719,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:15.058Z"
     },
     "doc.incubateur.net-alliance": {
       "name": "doc.incubateur.net-alliance",
@@ -6661,7 +6732,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:16.435Z"
     },
     "activerecord_defer_persist": {
       "name": "activerecord_defer_persist",
@@ -6673,7 +6745,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:19.197Z"
     },
     "omniauth-proconnect-demo": {
       "name": "omniauth-proconnect-demo",
@@ -6685,7 +6758,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:24.078Z"
     },
     "grist-grav": {
       "name": "grist-grav",
@@ -6697,7 +6771,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:28.031Z"
     },
     "anssi-tutelles": {
       "name": "anssi-tutelles",
@@ -6709,7 +6784,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:29.814Z"
     },
     "OTP-DS-to-Grist": {
       "name": "OTP-DS-to-Grist",
@@ -6721,7 +6797,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:18.118Z"
     },
     "grist-help": {
       "name": "grist-help",
@@ -6733,7 +6810,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:29.485Z"
     },
     "grist-cron-grist-to-brevo": {
       "name": "grist-cron-grist-to-brevo",
@@ -6745,7 +6823,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:04.714Z"
     },
     "betagouv-cucumber-steps": {
       "name": "betagouv-cucumber-steps",
@@ -6757,7 +6836,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:43.177Z"
     },
     "euphrosyne-herma": {
       "name": "euphrosyne-herma",
@@ -6769,7 +6849,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:44.652Z"
     },
     "atelier-formulaires-a11y": {
       "name": "atelier-formulaires-a11y",
@@ -6781,7 +6862,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:47.327Z"
     },
     "grist-static": {
       "name": "grist-static",
@@ -6793,7 +6875,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:48.741Z"
     },
     "document-ia": {
       "name": "document-ia",
@@ -6805,7 +6888,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:32:58.189Z"
     },
     "mastra-beta": {
       "name": "mastra-beta",
@@ -6817,7 +6901,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:00.147Z"
     },
     "csplab": {
       "name": "csplab",
@@ -6829,7 +6914,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:24.315Z"
     },
     "anssi-demain-specialiste-cyber-journal": {
       "name": "anssi-demain-specialiste-cyber-journal",
@@ -6841,7 +6927,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:29.925Z"
     },
     "france-chaleur-urbaine-scalingo-buildpack": {
       "name": "france-chaleur-urbaine-scalingo-buildpack",
@@ -6853,7 +6940,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:32.064Z"
     },
     "publicodes-entreprise-innovation": {
       "name": "publicodes-entreprise-innovation",
@@ -6865,7 +6953,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:33:36.749Z"
     },
     "anssi-recommandations-cyber-data": {
       "name": "anssi-recommandations-cyber-data",
@@ -6877,7 +6966,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:16.468Z"
     },
     "agnostic-ai": {
       "name": "agnostic-ai",
@@ -6889,7 +6979,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:19.527Z"
     },
     "eclauses": {
       "name": "eclauses",
@@ -6901,7 +6992,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:23.842Z"
     },
     "2ddoc-parser": {
       "name": "2ddoc-parser",
@@ -6913,7 +7005,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:25.902Z"
     },
     "dsfr-chart": {
       "name": "dsfr-chart",
@@ -6925,7 +7018,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:35.362Z"
     },
     "aide-a-just": {
       "name": "aide-a-just",
@@ -6937,7 +7031,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:39.482Z"
     },
     "classifia": {
       "name": "classifia",
@@ -6949,7 +7044,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:42.442Z"
     },
     "dsfr-kit": {
       "name": "dsfr-kit",
@@ -6961,7 +7057,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:47.183Z"
     },
     "dj-importmap": {
       "name": "dj-importmap",
@@ -6973,7 +7070,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:49.641Z"
     },
     "Resultats-Elections-FPT": {
       "name": "Resultats-Elections-FPT",
@@ -6985,7 +7083,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:58.085Z"
     },
     "anssi-mes-questions-cyber-journal": {
       "name": "anssi-mes-questions-cyber-journal",
@@ -6997,7 +7096,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:34.367Z"
     },
     "document-ia-grafana-loki": {
       "name": "document-ia-grafana-loki",
@@ -7009,7 +7109,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:35.717Z"
     },
     "assistant-declaration-metabase-scalingo": {
       "name": "assistant-declaration-metabase-scalingo",
@@ -7021,7 +7122,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:37.457Z"
     },
     "datagouv-visualizations": {
       "name": "datagouv-visualizations",
@@ -7033,7 +7135,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:38.703Z"
     },
     "capybara-autodoc": {
       "name": "capybara-autodoc",
@@ -7045,7 +7148,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:40.021Z"
     },
     "ranking_methods": {
       "name": "ranking_methods",
@@ -7057,7 +7161,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:43.849Z"
     },
     "base-agrement-back": {
       "name": "base-agrement-back",
@@ -7069,7 +7174,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:48.569Z"
     },
     "aides-simplifiees-docs": {
       "name": "aides-simplifiees-docs",
@@ -7081,7 +7187,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:52.068Z"
     },
     "oauth2-proxy-buildpack": {
       "name": "oauth2-proxy-buildpack",
@@ -7093,7 +7200,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:54.361Z"
     },
     "oauth2-deploy-demo": {
       "name": "oauth2-deploy-demo",
@@ -7105,7 +7213,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:34:56.714Z"
     },
     "doctorat-gouv": {
       "name": "doctorat-gouv",
@@ -7117,7 +7226,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:32.443Z"
     },
     "archeologia-pipeline": {
       "name": "archeologia-pipeline",
@@ -7129,7 +7239,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:39.830Z"
     },
     "infomedicament_data": {
       "name": "infomedicament_data",
@@ -7141,7 +7252,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:43.409Z"
     },
     "github-export": {
       "name": "github-export",
@@ -7153,7 +7265,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:51.048Z"
     },
     "pompidou": {
       "name": "pompidou",
@@ -7165,7 +7278,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-02-06T23:35:56.237Z"
     },
     "mailpit-buildpack": {
       "name": "mailpit-buildpack",
@@ -7208,23 +7322,29 @@
     },
     "bhasile": {
       "name": "bhasile",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-02-06T19:19:07Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-02-06T19:19:07Z"
+      "lastAttempt": "2026-02-06T23:27:38.393Z",
+      "completedAt": "2026-02-06T23:28:20.590Z",
+      "lastSyncedAt": "2026-02-06T23:28:20.590Z"
     },
     "infomedicament-html-parser": {
       "name": "infomedicament-html-parser",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-02-04T16:06:41Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-02-04T16:06:41Z"
+      "lastAttempt": "2026-02-06T22:25:45.658Z",
+      "completedAt": "2026-02-06T22:25:52.957Z",
+      "lastSyncedAt": "2026-02-06T22:25:52.957Z"
     }
   }
 }
