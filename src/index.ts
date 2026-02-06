@@ -8,7 +8,6 @@ export { migrateRepo } from "./migration/repo-migrator.js";
 export { syncBranches } from "./migration/branch-sync.js";
 
 import { GitHubClient } from "./api/github-client.js";
-import { CodebergClient } from "./api/codeberg-client.js";
 import { StateManager } from "./state/state-manager.js";
 import { migrateRepo, MigrationConfig } from "./migration/repo-migrator.js";
 import { readFile } from "fs/promises";
@@ -17,14 +16,6 @@ interface Config {
   batchSize: number;
   maxParallelRepos: number;
   maxBatchesPerRun: number;
-  migrateOptions: {
-    issues: boolean;
-    pullRequests: boolean;
-    labels: boolean;
-    milestones: boolean;
-    releases: boolean;
-    wiki: boolean;
-  };
   excludeRepos: string[];
   includeOnlyRepos: string[];
 }
@@ -50,7 +41,6 @@ async function main() {
 
   // Initialize clients
   const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg });
-  const codebergClient = new CodebergClient({ token: codebergToken, org: targetOrg });
   const stateManager = new StateManager(statePath, sourceOrg, targetOrg);
 
   await stateManager.load();
@@ -79,7 +69,6 @@ async function main() {
     sourceOrg,
     targetOrg,
     statePath,
-    migrateOptions: config.migrateOptions,
   };
 
   // Migrate repos sequentially

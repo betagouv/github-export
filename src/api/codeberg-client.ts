@@ -1,36 +1,25 @@
 import pRetry from "p-retry";
 
-export interface MigrateOptions {
-  issues?: boolean;
-  pullRequests?: boolean;
-  labels?: boolean;
-  milestones?: boolean;
-  releases?: boolean;
-  wiki?: boolean;
-}
-
-export interface MigrateRepoParams {
-  repoName: string;
-  cloneUrl: string;
-  description?: string;
-  isPrivate?: boolean;
-  githubToken: string;
-  options?: MigrateOptions;
-}
-
 export interface CodebergRepo {
   id: number;
   name: string;
-  fullName: string;
-  cloneUrl: string;
-  sshUrl: string;
-  htmlUrl: string;
+  clone_url: string;
+  ssh_url: string;
+  html_url: string;
 }
 
 export interface CodebergClientOptions {
   token: string;
   org: string;
   baseUrl?: string;
+}
+
+export interface CreateRepoOption {
+  name: string;
+  description?: string;
+  private?: boolean;
+  auto_init?: boolean;
+  default_branch?: string;
 }
 
 export class CodebergClient {
@@ -47,7 +36,7 @@ export class CodebergClient {
   private async request<T>(
     method: string,
     path: string,
-    body?: unknown
+    body?: unknown,
   ): Promise<T> {
     const url = `${this.baseUrl}${path}`;
 
@@ -64,7 +53,7 @@ export class CodebergClient {
     if (!response.ok) {
       const errorText = await response.text();
       const error = new Error(
-        `Codeberg API error: ${response.status} ${response.statusText} - ${errorText}`
+        `Codeberg API error: ${response.status} ${response.statusText} - ${errorText}`,
       );
       (error as any).status = response.status;
       (error as any).response = errorText;
@@ -91,7 +80,7 @@ export class CodebergClient {
     try {
       return await this.request<CodebergRepo>(
         "GET",
-        `/repos/${this.org}/${repoName}`
+        `/repos/${this.org}/${repoName}`,
       );
     } catch (error: any) {
       if (error.status === 404) {
@@ -101,55 +90,45 @@ export class CodebergClient {
     }
   }
 
-  async migrateRepo(params: MigrateRepoParams): Promise<CodebergRepo> {
-    const {
-      repoName,
-      cloneUrl,
-      description,
-      isPrivate = false,
-      githubToken,
-      options = {},
-    } = params;
-
-    console.log(`Starting migration of ${repoName} via Gitea API...`);
-
-    // Use the Gitea migrate API with service: "github" for full migration
-    // This is CRITICAL - using "github" service enables issue/PR migration
-    const migratePayload = {
-      clone_addr: cloneUrl,
-      repo_name: repoName,
-      repo_owner: this.org,
-      service: "github", // MUST be "github" for issue migration, not "git"
-      auth_token: githubToken,
-      mirror: false,
-      private: isPrivate,
-      description: description ?? "",
-      issues: options.issues ?? true,
-      pull_requests: options.pullRequests ?? true,
-      labels: options.labels ?? true,
-      milestones: options.milestones ?? true,
-      releases: options.releases ?? true,
-      wiki: options.wiki ?? true,
-    };
-
+  async createRepo(options: CreateRepoOption): Promise<CodebergRepo> {
+    console.log(`Creating repo ${this.org}/${options.name}...`);
     return await pRetry(
       async () => {
         return await this.request<CodebergRepo>(
           "POST",
-          "/repos/migrate",
-          migratePayload
+          `/orgs/${this.org}/repos`,
+          options,
         );
       },
       {
         retries: 3,
         onFailedAttempt: (error) => {
           console.warn(
-            `Migration attempt ${error.attemptNumber} failed for ${repoName}: ${error.message}`
+            `Create repo attempt ${error.attemptNumber} failed: ${error.message}`,
           );
-          console.warn(`${error.retriesLeft} retries left`);
         },
-      }
+      },
     );
+  }
+
+  async ensureRepo(
+    repoName: string,
+    description?: string,
+    isPrivate = false,
+  ): Promise<{ repo: CodebergRepo; alreadyExisted: boolean }> {
+    const existing = await this.getRepo(repoName);
+    if (existing) {
+      console.log(`Repository ${repoName} already exists on Codeberg`);
+      return { repo: existing, alreadyExisted: true };
+    }
+
+    const repo = await this.createRepo({
+      name: repoName,
+      description: description ?? "",
+      private: isPrivate,
+      auto_init: false,
+    });
+    return { repo, alreadyExisted: false };
   }
 
   async deleteRepo(repoName: string): Promise<void> {
@@ -159,16 +138,42 @@ export class CodebergClient {
 
   async updateRepo(
     repoName: string,
-    updates: { description?: string; private?: boolean }
+    updates: { description?: string; private?: boolean },
   ): Promise<CodebergRepo> {
     return await this.request<CodebergRepo>(
       "PATCH",
       `/repos/${this.org}/${repoName}`,
-      updates
+      updates,
     );
   }
 
   getCloneUrlWithAuth(repoName: string): string {
     return `https://${this.token}@codeberg.org/${this.org}/${repoName}.git`;
+  }
+
+  async listOrgRepos(): Promise<CodebergRepo[]> {
+    const allRepos: CodebergRepo[] = [];
+    let page = 1;
+    const limit = 50;
+
+    while (true) {
+      const repos = await this.request<CodebergRepo[]>(
+        "GET",
+        `/orgs/${this.org}/repos?page=${page}&limit=${limit}`,
+      );
+
+      if (repos.length === 0) {
+        break;
+      }
+
+      allRepos.push(...repos);
+      page++;
+
+      if (repos.length < limit) {
+        break;
+      }
+    }
+
+    return allRepos;
   }
 }

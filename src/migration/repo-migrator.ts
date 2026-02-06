@@ -1,5 +1,5 @@
 import { GitHubClient, GitHubRepo } from "../api/github-client.js";
-import { CodebergClient, MigrateOptions } from "../api/codeberg-client.js";
+import { CodebergClient } from "../api/codeberg-client.js";
 import { StateManager, ErrorType } from "../state/state-manager.js";
 import { syncBranches } from "./branch-sync.js";
 
@@ -9,7 +9,6 @@ export interface MigrationConfig {
   sourceOrg: string;
   targetOrg: string;
   statePath: string;
-  migrateOptions: MigrateOptions;
   workDir?: string;
 }
 
@@ -17,7 +16,7 @@ export interface MigrationResult {
   repoName: string;
   success: boolean;
   phases: {
-    apiMigration: boolean;
+    repoCreation: boolean;
     branchSync: boolean;
   };
   error?: string;
@@ -85,7 +84,7 @@ export async function migrateRepo(
     repoName,
     success: false,
     phases: {
-      apiMigration: false,
+      repoCreation: false,
       branchSync: false,
     },
   };
@@ -101,65 +100,38 @@ export async function migrateRepo(
     org: config.targetOrg,
   });
 
-  // Phase 1: API Migration (issues, PRs, etc.)
-  // Skip for sync-only mode (repo already migrated, just syncing new commits)
-  console.log(`\n[Phase 1] API Migration for ${repoName}`);
+  // Phase 1: Ensure repo exists on Codeberg
+  console.log(`\n[Phase 1] Ensuring repo exists on Codeberg: ${repoName}`);
 
-  let skipApiMigration = isSyncOnly || currentState?.phases.apiMigration === true;
+  try {
+    const { alreadyExisted } = await codebergClient.ensureRepo(
+      repoName,
+      githubRepo.description ?? undefined,
+      githubRepo.isPrivate
+    );
 
-  if (!skipApiMigration) {
-    // Check if repo already exists on Codeberg
-    const exists = await codebergClient.repoExists(repoName);
-    if (exists) {
-      console.log(`Repo ${repoName} already exists on Codeberg, skipping API migration`);
-      skipApiMigration = true;
-      result.phases.apiMigration = true;
-      stateManager.markPhaseComplete(repoName, "apiMigration");
+    if (alreadyExisted) {
+      console.log(`Repo already exists, continuing to branch sync`);
+    } else {
+      console.log(`Repo created on Codeberg`);
     }
-  } else {
-    console.log(`API migration already completed${isSyncOnly ? " (sync mode)" : ""}, skipping`);
-    result.phases.apiMigration = true;
+
+    result.phases.repoCreation = true;
+    stateManager.markPhaseComplete(repoName, "apiMigration");
+    await stateManager.save();
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    const errorType = classifyError(error);
+
+    console.error(`Repo creation failed: ${errorMessage}`);
+    result.error = errorMessage;
+    result.errorType = errorType;
+    stateManager.markFailed(repoName, errorMessage, errorType);
+    await stateManager.save();
+    return result;
   }
 
-  if (!skipApiMigration) {
-    try {
-      await codebergClient.migrateRepo({
-        repoName,
-        cloneUrl: githubRepo.cloneUrl,
-        description: githubRepo.description ?? undefined,
-        isPrivate: githubRepo.isPrivate,
-        githubToken: config.githubToken,
-        options: config.migrateOptions,
-      });
-
-      console.log(`API migration completed for ${repoName}`);
-      result.phases.apiMigration = true;
-      stateManager.markPhaseComplete(repoName, "apiMigration");
-      await stateManager.save();
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
-      const errorType = classifyError(error);
-
-      // If repo already exists, treat as recoverable and continue to branch sync
-      if (
-        errorMessage.includes("already exists") ||
-        errorMessage.includes("409")
-      ) {
-        console.log(`Repo already exists, continuing to branch sync`);
-        result.phases.apiMigration = true;
-        stateManager.markPhaseComplete(repoName, "apiMigration");
-      } else {
-        console.error(`API migration failed: ${errorMessage}`);
-        result.error = errorMessage;
-        result.errorType = errorType;
-        stateManager.markFailed(repoName, errorMessage, errorType);
-        await stateManager.save();
-        return result;
-      }
-    }
-  }
-
-  // Phase 2: Branch Sync (force push all branches)
+  // Phase 2: Branch Sync (force push all branches and tags)
   // Always run for sync-only mode (to update with new commits)
   console.log(`\n[Phase 2] Branch Sync for ${repoName}`);
 
@@ -252,14 +224,6 @@ async function main() {
     sourceOrg,
     targetOrg,
     statePath,
-    migrateOptions: {
-      issues: true,
-      pullRequests: true,
-      labels: true,
-      milestones: true,
-      releases: true,
-      wiki: repo.hasWiki,
-    },
   };
 
   const result = await migrateRepo(repo, config, stateManager);
