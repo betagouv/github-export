@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-02-06T22:24:23.309Z",
+  "lastDiscovery": "2026-02-07T01:26:48.244Z",
   "totalRepos": 570,
   "repos": {
     "aides-jeunes": {
@@ -1248,13 +1248,13 @@
       "status": "completed",
       "lastAttempt": "2026-01-16T23:36:19.749Z",
       "completedAt": "2026-01-16T23:42:41.919Z",
+      "lastSyncedAt": "2026-02-06T22:33:03.820Z",
       "githubPushedAt": "2025-05-27T16:10:26Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T22:33:03.820Z"
+      }
     },
     "eva-serveur": {
       "name": "eva-serveur",
@@ -2362,6 +2362,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T00:27:10.900Z",
       "completedAt": "2026-01-21T00:27:44.721Z",
+      "lastSyncedAt": "2026-02-06T22:47:06.996Z",
       "githubPushedAt": "2026-01-02T12:39:47Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
@@ -2369,8 +2370,7 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T22:47:06.996Z"
+      }
     },
     "renforts": {
       "name": "renforts",
@@ -2646,6 +2646,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T00:26:08.474Z",
       "completedAt": "2026-01-21T00:27:10.298Z",
+      "lastSyncedAt": "2026-02-06T22:25:23.550Z",
       "githubPushedAt": "2025-08-14T08:57:05Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
@@ -2653,8 +2654,7 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T22:25:23.550Z"
+      }
     },
     "matomo-scalingo-deploy": {
       "name": "matomo-scalingo-deploy",
@@ -2761,6 +2761,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T00:34:26.887Z",
       "completedAt": "2026-01-21T00:34:39.695Z",
+      "lastSyncedAt": "2026-02-06T22:28:46.095Z",
       "githubPushedAt": "2026-01-02T11:20:29Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
@@ -2768,8 +2769,7 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T22:28:46.095Z"
+      }
     },
     "comobi": {
       "name": "comobi",
@@ -3530,13 +3530,13 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T08:41:32.310Z",
       "completedAt": "2026-01-21T08:42:38.414Z",
+      "lastSyncedAt": "2026-02-06T23:04:24.915Z",
       "githubPushedAt": "2025-03-16T10:59:31Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:04:24.915Z"
+      }
     },
     "awesome-betagouv": {
       "name": "awesome-betagouv",
@@ -3544,7 +3544,7 @@
       "lastAttempt": "2026-01-21T08:42:38.677Z",
       "completedAt": "2026-01-21T08:43:20.367Z",
       "lastSyncedAt": "2026-01-23T14:47:39.805Z",
-      "githubPushedAt": "2026-02-04T21:47:21Z",
+      "githubPushedAt": "2026-02-06T22:39:33Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -3848,13 +3848,13 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T18:53:25.098Z",
       "completedAt": "2026-01-21T18:54:06.963Z",
+      "lastSyncedAt": "2026-02-06T23:06:27.953Z",
       "githubPushedAt": "2025-03-24T11:04:14Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:06:27.953Z"
+      }
     },
     "node-plantuml": {
       "name": "node-plantuml",
@@ -5045,13 +5045,13 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T22:30:12.698Z",
       "completedAt": "2026-01-21T22:33:26.922Z",
+      "lastSyncedAt": "2026-02-06T23:11:52.759Z",
       "githubPushedAt": "2026-02-03T12:57:09Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:11:52.759Z"
+      }
     },
     "cal.com-test": {
       "name": "cal.com-test",
@@ -5251,7 +5251,7 @@
       "lastAttempt": "2026-01-21T22:32:07.811Z",
       "completedAt": "2026-01-21T22:32:25.036Z",
       "lastSyncedAt": "2026-01-25T21:34:11.356Z",
-      "githubPushedAt": "2026-01-31T10:44:59Z",
+      "githubPushedAt": "2026-02-07T01:10:41Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -5575,7 +5575,7 @@
       "lastAttempt": "2026-01-21T22:26:19.811Z",
       "completedAt": "2026-01-21T22:27:10.444Z",
       "lastSyncedAt": "2026-01-25T21:38:20.933Z",
-      "githubPushedAt": "2026-02-06T22:04:17Z",
+      "githubPushedAt": "2026-02-06T22:26:28Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -5737,39 +5737,39 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:18:29.049Z",
       "completedAt": "2026-01-21T23:23:53.783Z",
+      "lastSyncedAt": "2026-02-06T23:20:04.256Z",
       "githubPushedAt": "2026-02-06T13:20:04Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:20:04.256Z"
+      }
     },
     "agir.github.io": {
       "name": "agir.github.io",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:23:54.118Z",
       "completedAt": "2026-01-21T23:24:02.612Z",
+      "lastSyncedAt": "2026-02-06T23:20:07.083Z",
       "githubPushedAt": "2025-03-21T15:29:05Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:20:07.083Z"
+      }
     },
     "api_gouv_swaggers": {
       "name": "api_gouv_swaggers",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:12:41.574Z",
       "completedAt": "2026-01-21T23:13:30.729Z",
+      "lastSyncedAt": "2026-02-06T23:20:10.109Z",
       "githubPushedAt": "2026-01-21T14:26:32Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:20:10.109Z"
+      }
     },
     "maestro-metabase": {
       "name": "maestro-metabase",
@@ -5787,130 +5787,130 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:13:31.082Z",
       "completedAt": "2026-01-21T23:13:55.491Z",
+      "lastSyncedAt": "2026-02-06T23:16:21.783Z",
       "githubPushedAt": "2025-06-20T11:34:55Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:16:21.783Z"
+      }
     },
     "SCDL-subventions-DataSubvention": {
       "name": "SCDL-subventions-DataSubvention",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:13:55.903Z",
       "completedAt": "2026-01-21T23:14:29.092Z",
+      "lastSyncedAt": "2026-02-06T23:16:24.355Z",
       "githubPushedAt": "2025-04-23T12:56:16Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:16:24.355Z"
+      }
     },
     "fondation": {
       "name": "fondation",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:14:29.400Z",
       "completedAt": "2026-01-21T23:19:49.794Z",
+      "lastSyncedAt": "2026-02-06T23:16:44.406Z",
       "githubPushedAt": "2026-02-06T18:28:58Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:16:44.406Z"
+      }
     },
     "sites-faciles": {
       "name": "sites-faciles",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:19:50.187Z",
       "completedAt": "2026-01-21T23:20:01.023Z",
+      "lastSyncedAt": "2026-02-06T23:16:49.615Z",
       "githubPushedAt": "2026-01-21T10:34:12Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:16:49.615Z"
+      }
     },
     "gestion-des-subventions-locales": {
       "name": "gestion-des-subventions-locales",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:20:01.339Z",
       "completedAt": "2026-01-21T23:21:19.259Z",
+      "lastSyncedAt": "2026-02-06T23:17:47.428Z",
       "githubPushedAt": "2026-02-06T17:09:05Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:17:47.428Z"
+      }
     },
     "VApp": {
       "name": "VApp",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:21:19.659Z",
       "completedAt": "2026-01-21T23:22:05.207Z",
+      "lastSyncedAt": "2026-02-06T23:18:32.768Z",
       "githubPushedAt": "2025-04-14T14:09:57Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:18:32.768Z"
+      }
     },
     "grist-utils": {
       "name": "grist-utils",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:22:05.553Z",
       "completedAt": "2026-01-21T23:22:30.037Z",
+      "lastSyncedAt": "2026-02-06T23:19:08.740Z",
       "githubPushedAt": "2026-02-03T09:57:00Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:19:08.740Z"
+      }
     },
     "agir-mesaidesvelo": {
       "name": "agir-mesaidesvelo",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:22:30.490Z",
       "completedAt": "2026-01-21T23:22:39.445Z",
+      "lastSyncedAt": "2026-02-06T23:19:13.579Z",
       "githubPushedAt": "2025-03-04T18:03:34Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:19:13.579Z"
+      }
     },
     "kube-dev": {
       "name": "kube-dev",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:22:39.727Z",
       "completedAt": "2026-01-21T23:23:06.606Z",
+      "lastSyncedAt": "2026-02-06T23:19:21.910Z",
       "githubPushedAt": "2026-01-30T17:55:38Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:19:21.910Z"
+      }
     },
     "publicodes-aides-velo": {
       "name": "publicodes-aides-velo",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:12:45.304Z",
       "completedAt": "2026-01-21T23:13:35.300Z",
+      "lastSyncedAt": "2026-02-06T23:20:00.529Z",
       "githubPushedAt": "2026-01-16T17:18:10Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:20:00.529Z"
+      }
     },
     "logstash-rdv-service-public": {
       "name": "logstash-rdv-service-public",
@@ -5928,26 +5928,26 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:13:35.526Z",
       "completedAt": "2026-01-21T23:18:59.233Z",
+      "lastSyncedAt": "2026-02-06T23:20:46.416Z",
       "githubPushedAt": "2026-02-05T09:03:23Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:20:46.416Z"
+      }
     },
     "anssi-recommandations-cyber": {
       "name": "anssi-recommandations-cyber",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:18:59.467Z",
       "completedAt": "2026-01-21T23:24:15.246Z",
+      "lastSyncedAt": "2026-02-06T23:21:09.685Z",
       "githubPushedAt": "2026-02-05T17:03:47Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:21:09.685Z"
+      }
     },
     "atelier-tests-auto-a11y": {
       "name": "atelier-tests-auto-a11y",
@@ -5965,26 +5965,26 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:24:15.508Z",
       "completedAt": "2026-01-21T23:28:27.349Z",
+      "lastSyncedAt": "2026-02-06T23:22:11.280Z",
       "githubPushedAt": "2026-02-06T14:26:19Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:22:11.280Z"
+      }
     },
     "poc-communs-projets-levier": {
       "name": "poc-communs-projets-levier",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:15:32.089Z",
       "completedAt": "2026-01-22T02:16:15.264Z",
+      "lastSyncedAt": "2026-02-06T23:22:13.714Z",
       "githubPushedAt": "2025-06-09T16:01:05Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:22:13.714Z"
+      }
     },
     "jamstack-loader": {
       "name": "jamstack-loader",
@@ -6002,26 +6002,26 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:16:15.599Z",
       "completedAt": "2026-01-22T02:19:14.923Z",
+      "lastSyncedAt": "2026-02-06T23:23:42.389Z",
       "githubPushedAt": "2026-02-03T16:44:05Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:23:42.389Z"
+      }
     },
     "mle-back": {
       "name": "mle-back",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:19:15.310Z",
       "completedAt": "2026-01-22T02:23:41.642Z",
+      "lastSyncedAt": "2026-02-06T23:26:35.758Z",
       "githubPushedAt": "2026-02-03T15:47:03Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:26:35.758Z"
+      }
     },
     "eval-menu": {
       "name": "eval-menu",
@@ -6039,26 +6039,26 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:23:41.996Z",
       "completedAt": "2026-01-22T02:24:00.704Z",
+      "lastSyncedAt": "2026-02-06T23:26:51.380Z",
       "githubPushedAt": "2026-01-24T16:23:01Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:26:51.380Z"
+      }
     },
     "mon-profil-anssi": {
       "name": "mon-profil-anssi",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:24:01.049Z",
       "completedAt": "2026-01-22T02:25:32.504Z",
+      "lastSyncedAt": "2026-02-06T23:26:55.358Z",
       "githubPushedAt": "2026-01-06T08:39:46Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:26:55.358Z"
+      }
     },
     "dsfr-doc": {
       "name": "dsfr-doc",
@@ -6076,39 +6076,39 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:25:32.843Z",
       "completedAt": "2026-01-22T02:27:44.506Z",
+      "lastSyncedAt": "2026-02-06T23:27:07.180Z",
       "githubPushedAt": "2026-02-06T14:37:45Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:27:07.180Z"
+      }
     },
     "ota-produits-declarations": {
       "name": "ota-produits-declarations",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:23:20.742Z",
       "completedAt": "2026-01-21T23:24:39.853Z",
+      "lastSyncedAt": "2026-02-06T23:27:12.751Z",
       "githubPushedAt": "2025-03-11T06:21:18Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:27:12.751Z"
+      }
     },
     "dashlord": {
       "name": "dashlord",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:24:40.123Z",
       "completedAt": "2026-01-21T23:30:23.760Z",
+      "lastSyncedAt": "2026-02-06T23:34:54.937Z",
       "githubPushedAt": "2026-02-01T14:14:29Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:54.937Z"
+      }
     },
     "seves-schemas": {
       "name": "seves-schemas",
@@ -6126,26 +6126,26 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:27:44.842Z",
       "completedAt": "2026-01-22T02:28:51.041Z",
+      "lastSyncedAt": "2026-02-06T23:35:04.325Z",
       "githubPushedAt": "2026-02-03T09:11:31Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:04.325Z"
+      }
     },
     "grist-core": {
       "name": "grist-core",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:25:49.556Z",
       "completedAt": "2026-01-22T08:26:10.689Z",
+      "lastSyncedAt": "2026-02-06T23:35:13.382Z",
       "githubPushedAt": "2026-02-04T21:43:28Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:13.382Z"
+      }
     },
     "schema-aide": {
       "name": "schema-aide",
@@ -6163,39 +6163,39 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:10.998Z",
       "completedAt": "2026-01-22T08:31:39.972Z",
+      "lastSyncedAt": "2026-02-06T23:35:39.894Z",
       "githubPushedAt": "2026-02-06T16:23:18Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:39.894Z"
+      }
     },
     "dsfr-form-builder": {
       "name": "dsfr-form-builder",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:31:40.306Z",
       "completedAt": "2026-01-22T08:32:09.303Z",
+      "lastSyncedAt": "2026-02-06T23:35:53.811Z",
       "githubPushedAt": "2026-02-05T08:14:56Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:53.811Z"
+      }
     },
     "seves-documentation": {
       "name": "seves-documentation",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:15:30.497Z",
       "completedAt": "2026-01-22T02:15:41.018Z",
+      "lastSyncedAt": "2026-02-06T23:35:55.571Z",
       "githubPushedAt": "2025-05-27T12:05:48Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:55.571Z"
+      }
     },
     "mon-devis-sans-oublis": {
       "name": "mon-devis-sans-oublis",
@@ -6213,26 +6213,26 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:15:41.367Z",
       "completedAt": "2026-01-22T02:16:22.501Z",
+      "lastSyncedAt": "2026-02-06T23:35:58.723Z",
       "githubPushedAt": "2026-01-15T09:26:22Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:58.723Z"
+      }
     },
     "new-rails-template": {
       "name": "new-rails-template",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:16:22.789Z",
       "completedAt": "2026-01-22T02:17:00.445Z",
+      "lastSyncedAt": "2026-02-06T23:36:00.280Z",
       "githubPushedAt": "2025-08-21T09:00:35Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:36:00.280Z"
+      }
     },
     "publicodes-aides-voiture": {
       "name": "publicodes-aides-voiture",
@@ -6263,52 +6263,52 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:24:32.766Z",
       "completedAt": "2026-01-21T23:25:47.282Z",
+      "lastSyncedAt": "2026-02-06T23:36:03.412Z",
       "githubPushedAt": "2025-06-27T09:26:54Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:36:03.412Z"
+      }
     },
     "aides-simulateur-front": {
       "name": "aides-simulateur-front",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:25:47.632Z",
       "completedAt": "2026-01-21T23:26:37.611Z",
+      "lastSyncedAt": "2026-02-06T23:36:13.643Z",
       "githubPushedAt": "2025-04-22T10:03:36Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:36:13.643Z"
+      }
     },
     "maestro-wordpress": {
       "name": "maestro-wordpress",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:26:38.100Z",
       "completedAt": "2026-01-21T23:26:50.748Z",
+      "lastSyncedAt": "2026-02-06T23:27:36.119Z",
       "githubPushedAt": "2025-06-02T12:49:09Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:27:36.119Z"
+      }
     },
     "aides-calculatrice-back": {
       "name": "aides-calculatrice-back",
       "status": "completed",
       "lastAttempt": "2026-01-21T23:26:51.062Z",
       "completedAt": "2026-01-21T23:27:28.862Z",
+      "lastSyncedAt": "2026-02-06T23:27:38.029Z",
       "githubPushedAt": "2026-01-10T13:33:14Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:27:38.029Z"
+      }
     },
     "braveau-grist-widget": {
       "name": "braveau-grist-widget",
@@ -6339,117 +6339,117 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:18:40.508Z",
       "completedAt": "2026-01-22T02:18:51.070Z",
+      "lastSyncedAt": "2026-02-06T23:28:22.875Z",
       "githubPushedAt": "2025-02-10T08:34:14Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:28:22.875Z"
+      }
     },
     "acces-cible": {
       "name": "acces-cible",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:18:51.395Z",
       "completedAt": "2026-01-22T02:24:22.418Z",
+      "lastSyncedAt": "2026-02-06T23:28:52.570Z",
       "githubPushedAt": "2026-02-04T14:42:30Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:28:52.570Z"
+      }
     },
     "portail-rse-externe": {
       "name": "portail-rse-externe",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:24:22.803Z",
       "completedAt": "2026-01-22T02:25:00.083Z",
+      "lastSyncedAt": "2026-02-06T23:28:55.431Z",
       "githubPushedAt": "2025-04-11T17:09:52Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:28:55.431Z"
+      }
     },
     "recoco-sync": {
       "name": "recoco-sync",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:25:00.398Z",
       "completedAt": "2026-01-22T02:27:08.952Z",
+      "lastSyncedAt": "2026-02-06T23:29:10.427Z",
       "githubPushedAt": "2025-11-26T06:04:01Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:29:10.427Z"
+      }
     },
     "grist-budget-agriculture": {
       "name": "grist-budget-agriculture",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:27:09.290Z",
       "completedAt": "2026-01-22T02:27:20.983Z",
+      "lastSyncedAt": "2026-02-06T23:29:13.168Z",
       "githubPushedAt": "2025-12-10T08:27:25Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:29:13.168Z"
+      }
     },
     "standards": {
       "name": "standards",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:15:31.534Z",
       "completedAt": "2026-01-22T02:16:28.821Z",
+      "lastSyncedAt": "2026-02-06T23:29:31.420Z",
       "githubPushedAt": "2026-01-07T11:18:02Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:29:31.420Z"
+      }
     },
     "lab-anssi-ui-kit": {
       "name": "lab-anssi-ui-kit",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:16:29.266Z",
       "completedAt": "2026-01-22T02:21:56.143Z",
+      "lastSyncedAt": "2026-02-06T23:29:54.065Z",
       "githubPushedAt": "2026-02-06T09:43:36Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:29:54.065Z"
+      }
     },
     "mes-services-cyber-journal": {
       "name": "mes-services-cyber-journal",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:21:56.586Z",
       "completedAt": "2026-01-22T02:22:09.646Z",
+      "lastSyncedAt": "2026-02-06T23:30:22.157Z",
       "githubPushedAt": "2025-12-04T13:21:58Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:30:22.157Z"
+      }
     },
     "sites-faciles-spe": {
       "name": "sites-faciles-spe",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:22:10.184Z",
       "completedAt": "2026-01-22T02:22:19.908Z",
+      "lastSyncedAt": "2026-02-06T23:30:26.011Z",
       "githubPushedAt": "2025-10-30T10:29:40Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:30:26.011Z"
+      }
     },
     "sentry-on-heroku": {
       "name": "sentry-on-heroku",
@@ -6467,819 +6467,819 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T02:22:20.260Z",
       "completedAt": "2026-01-22T02:23:54.333Z",
+      "lastSyncedAt": "2026-02-06T23:30:58.318Z",
       "githubPushedAt": "2025-03-17T15:49:05Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:30:58.318Z"
+      }
     },
     "self-hosted": {
       "name": "self-hosted",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:23:54.731Z",
       "completedAt": "2026-01-22T02:24:03.979Z",
+      "lastSyncedAt": "2026-02-06T23:31:01.478Z",
       "githubPushedAt": "2025-03-17T14:33:47Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:01.478Z"
+      }
     },
     "django-grist-loader": {
       "name": "django-grist-loader",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:24:04.273Z",
       "completedAt": "2026-01-22T02:24:41.304Z",
+      "lastSyncedAt": "2026-02-06T23:31:05.754Z",
       "githubPushedAt": "2025-11-03T12:31:49Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:05.754Z"
+      }
     },
     "mozilla-django-oidc": {
       "name": "mozilla-django-oidc",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:24:41.690Z",
       "completedAt": "2026-01-22T02:24:49.788Z",
+      "lastSyncedAt": "2026-02-06T23:31:10.457Z",
       "githubPushedAt": "2025-04-23T09:38:57Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:10.457Z"
+      }
     },
     "lab-anssi-admin": {
       "name": "lab-anssi-admin",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:24:50.099Z",
       "completedAt": "2026-01-22T02:26:24.178Z",
+      "lastSyncedAt": "2026-02-06T23:31:14.991Z",
       "githubPushedAt": "2026-01-06T16:14:36Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:14.991Z"
+      }
     },
     "aides-simplifiees-app": {
       "name": "aides-simplifiees-app",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:26:24.514Z",
       "completedAt": "2026-01-22T02:27:05.532Z",
+      "lastSyncedAt": "2026-02-06T23:31:40.106Z",
       "githubPushedAt": "2026-02-02T13:34:44Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:40.106Z"
+      }
     },
     "chordee-proxy": {
       "name": "chordee-proxy",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:27:25.201Z",
       "completedAt": "2026-01-22T02:27:32.535Z",
+      "lastSyncedAt": "2026-02-06T23:31:42.905Z",
       "githubPushedAt": "2025-04-07T13:34:23Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:42.905Z"
+      }
     },
     "diagbruit.beta.gouv.fr": {
       "name": "diagbruit.beta.gouv.fr",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:27:32.840Z",
       "completedAt": "2026-01-22T02:28:54.582Z",
+      "lastSyncedAt": "2026-02-06T23:32:20.922Z",
       "githubPushedAt": "2026-02-02T17:35:59Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:20.922Z"
+      }
     },
     "schema-projet-collectivites-transition-ecologique": {
       "name": "schema-projet-collectivites-transition-ecologique",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:32:09.716Z",
       "completedAt": "2026-01-22T08:32:17.963Z",
+      "lastSyncedAt": "2026-02-06T23:30:45.723Z",
       "githubPushedAt": "2025-05-20T15:05:13Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:30:45.723Z"
+      }
     },
     "espace-membre-storybook": {
       "name": "espace-membre-storybook",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:32:18.276Z",
       "completedAt": "2026-01-22T08:32:48.887Z",
+      "lastSyncedAt": "2026-02-06T23:30:49.198Z",
       "githubPushedAt": "2025-12-08T13:47:26Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:30:49.198Z"
+      }
     },
     "Mistral-penal": {
       "name": "Mistral-penal",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:32:49.188Z",
       "completedAt": "2026-01-22T08:32:56.711Z",
+      "lastSyncedAt": "2026-02-06T23:30:51.506Z",
       "githubPushedAt": "2025-04-21T06:32:27Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:30:51.506Z"
+      }
     },
     "depots-sauvages": {
       "name": "depots-sauvages",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:32:57.002Z",
       "completedAt": "2026-01-22T08:37:34.146Z",
+      "lastSyncedAt": "2026-02-06T23:31:06.736Z",
       "githubPushedAt": "2026-02-05T16:19:36Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:06.736Z"
+      }
     },
     "lab-anssi-lib": {
       "name": "lab-anssi-lib",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:37:34.449Z",
       "completedAt": "2026-01-22T08:39:27.231Z",
+      "lastSyncedAt": "2026-02-06T23:31:12.202Z",
       "githubPushedAt": "2026-01-06T08:32:25Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:12.202Z"
+      }
     },
     "standards-front": {
       "name": "standards-front",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:39:27.507Z",
       "completedAt": "2026-01-22T08:40:22.300Z",
+      "lastSyncedAt": "2026-02-06T23:31:32.568Z",
       "githubPushedAt": "2026-02-04T18:15:01Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:32.568Z"
+      }
     },
     "suivi_dtnum_datapass": {
       "name": "suivi_dtnum_datapass",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:22.570Z",
       "completedAt": "2026-01-22T08:41:36.917Z",
+      "lastSyncedAt": "2026-02-06T23:31:37.952Z",
       "githubPushedAt": "2025-11-03T15:18:14Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:37.952Z"
+      }
     },
     "grist-doc-wk-exporter": {
       "name": "grist-doc-wk-exporter",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:25:52.688Z",
       "completedAt": "2026-01-22T08:26:03.979Z",
+      "lastSyncedAt": "2026-02-06T23:31:42.752Z",
       "githubPushedAt": "2026-01-23T15:16:10Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:42.752Z"
+      }
     },
     "omniauth-proconnect": {
       "name": "omniauth-proconnect",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:27:41.629Z",
       "completedAt": "2026-01-22T02:28:19.536Z",
+      "lastSyncedAt": "2026-02-06T23:31:45.411Z",
       "githubPushedAt": "2025-11-05T13:57:29Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:45.411Z"
+      }
     },
     "datas-a-just": {
       "name": "datas-a-just",
       "status": "completed",
       "lastAttempt": "2026-01-22T02:28:19.913Z",
       "completedAt": "2026-01-22T02:28:32.142Z",
+      "lastSyncedAt": "2026-02-06T23:31:49.733Z",
       "githubPushedAt": "2025-05-14T10:34:23Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:31:49.733Z"
+      }
     },
     "lab-anssi-anti-typosquatting": {
       "name": "lab-anssi-anti-typosquatting",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:04.283Z",
       "completedAt": "2026-01-22T08:26:11.981Z",
+      "lastSyncedAt": "2026-02-06T23:32:13.328Z",
       "githubPushedAt": "2025-05-07T12:54:46Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:13.328Z"
+      }
     },
     "lasuite-guest-guesser": {
       "name": "lasuite-guest-guesser",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:12.308Z",
       "completedAt": "2026-01-22T08:26:19.248Z",
+      "lastSyncedAt": "2026-02-06T23:32:15.058Z",
       "githubPushedAt": "2025-05-15T15:10:26Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:15.058Z"
+      }
     },
     "doc.incubateur.net-alliance": {
       "name": "doc.incubateur.net-alliance",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:19.539Z",
       "completedAt": "2026-01-22T08:26:27.119Z",
+      "lastSyncedAt": "2026-02-06T23:32:16.435Z",
       "githubPushedAt": "2025-11-12T17:00:48Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:16.435Z"
+      }
     },
     "activerecord_defer_persist": {
       "name": "activerecord_defer_persist",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:27.401Z",
       "completedAt": "2026-01-22T08:26:35.091Z",
+      "lastSyncedAt": "2026-02-06T23:32:19.197Z",
       "githubPushedAt": "2025-06-02T12:47:52Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:19.197Z"
+      }
     },
     "omniauth-proconnect-demo": {
       "name": "omniauth-proconnect-demo",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:35.363Z",
       "completedAt": "2026-01-22T08:27:42.478Z",
+      "lastSyncedAt": "2026-02-06T23:32:24.078Z",
       "githubPushedAt": "2025-11-21T03:17:38Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:24.078Z"
+      }
     },
     "grist-grav": {
       "name": "grist-grav",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:27:42.805Z",
       "completedAt": "2026-01-22T08:28:30.619Z",
+      "lastSyncedAt": "2026-02-06T23:32:28.031Z",
       "githubPushedAt": "2025-10-06T14:01:25Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:28.031Z"
+      }
     },
     "anssi-tutelles": {
       "name": "anssi-tutelles",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:28:30.943Z",
       "completedAt": "2026-01-22T08:28:39.531Z",
+      "lastSyncedAt": "2026-02-06T23:32:29.814Z",
       "githubPushedAt": "2025-06-12T15:24:22Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:29.814Z"
+      }
     },
     "OTP-DS-to-Grist": {
       "name": "OTP-DS-to-Grist",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:28:39.850Z",
       "completedAt": "2026-01-22T08:29:44.609Z",
+      "lastSyncedAt": "2026-02-06T23:33:18.118Z",
       "githubPushedAt": "2026-02-04T16:40:44Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:18.118Z"
+      }
     },
     "grist-help": {
       "name": "grist-help",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:29:45.078Z",
       "completedAt": "2026-01-22T08:30:20.202Z",
+      "lastSyncedAt": "2026-02-06T23:33:29.485Z",
       "githubPushedAt": "2025-06-17T12:50:39Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:29.485Z"
+      }
     },
     "grist-cron-grist-to-brevo": {
       "name": "grist-cron-grist-to-brevo",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:25:51.882Z",
       "completedAt": "2026-01-22T08:26:17.062Z",
+      "lastSyncedAt": "2026-02-06T23:34:04.714Z",
       "githubPushedAt": "2026-01-23T15:13:18Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:04.714Z"
+      }
     },
     "betagouv-cucumber-steps": {
       "name": "betagouv-cucumber-steps",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:26:17.369Z",
       "completedAt": "2026-01-22T08:27:20.843Z",
+      "lastSyncedAt": "2026-02-06T23:32:43.177Z",
       "githubPushedAt": "2025-08-20T15:57:31Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:43.177Z"
+      }
     },
     "euphrosyne-herma": {
       "name": "euphrosyne-herma",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:27:21.188Z",
       "completedAt": "2026-01-22T08:28:20.914Z",
+      "lastSyncedAt": "2026-02-06T23:32:44.652Z",
       "githubPushedAt": "2025-07-22T13:51:32Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:44.652Z"
+      }
     },
     "atelier-formulaires-a11y": {
       "name": "atelier-formulaires-a11y",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:28:21.225Z",
       "completedAt": "2026-01-22T08:28:28.025Z",
+      "lastSyncedAt": "2026-02-06T23:32:47.327Z",
       "githubPushedAt": "2025-07-21T14:18:30Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:47.327Z"
+      }
     },
     "grist-static": {
       "name": "grist-static",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:28:28.914Z",
       "completedAt": "2026-01-22T08:28:37.142Z",
+      "lastSyncedAt": "2026-02-06T23:32:48.741Z",
       "githubPushedAt": "2025-07-31T15:06:24Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:48.741Z"
+      }
     },
     "document-ia": {
       "name": "document-ia",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:28:37.447Z",
       "completedAt": "2026-01-22T08:31:32.277Z",
+      "lastSyncedAt": "2026-02-06T23:32:58.189Z",
       "githubPushedAt": "2026-02-05T08:57:04Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:32:58.189Z"
+      }
     },
     "mastra-beta": {
       "name": "mastra-beta",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:31:32.626Z",
       "completedAt": "2026-01-22T08:31:58.033Z",
+      "lastSyncedAt": "2026-02-06T23:33:00.147Z",
       "githubPushedAt": "2025-12-07T22:24:37Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:00.147Z"
+      }
     },
     "csplab": {
       "name": "csplab",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:31:58.308Z",
       "completedAt": "2026-01-22T08:32:59.924Z",
+      "lastSyncedAt": "2026-02-06T23:33:24.315Z",
       "githubPushedAt": "2026-02-06T17:53:43Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:24.315Z"
+      }
     },
     "anssi-demain-specialiste-cyber-journal": {
       "name": "anssi-demain-specialiste-cyber-journal",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:33:00.249Z",
       "completedAt": "2026-01-22T08:33:33.149Z",
+      "lastSyncedAt": "2026-02-06T23:33:29.925Z",
       "githubPushedAt": "2025-12-04T15:05:33Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:29.925Z"
+      }
     },
     "france-chaleur-urbaine-scalingo-buildpack": {
       "name": "france-chaleur-urbaine-scalingo-buildpack",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:33:33.438Z",
       "completedAt": "2026-01-22T08:33:41.053Z",
+      "lastSyncedAt": "2026-02-06T23:33:32.064Z",
       "githubPushedAt": "2025-09-16T15:39:08Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:32.064Z"
+      }
     },
     "publicodes-entreprise-innovation": {
       "name": "publicodes-entreprise-innovation",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:30:40.563Z",
       "completedAt": "2026-01-22T08:30:48.049Z",
+      "lastSyncedAt": "2026-02-06T23:33:36.749Z",
       "githubPushedAt": "2025-09-17T16:00:50Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:33:36.749Z"
+      }
     },
     "anssi-recommandations-cyber-data": {
       "name": "anssi-recommandations-cyber-data",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:30:48.530Z",
       "completedAt": "2026-01-22T08:34:23.933Z",
+      "lastSyncedAt": "2026-02-06T23:34:16.468Z",
       "githubPushedAt": "2026-02-06T08:43:45Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:16.468Z"
+      }
     },
     "agnostic-ai": {
       "name": "agnostic-ai",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:34:24.333Z",
       "completedAt": "2026-01-22T08:35:10.917Z",
+      "lastSyncedAt": "2026-02-06T23:34:19.527Z",
       "githubPushedAt": "2025-10-27T13:52:30Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:19.527Z"
+      }
     },
     "eclauses": {
       "name": "eclauses",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:35:11.328Z",
       "completedAt": "2026-01-22T08:36:27.990Z",
+      "lastSyncedAt": "2026-02-06T23:34:23.842Z",
       "githubPushedAt": "2025-12-14T13:05:05Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:23.842Z"
+      }
     },
     "2ddoc-parser": {
       "name": "2ddoc-parser",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:36:28.383Z",
       "completedAt": "2026-01-22T08:36:56.225Z",
+      "lastSyncedAt": "2026-02-06T23:34:25.902Z",
       "githubPushedAt": "2025-11-27T09:58:16Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:25.902Z"
+      }
     },
     "dsfr-chart": {
       "name": "dsfr-chart",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:36:56.638Z",
       "completedAt": "2026-01-22T08:37:35.635Z",
+      "lastSyncedAt": "2026-02-06T23:34:35.362Z",
       "githubPushedAt": "2026-01-26T15:41:49Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:35.362Z"
+      }
     },
     "aide-a-just": {
       "name": "aide-a-just",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:37:36.047Z",
       "completedAt": "2026-01-22T08:37:44.678Z",
+      "lastSyncedAt": "2026-02-06T23:34:39.482Z",
       "githubPushedAt": "2026-01-22T11:03:45Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:39.482Z"
+      }
     },
     "classifia": {
       "name": "classifia",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:37:45.020Z",
       "completedAt": "2026-01-22T08:40:17.461Z",
+      "lastSyncedAt": "2026-02-06T23:34:42.442Z",
       "githubPushedAt": "2025-11-27T17:45:15Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:42.442Z"
+      }
     },
     "dsfr-kit": {
       "name": "dsfr-kit",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:17.881Z",
       "completedAt": "2026-01-22T08:41:50.393Z",
+      "lastSyncedAt": "2026-02-06T23:34:47.183Z",
       "githubPushedAt": "2025-12-27T11:46:44Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:47.183Z"
+      }
     },
     "dj-importmap": {
       "name": "dj-importmap",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:41:50.869Z",
       "completedAt": "2026-01-22T08:42:23.072Z",
+      "lastSyncedAt": "2026-02-06T23:34:49.641Z",
       "githubPushedAt": "2025-11-03T14:19:36Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:49.641Z"
+      }
     },
     "Resultats-Elections-FPT": {
       "name": "Resultats-Elections-FPT",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:33:57.853Z",
       "completedAt": "2026-01-22T08:34:41.242Z",
+      "lastSyncedAt": "2026-02-06T23:34:58.085Z",
       "githubPushedAt": "2026-02-06T15:24:00Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:58.085Z"
+      }
     },
     "anssi-mes-questions-cyber-journal": {
       "name": "anssi-mes-questions-cyber-journal",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:34:41.648Z",
       "completedAt": "2026-01-22T08:35:12.494Z",
+      "lastSyncedAt": "2026-02-06T23:34:34.367Z",
       "githubPushedAt": "2025-12-04T13:07:53Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:34.367Z"
+      }
     },
     "document-ia-grafana-loki": {
       "name": "document-ia-grafana-loki",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:35:12.833Z",
       "completedAt": "2026-01-22T08:35:20.217Z",
+      "lastSyncedAt": "2026-02-06T23:34:35.717Z",
       "githubPushedAt": "2025-12-22T15:01:38Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:35.717Z"
+      }
     },
     "assistant-declaration-metabase-scalingo": {
       "name": "assistant-declaration-metabase-scalingo",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:35:20.679Z",
       "completedAt": "2026-01-22T08:35:28.856Z",
+      "lastSyncedAt": "2026-02-06T23:34:37.457Z",
       "githubPushedAt": "2025-03-04T15:33:35Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:37.457Z"
+      }
     },
     "datagouv-visualizations": {
       "name": "datagouv-visualizations",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:35:29.312Z",
       "completedAt": "2026-01-22T08:35:37.195Z",
+      "lastSyncedAt": "2026-02-06T23:34:38.703Z",
       "githubPushedAt": "2025-10-27T13:13:19Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:38.703Z"
+      }
     },
     "capybara-autodoc": {
       "name": "capybara-autodoc",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:35:37.544Z",
       "completedAt": "2026-01-22T08:35:45.673Z",
+      "lastSyncedAt": "2026-02-06T23:34:40.021Z",
       "githubPushedAt": "2025-11-03T18:34:02Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:40.021Z"
+      }
     },
     "ranking_methods": {
       "name": "ranking_methods",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:35:46.050Z",
       "completedAt": "2026-01-22T08:37:23.446Z",
+      "lastSyncedAt": "2026-02-06T23:34:43.849Z",
       "githubPushedAt": "2026-02-04T07:18:19Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:43.849Z"
+      }
     },
     "base-agrement-back": {
       "name": "base-agrement-back",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:37:23.823Z",
       "completedAt": "2026-01-22T08:37:32.405Z",
+      "lastSyncedAt": "2026-02-06T23:34:48.569Z",
       "githubPushedAt": "2026-01-30T16:40:28Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:48.569Z"
+      }
     },
     "aides-simplifiees-docs": {
       "name": "aides-simplifiees-docs",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:37:32.728Z",
       "completedAt": "2026-01-22T08:37:40.822Z",
+      "lastSyncedAt": "2026-02-06T23:34:52.068Z",
       "githubPushedAt": "2026-02-02T13:36:59Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:52.068Z"
+      }
     },
     "oauth2-proxy-buildpack": {
       "name": "oauth2-proxy-buildpack",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:37:41.313Z",
       "completedAt": "2026-01-22T08:37:49.704Z",
+      "lastSyncedAt": "2026-02-06T23:34:54.361Z",
       "githubPushedAt": "2026-01-02T10:32:43Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:54.361Z"
+      }
     },
     "oauth2-deploy-demo": {
       "name": "oauth2-deploy-demo",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:38:06.586Z",
       "completedAt": "2026-01-22T08:38:14.953Z",
+      "lastSyncedAt": "2026-02-06T23:34:56.714Z",
       "githubPushedAt": "2026-01-21T18:47:13Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:34:56.714Z"
+      }
     },
     "doctorat-gouv": {
       "name": "doctorat-gouv",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:38:15.361Z",
       "completedAt": "2026-01-22T08:39:08.088Z",
+      "lastSyncedAt": "2026-02-06T23:35:32.443Z",
       "githubPushedAt": "2026-02-06T17:42:51Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:32.443Z"
+      }
     },
     "archeologia-pipeline": {
       "name": "archeologia-pipeline",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:39:08.553Z",
       "completedAt": "2026-01-22T08:40:09.570Z",
+      "lastSyncedAt": "2026-02-06T23:35:39.830Z",
       "githubPushedAt": "2026-02-04T16:04:19Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:39.830Z"
+      }
     },
     "infomedicament_data": {
       "name": "infomedicament_data",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:09.995Z",
       "completedAt": "2026-01-22T08:40:17.558Z",
+      "lastSyncedAt": "2026-02-06T23:35:43.409Z",
       "githubPushedAt": "2026-01-08T16:20:25Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:43.409Z"
+      }
     },
     "github-export": {
       "name": "github-export",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
-      "githubPushedAt": "2026-02-06T17:16:14Z",
+      "lastSyncedAt": "2026-02-06T23:35:51.048Z",
+      "githubPushedAt": "2026-02-07T01:26:04Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:51.048Z"
+      }
     },
     "pompidou": {
       "name": "pompidou",
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:27.509Z",
       "completedAt": "2026-01-22T08:40:34.949Z",
+      "lastSyncedAt": "2026-02-06T23:35:56.237Z",
       "githubPushedAt": "2026-01-27T16:14:09Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastSyncedAt": "2026-02-06T23:35:56.237Z"
+      }
     },
     "mailpit-buildpack": {
       "name": "mailpit-buildpack",
@@ -7323,28 +7323,28 @@
     "bhasile": {
       "name": "bhasile",
       "status": "completed",
+      "lastAttempt": "2026-02-06T23:27:38.393Z",
+      "completedAt": "2026-02-06T23:28:20.590Z",
+      "lastSyncedAt": "2026-02-06T23:28:20.590Z",
       "githubPushedAt": "2026-02-06T19:19:07Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-02-06T23:27:38.393Z",
-      "completedAt": "2026-02-06T23:28:20.590Z",
-      "lastSyncedAt": "2026-02-06T23:28:20.590Z"
+      }
     },
     "infomedicament-html-parser": {
       "name": "infomedicament-html-parser",
       "status": "completed",
+      "lastAttempt": "2026-02-06T22:25:45.658Z",
+      "completedAt": "2026-02-06T22:25:52.957Z",
+      "lastSyncedAt": "2026-02-06T22:25:52.957Z",
       "githubPushedAt": "2026-02-04T16:06:41Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-02-06T22:25:45.658Z",
-      "completedAt": "2026-02-06T22:25:52.957Z",
-      "lastSyncedAt": "2026-02-06T22:25:52.957Z"
+      }
     }
   }
 }
