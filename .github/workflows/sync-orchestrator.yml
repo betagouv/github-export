@@ -2,8 +2,8 @@ name: Sync Orchestrator
 
 on:
   schedule:
-    # Run weekly on Sunday at 2 AM UTC
-    - cron: "0 2 * * 0"
+    # Run everyday at 2 AM UTC
+    - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:
       max_batches:
