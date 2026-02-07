@@ -7260,8 +7260,8 @@
       "status": "completed",
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
-      "lastSyncedAt": "2026-02-07T01:49:32.129Z",
-      "githubPushedAt": "2026-02-07T02:04:00Z",
+      "lastSyncedAt": "2026-02-07T10:03:43.205Z",
+      "githubPushedAt": "2026-02-07T09:43:33Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -7325,7 +7325,7 @@
       "status": "completed",
       "lastAttempt": "2026-02-06T23:27:38.393Z",
       "completedAt": "2026-02-06T23:28:20.590Z",
-      "lastSyncedAt": "2026-02-07T01:49:27.969Z",
+      "lastSyncedAt": "2026-02-07T10:03:40.200Z",
       "githubPushedAt": "2026-02-06T19:19:07Z",
       "attemptCount": 1,
       "phases": {
