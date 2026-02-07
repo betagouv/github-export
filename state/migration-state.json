@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-02-07T01:26:48.244Z",
+  "lastDiscovery": "2026-02-07T09:43:32.150Z",
   "totalRepos": 570,
   "repos": {
     "aides-jeunes": {
@@ -1262,7 +1262,7 @@
       "lastAttempt": "2026-01-16T23:42:42.208Z",
       "completedAt": "2026-01-16T23:45:46.722Z",
       "lastSyncedAt": "2026-01-23T15:07:36.214Z",
-      "githubPushedAt": "2026-02-06T20:56:12Z",
+      "githubPushedAt": "2026-02-07T07:50:39Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -1520,7 +1520,7 @@
       "name": "rdv-service-public",
       "status": "in_progress",
       "lastAttempt": "2026-01-20T23:56:26.156Z",
-      "githubPushedAt": "2026-02-06T15:01:40Z",
+      "githubPushedAt": "2026-02-07T06:19:27Z",
       "error": "Codeberg API error: 422 Unprocessable Entity - {\"message\":\"You have already reached your limit of 100 repositories.\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 4,
@@ -4996,7 +4996,7 @@
       "lastAttempt": "2026-01-21T20:11:29.218Z",
       "completedAt": "2026-01-21T20:13:40.013Z",
       "lastSyncedAt": "2026-01-23T15:33:46.347Z",
-      "githubPushedAt": "2026-02-05T18:21:47Z",
+      "githubPushedAt": "2026-02-07T06:32:57Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -7261,7 +7261,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T01:49:32.129Z",
-      "githubPushedAt": "2026-02-07T01:26:49Z",
+      "githubPushedAt": "2026-02-07T02:04:00Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
