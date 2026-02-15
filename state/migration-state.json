@@ -7348,13 +7348,16 @@
     },
     "e2esdk": {
       "name": "e2esdk",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2025-11-20T19:09:48Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2025-11-20T19:09:48Z"
+      "lastAttempt": "2026-02-15T03:41:51.065Z",
+      "completedAt": "2026-02-15T03:42:40.471Z",
+      "lastSyncedAt": "2026-02-15T03:42:40.471Z"
     }
   }
 }
