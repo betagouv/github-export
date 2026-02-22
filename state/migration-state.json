@@ -7388,23 +7388,29 @@
     },
     "ada": {
       "name": "ada",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-02-06T22:26:28Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-02-06T22:26:28Z"
+      "lastAttempt": "2026-02-22T03:36:37.296Z",
+      "completedAt": "2026-02-22T03:38:17.017Z",
+      "lastSyncedAt": "2026-02-22T03:38:17.017Z"
     },
     "sylvasan": {
       "name": "sylvasan",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-02-21T21:20:19Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-02-21T21:20:19Z"
+      "lastAttempt": "2026-02-22T03:38:17.326Z",
+      "completedAt": "2026-02-22T03:38:22.609Z",
+      "lastSyncedAt": "2026-02-22T03:38:22.609Z"
     }
   }
 }
