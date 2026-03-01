@@ -7414,13 +7414,16 @@
     },
     "depenses-eclairees": {
       "name": "depenses-eclairees",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-02-27T16:15:13Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-02-27T16:15:13Z"
+      "lastAttempt": "2026-03-01T03:41:39.066Z",
+      "completedAt": "2026-03-01T03:41:48.882Z",
+      "lastSyncedAt": "2026-03-01T03:41:48.882Z"
     }
   }
 }
