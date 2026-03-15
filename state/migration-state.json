@@ -7427,43 +7427,55 @@
     },
     "monlogementetudiant": {
       "name": "monlogementetudiant",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-14T20:08:34Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-14T20:08:34Z"
+      "lastAttempt": "2026-03-15T03:50:54.248Z",
+      "completedAt": "2026-03-15T03:52:01.975Z",
+      "lastSyncedAt": "2026-03-15T03:52:01.975Z"
     },
     "infomedicament-dataeng": {
       "name": "infomedicament-dataeng",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-13T11:30:21Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-13T11:30:21Z"
+      "lastAttempt": "2026-03-15T03:52:02.245Z",
+      "completedAt": "2026-03-15T03:52:06.816Z",
+      "lastSyncedAt": "2026-03-15T03:52:06.816Z"
     },
     "agreste": {
       "name": "agreste",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-12T10:19:46Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-12T10:19:46Z"
+      "lastAttempt": "2026-03-15T03:52:07.059Z",
+      "completedAt": "2026-03-15T03:52:11.970Z",
+      "lastSyncedAt": "2026-03-15T03:52:11.970Z"
     },
     "mission-transition-ecologique-back": {
       "name": "mission-transition-ecologique-back",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-13T19:39:09Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-13T19:39:09Z"
+      "lastAttempt": "2026-03-15T03:52:12.193Z",
+      "completedAt": "2026-03-15T03:52:15.711Z",
+      "lastSyncedAt": "2026-03-15T03:52:15.711Z"
     }
   }
 }
