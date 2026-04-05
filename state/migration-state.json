@@ -7518,33 +7518,42 @@
     },
     "agreste-paquet-facile": {
       "name": "agreste-paquet-facile",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-01T13:48:21Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-01T13:48:21Z"
+      "lastAttempt": "2026-04-05T03:54:15.543Z",
+      "completedAt": "2026-04-05T03:54:18.542Z",
+      "lastSyncedAt": "2026-04-05T03:54:18.542Z"
     },
     "agreste-crawler": {
       "name": "agreste-crawler",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-03T10:27:26Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-03T10:27:26Z"
+      "lastAttempt": "2026-04-05T03:54:18.696Z",
+      "completedAt": "2026-04-05T03:54:21.783Z",
+      "lastSyncedAt": "2026-04-05T03:54:21.783Z"
     },
     "dsfr-renderer": {
       "name": "dsfr-renderer",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-30T07:33:49Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-30T07:33:49Z"
+      "lastAttempt": "2026-04-05T03:54:21.964Z",
+      "completedAt": "2026-04-05T03:54:25.037Z",
+      "lastSyncedAt": "2026-04-05T03:54:25.037Z"
     }
   }
 }
