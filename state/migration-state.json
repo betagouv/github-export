@@ -7557,33 +7557,42 @@
     },
     "stage-direct": {
       "name": "stage-direct",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-24T12:35:06Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-24T12:35:06Z"
+      "lastAttempt": "2026-04-26T04:23:11.640Z",
+      "completedAt": "2026-04-26T04:23:15.603Z",
+      "lastSyncedAt": "2026-04-26T04:23:15.603Z"
     },
     "prestagri": {
       "name": "prestagri",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-24T15:49:58Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-24T15:49:58Z"
+      "lastAttempt": "2026-04-26T04:23:15.810Z",
+      "completedAt": "2026-04-26T04:23:19.027Z",
+      "lastSyncedAt": "2026-04-26T04:23:19.027Z"
     },
     "dsfr-design-md": {
       "name": "dsfr-design-md",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-25T17:00:40Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-25T17:00:40Z"
+      "lastAttempt": "2026-04-26T04:23:19.244Z",
+      "completedAt": "2026-04-26T04:23:21.859Z",
+      "lastSyncedAt": "2026-04-26T04:23:21.859Z"
     }
   }
 }
