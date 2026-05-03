@@ -7596,23 +7596,29 @@
     },
     "nitrates": {
       "name": "nitrates",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-28T17:08:46Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-28T17:08:46Z"
+      "lastAttempt": "2026-05-03T04:40:58.076Z",
+      "completedAt": "2026-05-03T04:41:12.418Z",
+      "lastSyncedAt": "2026-05-03T04:41:12.418Z"
     },
     "nitrates-iac": {
       "name": "nitrates-iac",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-04-29T06:04:03Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-04-29T06:04:03Z"
+      "lastAttempt": "2026-05-03T04:41:12.743Z",
+      "completedAt": "2026-05-03T04:41:16.356Z",
+      "lastSyncedAt": "2026-05-03T04:41:16.356Z"
     }
   }
 }
