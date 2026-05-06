@@ -3586,7 +3586,8 @@
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      }
+      },
+      "lastSyncedAt": "2026-05-06T19:51:34.636Z"
     },
     "chatwoot-buildpack": {
       "name": "chatwoot-buildpack",
@@ -5738,7 +5739,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:18:29.049Z",
       "completedAt": "2026-01-21T23:23:53.783Z",
-      "lastSyncedAt": "2026-02-06T23:20:04.256Z",
+      "lastSyncedAt": "2026-05-06T20:01:39.904Z",
       "githubPushedAt": "2026-05-05T16:44:33Z",
       "attemptCount": 1,
       "phases": {
@@ -5814,8 +5815,8 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:14:29.400Z",
       "completedAt": "2026-01-21T23:19:49.794Z",
-      "lastSyncedAt": "2026-02-06T23:16:44.406Z",
-      "githubPushedAt": "2026-05-06T16:01:30Z",
+      "lastSyncedAt": "2026-05-06T20:03:15.975Z",
+      "githubPushedAt": "2026-05-06T19:23:23Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -5840,7 +5841,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:20:01.339Z",
       "completedAt": "2026-01-21T23:21:19.259Z",
-      "lastSyncedAt": "2026-02-06T23:17:47.428Z",
+      "lastSyncedAt": "2026-05-06T20:04:55.160Z",
       "githubPushedAt": "2026-05-06T14:00:11Z",
       "attemptCount": 1,
       "phases": {
@@ -5866,7 +5867,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:22:05.553Z",
       "completedAt": "2026-01-21T23:22:30.037Z",
-      "lastSyncedAt": "2026-02-06T23:19:08.740Z",
+      "lastSyncedAt": "2026-05-06T20:05:21.176Z",
       "githubPushedAt": "2026-05-05T08:51:28Z",
       "attemptCount": 1,
       "phases": {
@@ -5892,7 +5893,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:22:39.727Z",
       "completedAt": "2026-01-21T23:23:06.606Z",
-      "lastSyncedAt": "2026-02-06T23:19:21.910Z",
+      "lastSyncedAt": "2026-05-06T20:05:30.866Z",
       "githubPushedAt": "2026-05-04T09:20:03Z",
       "attemptCount": 1,
       "phases": {
@@ -5905,7 +5906,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:12:45.304Z",
       "completedAt": "2026-01-21T23:13:35.300Z",
-      "lastSyncedAt": "2026-02-06T23:20:00.529Z",
+      "lastSyncedAt": "2026-05-06T20:05:54.334Z",
       "githubPushedAt": "2026-04-30T09:22:34Z",
       "attemptCount": 1,
       "phases": {
@@ -5929,7 +5930,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:13:35.526Z",
       "completedAt": "2026-01-21T23:18:59.233Z",
-      "lastSyncedAt": "2026-02-06T23:20:46.416Z",
+      "lastSyncedAt": "2026-05-06T20:07:10.296Z",
       "githubPushedAt": "2026-05-06T14:57:53Z",
       "attemptCount": 1,
       "phases": {
@@ -5942,7 +5943,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:18:59.467Z",
       "completedAt": "2026-01-21T23:24:15.246Z",
-      "lastSyncedAt": "2026-02-06T23:21:09.685Z",
+      "lastSyncedAt": "2026-05-06T20:07:39.032Z",
       "githubPushedAt": "2026-05-06T13:23:37Z",
       "attemptCount": 1,
       "phases": {
@@ -5966,7 +5967,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:24:15.508Z",
       "completedAt": "2026-01-21T23:28:27.349Z",
-      "lastSyncedAt": "2026-02-06T23:22:11.280Z",
+      "lastSyncedAt": "2026-05-06T20:08:47.778Z",
       "githubPushedAt": "2026-05-06T15:51:18Z",
       "attemptCount": 1,
       "phases": {
@@ -7430,7 +7431,7 @@
       "status": "completed",
       "lastAttempt": "2026-03-15T03:50:54.248Z",
       "completedAt": "2026-03-15T03:52:01.975Z",
-      "lastSyncedAt": "2026-03-15T03:52:01.975Z",
+      "lastSyncedAt": "2026-05-06T20:09:56.424Z",
       "githubPushedAt": "2026-05-06T12:00:24Z",
       "attemptCount": 1,
       "phases": {
@@ -7622,23 +7623,29 @@
     },
     "depenses-eclairees-waf": {
       "name": "depenses-eclairees-waf",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-06T15:42:42Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-06T15:42:42Z"
+      "lastAttempt": "2026-05-06T19:17:59.283Z",
+      "completedAt": "2026-05-06T19:18:06.700Z",
+      "lastSyncedAt": "2026-05-06T19:18:06.700Z"
     },
     "depenses-eclairees-metabase-scalingo": {
       "name": "depenses-eclairees-metabase-scalingo",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-06T16:57:55Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-06T16:57:55Z"
+      "lastAttempt": "2026-05-06T19:18:07.101Z",
+      "completedAt": "2026-05-06T19:18:15.951Z",
+      "lastSyncedAt": "2026-05-06T19:18:15.951Z"
     }
   }
 }
