@@ -9,7 +9,7 @@ on:
       max_batches:
         description: "Maximum number of batches to run (default: 5)"
         required: false
-        default: "50"
+        default: "250"
         type: string
       dry_run:
         description: "Dry run - discover repos but don't migrate"
