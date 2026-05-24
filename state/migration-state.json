@@ -7649,43 +7649,55 @@
     },
     "omniauth-microsoft_graph": {
       "name": "omniauth-microsoft_graph",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-19T08:42:01Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-19T08:42:01Z"
+      "lastAttempt": "2026-05-24T05:01:34.329Z",
+      "completedAt": "2026-05-24T05:01:38.232Z",
+      "lastSyncedAt": "2026-05-24T05:01:38.232Z"
     },
     "odice": {
       "name": "odice",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-23T09:31:36Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-23T09:31:36Z"
+      "lastAttempt": "2026-05-24T05:01:38.479Z",
+      "completedAt": "2026-05-24T05:01:44.985Z",
+      "lastSyncedAt": "2026-05-24T05:01:44.985Z"
     },
     "approbiom": {
       "name": "approbiom",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-21T09:50:34Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-21T09:50:34Z"
+      "lastAttempt": "2026-05-24T05:01:45.335Z",
+      "completedAt": "2026-05-24T05:01:48.874Z",
+      "lastSyncedAt": "2026-05-24T05:01:48.874Z"
     },
     "betabot": {
       "name": "betabot",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-22T08:09:48Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-22T08:09:48Z"
+      "lastAttempt": "2026-05-24T05:01:49.119Z",
+      "completedAt": "2026-05-24T05:01:52.725Z",
+      "lastSyncedAt": "2026-05-24T05:01:52.725Z"
     }
   }
 }
