@@ -7701,13 +7701,16 @@
     },
     "doc.assistant-ia": {
       "name": "doc.assistant-ia",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-05-29T17:00:43Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-05-29T17:00:43Z"
+      "lastAttempt": "2026-05-31T05:18:29.323Z",
+      "completedAt": "2026-05-31T05:18:34.106Z",
+      "lastSyncedAt": "2026-05-31T05:18:34.106Z"
     }
   }
 }
