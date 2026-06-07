@@ -7714,23 +7714,29 @@
     },
     "beta-botAdmin": {
       "name": "beta-botAdmin",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-06-05T13:59:44Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-06-05T13:59:44Z"
+      "lastAttempt": "2026-06-07T05:22:07.522Z",
+      "completedAt": "2026-06-07T05:22:13.284Z",
+      "lastSyncedAt": "2026-06-07T05:22:13.284Z"
     },
     "anssi-recommandations-cyber-mcp": {
       "name": "anssi-recommandations-cyber-mcp",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-06-05T14:17:56Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-06-05T14:17:56Z"
+      "lastAttempt": "2026-06-07T05:22:13.617Z",
+      "completedAt": "2026-06-07T05:22:17.725Z",
+      "lastSyncedAt": "2026-06-07T05:22:17.725Z"
     }
   }
 }
