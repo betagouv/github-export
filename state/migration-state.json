@@ -7740,23 +7740,29 @@
     },
     "fine-grained-proxy": {
       "name": "fine-grained-proxy",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-06-03T18:25:43Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-06-03T18:25:43Z"
+      "lastAttempt": "2026-06-14T05:50:03.478Z",
+      "completedAt": "2026-06-14T05:50:10.272Z",
+      "lastSyncedAt": "2026-06-14T05:50:10.272Z"
     },
     "gestion-eclairee": {
       "name": "gestion-eclairee",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-06-11T16:05:07Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-06-11T16:05:07Z"
+      "lastAttempt": "2026-06-14T05:50:10.478Z",
+      "completedAt": "2026-06-14T05:50:13.815Z",
+      "lastSyncedAt": "2026-06-14T05:50:13.815Z"
     }
   }
 }
