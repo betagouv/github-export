@@ -7766,23 +7766,29 @@
     },
     "recoco-plugins-mi-depafi": {
       "name": "recoco-plugins-mi-depafi",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-06-17T12:36:09Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-06-17T12:36:09Z"
+      "lastAttempt": "2026-06-21T06:02:28.907Z",
+      "completedAt": "2026-06-21T06:03:13.788Z",
+      "lastSyncedAt": "2026-06-21T06:03:13.788Z"
     },
     "transports-sanitaires": {
       "name": "transports-sanitaires",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-06-19T08:41:14Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-06-19T08:41:14Z"
+      "lastAttempt": "2026-06-21T06:03:14.272Z",
+      "completedAt": "2026-06-21T06:04:46.975Z",
+      "lastSyncedAt": "2026-06-21T06:04:46.975Z"
     }
   }
 }
