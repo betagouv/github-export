@@ -7792,23 +7792,29 @@
     },
     "gestion-eclairee-sftpgo": {
       "name": "gestion-eclairee-sftpgo",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "failed",
+      "githubPushedAt": "2026-06-25T08:32:31Z",
+      "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       },
-      "githubPushedAt": "2026-06-25T08:32:31Z"
+      "lastAttempt": "2026-06-28T05:17:14.795Z",
+      "error": "fetch failed",
+      "errorType": "transient"
     },
     "deno-buildpack": {
       "name": "deno-buildpack",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "failed",
+      "githubPushedAt": "2026-06-27T19:20:38Z",
+      "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       },
-      "githubPushedAt": "2026-06-27T19:20:38Z"
+      "lastAttempt": "2026-06-28T05:17:15.351Z",
+      "error": "fetch failed",
+      "errorType": "transient"
     }
   }
 }
