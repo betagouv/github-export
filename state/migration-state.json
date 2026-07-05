@@ -7792,39 +7792,46 @@
     },
     "gestion-eclairee-sftpgo": {
       "name": "gestion-eclairee-sftpgo",
-      "status": "failed",
-      "lastAttempt": "2026-06-28T05:17:14.795Z",
+      "status": "completed",
+      "lastAttempt": "2026-07-05T04:57:14.535Z",
       "githubPushedAt": "2026-06-25T08:32:31Z",
       "error": "fetch failed",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-07-05T04:57:19.652Z",
+      "lastSyncedAt": "2026-07-05T04:57:19.652Z"
     },
     "deno-buildpack": {
       "name": "deno-buildpack",
-      "status": "failed",
-      "lastAttempt": "2026-06-28T05:17:15.351Z",
+      "status": "completed",
+      "lastAttempt": "2026-07-05T04:57:20.072Z",
       "githubPushedAt": "2026-06-27T19:20:38Z",
       "error": "fetch failed",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
-      }
+        "apiMigration": true,
+        "branchSync": true
+      },
+      "completedAt": "2026-07-05T04:57:23.481Z",
+      "lastSyncedAt": "2026-07-05T04:57:23.481Z"
     },
     "reva-metabase-buildpack": {
       "name": "reva-metabase-buildpack",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2025-10-15T09:06:05Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2025-10-15T09:06:05Z"
+      "lastAttempt": "2026-07-05T04:57:23.837Z",
+      "completedAt": "2026-07-05T04:57:27.307Z",
+      "lastSyncedAt": "2026-07-05T04:57:27.307Z"
     }
   }
 }
