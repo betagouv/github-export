@@ -7835,33 +7835,42 @@
     },
     "lab-anssi-antivirus": {
       "name": "lab-anssi-antivirus",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-07-13T16:07:28Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-07-13T16:07:28Z"
+      "lastAttempt": "2026-07-19T04:22:27.426Z",
+      "completedAt": "2026-07-19T04:22:35.991Z",
+      "lastSyncedAt": "2026-07-19T04:22:35.991Z"
     },
     "etape": {
       "name": "etape",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-07-17T13:15:50Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-07-17T13:15:50Z"
+      "lastAttempt": "2026-07-19T04:22:36.276Z",
+      "completedAt": "2026-07-19T04:22:40.924Z",
+      "lastSyncedAt": "2026-07-19T04:22:40.924Z"
     },
     "sensibilisation-securite-vulnerabilites": {
       "name": "sensibilisation-securite-vulnerabilites",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-07-16T18:14:24Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-07-16T18:14:24Z"
+      "lastAttempt": "2026-07-19T04:22:41.211Z",
+      "completedAt": "2026-07-19T04:22:45.378Z",
+      "lastSyncedAt": "2026-07-19T04:22:45.378Z"
     }
   }
 }
