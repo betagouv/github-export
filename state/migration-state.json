@@ -5650,7 +5650,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T22:33:00.747Z",
       "completedAt": "2026-01-21T22:33:40.127Z",
-      "lastSyncedAt": "2026-02-07T01:48:40.053Z",
+      "lastSyncedAt": "2026-08-05T12:15:43.064Z",
       "githubPushedAt": "2026-07-08T08:07:08Z",
       "attemptCount": 1,
       "phases": {
@@ -5663,7 +5663,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T22:33:40.543Z",
       "completedAt": "2026-01-21T22:34:22.062Z",
-      "lastSyncedAt": "2026-02-07T01:48:42.273Z",
+      "lastSyncedAt": "2026-08-05T12:15:54.780Z",
       "githubPushedAt": "2026-07-30T15:59:07Z",
       "attemptCount": 1,
       "phases": {
@@ -5713,7 +5713,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:17:36.193Z",
       "completedAt": "2026-01-21T23:17:54.112Z",
-      "lastSyncedAt": "2026-01-25T21:38:55.990Z",
+      "lastSyncedAt": "2026-08-05T12:16:02.878Z",
       "githubPushedAt": "2026-05-28T17:10:33Z",
       "attemptCount": 1,
       "phases": {
@@ -5726,7 +5726,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:17:54.469Z",
       "completedAt": "2026-01-21T23:18:28.654Z",
-      "lastSyncedAt": "2026-02-07T01:48:45.173Z",
+      "lastSyncedAt": "2026-08-05T12:16:13.284Z",
       "githubPushedAt": "2026-05-11T22:16:02Z",
       "attemptCount": 1,
       "phases": {
@@ -5739,7 +5739,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:18:29.049Z",
       "completedAt": "2026-01-21T23:23:53.783Z",
-      "lastSyncedAt": "2026-05-06T20:01:39.904Z",
+      "lastSyncedAt": "2026-08-05T12:17:17.899Z",
       "githubPushedAt": "2026-08-04T16:36:43Z",
       "attemptCount": 1,
       "phases": {
@@ -5765,7 +5765,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:12:41.574Z",
       "completedAt": "2026-01-21T23:13:30.729Z",
-      "lastSyncedAt": "2026-02-06T23:20:10.109Z",
+      "lastSyncedAt": "2026-08-05T12:17:23.737Z",
       "githubPushedAt": "2026-06-19T17:48:07Z",
       "attemptCount": 1,
       "phases": {
@@ -5815,8 +5815,8 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:14:29.400Z",
       "completedAt": "2026-01-21T23:19:49.794Z",
-      "lastSyncedAt": "2026-05-06T20:03:15.975Z",
-      "githubPushedAt": "2026-08-05T10:37:17Z",
+      "lastSyncedAt": "2026-08-05T12:19:08.660Z",
+      "githubPushedAt": "2026-08-05T12:13:56Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -5841,8 +5841,8 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:20:01.339Z",
       "completedAt": "2026-01-21T23:21:19.259Z",
-      "lastSyncedAt": "2026-05-06T20:04:55.160Z",
-      "githubPushedAt": "2026-08-05T10:13:07Z",
+      "lastSyncedAt": "2026-08-05T12:20:25.106Z",
+      "githubPushedAt": "2026-08-05T12:05:59Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -5867,7 +5867,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:22:05.553Z",
       "completedAt": "2026-01-21T23:22:30.037Z",
-      "lastSyncedAt": "2026-05-06T20:05:21.176Z",
+      "lastSyncedAt": "2026-08-05T12:20:40.941Z",
       "githubPushedAt": "2026-08-04T01:22:47Z",
       "attemptCount": 1,
       "phases": {
@@ -5906,7 +5906,7 @@
       "status": "completed",
       "lastAttempt": "2026-01-21T23:12:45.304Z",
       "completedAt": "2026-01-21T23:13:35.300Z",
-      "lastSyncedAt": "2026-05-06T20:05:54.334Z",
+      "lastSyncedAt": "2026-08-05T12:20:52.042Z",
       "githubPushedAt": "2026-07-06T09:10:09Z",
       "attemptCount": 1,
       "phases": {
