@@ -7900,23 +7900,29 @@
     },
     "sekoia-brevo-connector": {
       "name": "sekoia-brevo-connector",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-08-19T15:11:35Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-08-19T15:11:35Z"
+      "lastAttempt": "2026-08-23T02:23:19.009Z",
+      "completedAt": "2026-08-23T02:23:23.818Z",
+      "lastSyncedAt": "2026-08-23T02:23:23.818Z"
     },
     "lab-anssi-rula": {
       "name": "lab-anssi-rula",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-08-21T12:27:17Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-08-21T12:27:17Z"
+      "lastAttempt": "2026-08-23T02:23:24.159Z",
+      "completedAt": "2026-08-23T02:23:29.416Z",
+      "lastSyncedAt": "2026-08-23T02:23:29.416Z"
     }
   }
 }
