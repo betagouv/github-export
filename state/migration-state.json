@@ -7926,23 +7926,29 @@
     },
     "scalingo-gotenberg": {
       "name": "scalingo-gotenberg",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-08-31T07:49:02Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-08-31T07:49:02Z"
+      "lastAttempt": "2026-09-06T05:33:39.346Z",
+      "completedAt": "2026-09-06T05:33:44.937Z",
+      "lastSyncedAt": "2026-09-06T05:33:44.937Z"
     },
     "referentiel-agrements-assistants-maternels-familiaux": {
       "name": "referentiel-agrements-assistants-maternels-familiaux",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-04T14:44:49Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-04T14:44:49Z"
+      "lastAttempt": "2026-09-06T05:33:45.327Z",
+      "completedAt": "2026-09-06T05:33:47.615Z",
+      "lastSyncedAt": "2026-09-06T05:33:47.615Z"
     }
   }
 }
