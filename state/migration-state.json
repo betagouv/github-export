@@ -7952,23 +7952,29 @@
     },
     "slack2tchap": {
       "name": "slack2tchap",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-17T12:01:55Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-17T12:01:55Z"
+      "lastAttempt": "2026-09-20T05:46:53.340Z",
+      "completedAt": "2026-09-20T05:46:58.333Z",
+      "lastSyncedAt": "2026-09-20T05:46:58.333Z"
     },
     "depenses-n8n-scalingo": {
       "name": "depenses-n8n-scalingo",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-17T13:39:55Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-17T13:39:55Z"
+      "lastAttempt": "2026-09-20T05:46:58.789Z",
+      "completedAt": "2026-09-20T05:47:03.924Z",
+      "lastSyncedAt": "2026-09-20T05:47:03.924Z"
     }
   }
 }
