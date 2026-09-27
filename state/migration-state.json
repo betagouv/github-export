@@ -7978,33 +7978,42 @@
     },
     "react-dsfr-chart": {
       "name": "react-dsfr-chart",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-22T11:53:06Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-22T11:53:06Z"
+      "lastAttempt": "2026-09-27T06:18:50.767Z",
+      "completedAt": "2026-09-27T06:18:59.280Z",
+      "lastSyncedAt": "2026-09-27T06:18:59.280Z"
     },
     "transports-sanitaires-sites-conformes": {
       "name": "transports-sanitaires-sites-conformes",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-22T09:32:35Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-22T09:32:35Z"
+      "lastAttempt": "2026-09-27T06:18:59.546Z",
+      "completedAt": "2026-09-27T06:19:17.382Z",
+      "lastSyncedAt": "2026-09-27T06:19:17.382Z"
     },
     "lab-anssi-passage-ui": {
       "name": "lab-anssi-passage-ui",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-23T06:10:55Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-23T06:10:55Z"
+      "lastAttempt": "2026-09-27T06:19:17.631Z",
+      "completedAt": "2026-09-27T06:19:24.431Z",
+      "lastSyncedAt": "2026-09-27T06:19:24.431Z"
     }
   }
 }
