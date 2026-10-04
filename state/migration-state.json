@@ -8017,23 +8017,29 @@
     },
     "xml-sp-format": {
       "name": "xml-sp-format",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-29T08:38:41Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-29T08:38:41Z"
+      "lastAttempt": "2026-10-04T06:38:46.185Z",
+      "completedAt": "2026-10-04T06:38:49.843Z",
+      "lastSyncedAt": "2026-10-04T06:38:49.843Z"
     },
     "rdv-service-public-metabase": {
       "name": "rdv-service-public-metabase",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-09-30T09:49:10Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-09-30T09:49:10Z"
+      "lastAttempt": "2026-10-04T06:38:50.141Z",
+      "completedAt": "2026-10-04T06:38:52.995Z",
+      "lastSyncedAt": "2026-10-04T06:38:52.995Z"
     }
   }
 }
