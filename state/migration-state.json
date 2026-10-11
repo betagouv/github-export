@@ -8043,23 +8043,29 @@
     },
     "fondation-gotenberg": {
       "name": "fondation-gotenberg",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-08T16:22:18Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-08T16:22:18Z"
+      "lastAttempt": "2026-10-11T06:50:35.456Z",
+      "completedAt": "2026-10-11T06:50:39.997Z",
+      "lastSyncedAt": "2026-10-11T06:50:39.997Z"
     },
     "accessible-autocomplete": {
       "name": "accessible-autocomplete",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-05T14:21:52Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-05T14:21:52Z"
+      "lastAttempt": "2026-10-11T06:50:40.345Z",
+      "completedAt": "2026-10-11T06:50:46.840Z",
+      "lastSyncedAt": "2026-10-11T06:50:46.840Z"
     }
   }
 }
