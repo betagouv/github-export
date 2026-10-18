@@ -8069,23 +8069,29 @@
     },
     "sensibilisation-rgpd": {
       "name": "sensibilisation-rgpd",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-13T15:08:43Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-13T15:08:43Z"
+      "lastAttempt": "2026-10-18T05:29:03.078Z",
+      "completedAt": "2026-10-18T05:29:09.482Z",
+      "lastSyncedAt": "2026-10-18T05:29:09.482Z"
     },
     "pnm": {
       "name": "pnm",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-16T12:35:45Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-16T12:35:45Z"
+      "lastAttempt": "2026-10-18T05:29:09.879Z",
+      "completedAt": "2026-10-18T05:29:15.451Z",
+      "lastSyncedAt": "2026-10-18T05:29:15.451Z"
     }
   }
 }
