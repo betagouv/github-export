@@ -8095,23 +8095,29 @@
     },
     "transport-sanitaire": {
       "name": "transport-sanitaire",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-23T17:46:54Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-23T17:46:54Z"
+      "lastAttempt": "2026-10-25T05:45:07.488Z",
+      "completedAt": "2026-10-25T05:45:28.864Z",
+      "lastSyncedAt": "2026-10-25T05:45:28.864Z"
     },
     "lab-anssi-pala": {
       "name": "lab-anssi-pala",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-21T10:57:36Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-21T10:57:36Z"
+      "lastAttempt": "2026-10-25T05:45:29.157Z",
+      "completedAt": "2026-10-25T05:45:37.314Z",
+      "lastSyncedAt": "2026-10-25T05:45:37.314Z"
     }
   }
 }
