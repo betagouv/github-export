@@ -8121,13 +8121,16 @@
     },
     "turgot-fiches-collectivites": {
       "name": "turgot-fiches-collectivites",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-10-30T09:22:39Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-10-30T09:22:39Z"
+      "lastAttempt": "2026-11-01T07:10:05.715Z",
+      "completedAt": "2026-11-01T07:10:11.966Z",
+      "lastSyncedAt": "2026-11-01T07:10:11.966Z"
     }
   }
 }
