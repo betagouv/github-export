@@ -8134,33 +8134,42 @@
     },
     "archeologia-plugin": {
       "name": "archeologia-plugin",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-11-19T19:24:18Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-11-19T19:24:18Z"
+      "lastAttempt": "2026-11-22T07:48:11.002Z",
+      "completedAt": "2026-11-22T07:48:56.289Z",
+      "lastSyncedAt": "2026-11-22T07:48:56.289Z"
     },
     "mnemo": {
       "name": "mnemo",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-11-20T12:23:09Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-11-20T12:23:09Z"
+      "lastAttempt": "2026-11-22T07:48:56.586Z",
+      "completedAt": "2026-11-22T07:49:21.624Z",
+      "lastSyncedAt": "2026-11-22T07:49:21.624Z"
     },
     "lab-anssi-donnees-observatoire": {
       "name": "lab-anssi-donnees-observatoire",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-11-19T16:12:20Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-11-19T16:12:20Z"
+      "lastAttempt": "2026-11-22T07:49:21.925Z",
+      "completedAt": "2026-11-22T07:49:29.192Z",
+      "lastSyncedAt": "2026-11-22T07:49:29.192Z"
     }
   }
 }
